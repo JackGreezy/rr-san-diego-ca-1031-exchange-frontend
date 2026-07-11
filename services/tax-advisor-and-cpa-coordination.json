@@ -1,0 +1,58 @@
+{
+ "slug": "tax-advisor-and-cpa-coordination",
+ "taxonomy": "services",
+ "title": "Tax Advisor and CPA Coordination",
+ "name": "Tax Advisor and CPA Coordination",
+ "metaTitle": "Tax Advisor and CPA Coordination in San Diego, CA",
+ "metaDescription": "Tax advisor and CPA coordination in San Diego keeps boot, basis, and Form 8824 timing aligned with the qualified intermediary, without offering tax advice.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A coordination service that tells you what your exchange means for your taxes has stepped outside its own job description. The actual job is making sure your tax advisor and your qualified intermediary are looking at the same numbers, on the same timeline, so nothing falls through the gap between two professionals who each assume the other one already handled it.</p>"
+  },
+  {
+   "heading": "Where the Gap Between the QI and the CPA Actually Opens Up",
+   "html": "<p>A qualified intermediary handles the mechanics of holding funds and meeting identification deadlines; a CPA handles how the exchange gets reported and what basis carries forward. Neither one is automatically tracking what the other is doing unless someone connects them, and San Diego exchangers sometimes assume the intermediary's paperwork alone will produce a clean tax outcome, which isn't how the arrangement works. Confirm your CPA has copies of the exchange agreement and closing statements as they're generated, not months later at tax time.</p><p>A San Diego exchanger juggling a tight identification timeline can easily forget to forward paperwork to the CPA in the moment, so building a simple standing routine, copying both parties on every closing document as it's signed, closes that gap without relying on anyone remembering to do it separately later.</p>"
+  },
+  {
+   "heading": "Boot Is Simpler to Explain Than It Is to Avoid",
+   "html": "<p>Boot generally refers to any cash or non-like-kind property received in the exchange, and it also covers a mortgage shortfall &mdash; buying a replacement property with less debt than what was paid off on the relinquished property without adding enough cash to cover the difference. Even a strong exchange can generate a partial boot situation without anyone intending it, so run the debt and cash comparison with both the qualified intermediary and the tax advisor before closing, not after the fact.</p><p>The comparison is simple in concept &mdash; debt retired versus debt placed, cash out versus cash in &mdash; but the numbers change up until the final closing statement, so treat any early estimate as a working figure to revisit rather than a final answer.</p>"
+  },
+  {
+   "heading": "What This Coordination Should Actually Cover",
+   "html": "<p>Confirm these items are being tracked jointly between the qualified intermediary and the tax advisor, since a gap in any one of them is where reporting problems tend to start.</p><ul><li>Basis carryover calculation from the relinquished property to the replacement property</li><li>Boot exposure from any debt shortfall or cash received during the exchange</li><li>Form 8824 preparation timeline relative to the tax filing deadline, including extension considerations</li><li>Constructive receipt safeguards in the exchange agreement reviewed by the tax advisor, not only the intermediary</li><li>State-level reporting requirements alongside the federal filing</li></ul>"
+  },
+  {
+   "heading": "Constructive Receipt Is a Tax Question the Intermediary Can't Answer Alone",
+   "html": "<p>Whether a particular arrangement risks constructive receipt is a question that depends on specific facts the tax advisor is better positioned to evaluate than the intermediary, since the intermediary's job is following the exchange agreement, not opining on tax outcomes. Any unusual request during the exchange &mdash; early access to funds, a side agreement, a change to the closing structure &mdash; should go to the tax advisor for review before it goes forward, regardless of how routine the intermediary makes it sound.</p>"
+  },
+  {
+   "heading": "Timing the Filing Around a San Diego Closing Calendar",
+   "html": "<p>Form 8824 gets filed with the tax return for the year the relinquished property closed, and if the 180-day exchange period extends past the filing deadline, an extension may be needed to preserve the full period rather than forcing an early filing. Get the tax advisor looped in on the closing calendar as soon as the relinquished property is under contract so this timing question gets resolved well before the return is due, not the week of the deadline. For anything specific to your situation, confirm directly with your own tax advisor or CPA.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the qualified intermediary handle my tax reporting for the exchange?",
+   "a": "No, the intermediary's role is holding funds and meeting exchange deadlines, not preparing tax filings. Basis calculation, boot exposure, and Form 8824 preparation are the tax advisor's responsibility, and coordination between the two professionals is what keeps the process from falling through a gap."
+  },
+  {
+   "q": "What is boot in a 1031 exchange, in plain terms?",
+   "a": "Boot generally refers to cash or non-like-kind property received during the exchange, including a shortfall between the debt paid off on the relinquished property and the debt placed on the replacement. Confirm any potential boot exposure with a tax advisor before closing."
+  },
+  {
+   "q": "Why would I need a filing extension because of the 180-day exchange period?",
+   "a": "If the 180-day exchange period runs past the tax filing deadline for the year the relinquished property closed, filing early could cut the exchange period short. An extension can preserve the full 180 days, and a tax advisor can confirm whether that applies to your specific timeline."
+  },
+  {
+   "q": "Who should review an unusual request that comes up during the exchange, like early access to funds?",
+   "a": "The tax advisor, not only the qualified intermediary, since evaluating whether a request risks constructive receipt is a tax question rather than a mechanical one. Any deviation from the standard exchange agreement structure should go through the tax advisor first."
+  },
+  {
+   "q": "Can this coordination service tell me exactly how much tax I'll owe on my exchange?",
+   "a": "No, that determination depends on your specific basis, prior depreciation, and other facts that only your own tax advisor or CPA can evaluate properly. Coordination keeps the qualified intermediary and your tax professional working from the same information and timeline."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 863
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "replacement-property-identification",
+ "taxonomy": "services",
+ "title": "Replacement Property Identification",
+ "name": "Replacement Property Identification",
+ "metaTitle": "Replacement Property Identification in San Diego, CA",
+ "metaDescription": "San Diego replacement property identification built around whichever of the three counting rules actually fits the deal, not whichever sounds most flexible.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Most identification letters that go wrong in San Diego aren't wrong because the properties were bad; they're wrong because nobody worked out which of the three counting rules the list was actually supposed to satisfy before the properties went on the letter. A qualified intermediary will generally process whatever list is submitted. Deciding which rule fits the deal is a judgment call that sits with the exchanger and whoever is sourcing the replacement candidates, not something that happens automatically in the background.</p>"
+  },
+  {
+   "heading": "Three Rules, Three Very Different Amounts of Room to Maneuver",
+   "html": "<p>The 200% rule lets an exchanger name more than three properties, any number at all, as long as their combined fair market value stays at or under twice the relinquished property's sale price. The three-property rule works in the opposite direction: exactly three properties, capped at three, but with no value ceiling whatsoever, so a single high-value replacement and two long-shot backups can sit on the same letter. The 95% rule removes both the count and the value limits entirely, but only for exchangers who go on to actually close on 95% of everything they named, which makes it the least forgiving of the three once the deal count changes late.</p><p>Choosing wrong doesn't just limit options; it can invalidate the entire identification if a threshold gets crossed, not merely the one property that pushed it over.</p>"
+  },
+  {
+   "heading": "Why San Diego's Pricing Splits Owners Between the 200% Rule and a Tighter List",
+   "html": "<p>A biotech lab building near Torrey Pines or UTC can carry enough value on its own that naming it alongside two realistic backups already approaches the three-property rule's practical limit, since there's no dollar cap to worry about there, just the count. A coastal multifamily property under AB1482's rent cap often trades at a value low enough, relative to a larger industrial sale near Otay Mesa, that naming five or six candidates under the 200% rule still fits comfortably under the combined ceiling.</p><p>Defense-adjacent industrial and tourism-driven retail near the waterfront tend to price somewhere in between, which is exactly where an exchanger has to run the math rather than default to whichever rule sounds more flexible. The combined-value test under the 200% rule uses the asking or appraised value at the moment of identification, not whatever the properties eventually sell for, so a list that fits on day forty-four can still have been miscalculated if those early values were optimistic.</p>"
+  },
+  {
+   "heading": "Where an Identification Letter Actually Falls Apart",
+   "html": "<p>A short review catches most of the problems before day forty-five closes the window:</p><ul><li>Combined value under the 200% rule checked against identification-date pricing, not a hoped-for final sale price</li><li>Delivery to the qualified intermediary in writing, not a verbal mention to a listing broker</li><li>A precise legal description or address for every property, not a general area description like somewhere near Otay Mesa</li><li>Each unit in a multi-unit building counted on its own against the three-property cap where that rule applies</li><li>Any amendment delivered before day forty-five, since a late addition doesn't ride in under the original deadline</li></ul>"
+  },
+  {
+   "heading": "The 95% Rule Is a Rescue Plan, Not Something to Build a List Around",
+   "html": "<p>Treating the 95% rule as a starting strategy usually means an exchanger already blew past the three-property count or the 200% value ceiling and needs a way to keep the identification alive. It works, but only if the exchanger genuinely closes on 95% of the combined value of everything named, a far higher bar than simply naming enough backups to feel safe.</p><p>We build the list to fit inside the three-property or 200% limits whenever the numbers allow it, since leaning on the 95% rule as a planning tool puts the whole exchange at risk if the final acquisition value comes in short.</p>"
+  },
+  {
+   "heading": "Getting the Letter to the Qualified Intermediary With Days to Spare",
+   "html": "<p>The written identification needs to reach the qualified intermediary before midnight on day forty-five, with enough specificity in the legal description to hold up if it's ever questioned. Escrow and title offices in this market can be slow to confirm a legal description during a busy season, particularly on border-adjacent industrial parcels with irregular boundary history, so finalizing the list a week early rather than on day forty-four leaves room to fix a description error instead of discovering it too late.</p><p>Confirm any last-minute change to the list with a tax advisor before assuming it's still valid, since even a well-intentioned addition can miss the deadline if it isn't delivered in writing in time.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How is the 200% rule different from just naming three properties?",
+   "a": "The three-property rule caps the count at three with no value limit, while the 200% rule allows any number of properties as long as their combined value stays within twice the relinquished property's sale price. Which one an exchanger should use depends on whether the constraint they're worried about is count or value."
+  },
+  {
+   "q": "When does the 95% rule actually make sense to rely on?",
+   "a": "Only after a list has already exceeded both the three-property count and the 200% value ceiling, since it removes those limits in exchange for a much stricter closing requirement. It's a fallback, not a plan to start with."
+  },
+  {
+   "q": "Does telling my broker verbally which properties I'm identifying count?",
+   "a": "No. The identification has to be delivered in writing to the qualified intermediary, with a legal description or specific address for each property, before day forty-five closes. A verbal conversation doesn't satisfy the rule."
+  },
+  {
+   "q": "Can I still change my identification list after submitting it?",
+   "a": "Yes, as long as the amendment reaches the qualified intermediary before day forty-five. Nothing delivered after that date can be added, regardless of the reason for the change."
+  },
+  {
+   "q": "Why might a Torrey Pines lab property use up the three-property rule faster than a coastal multifamily deal?",
+   "a": "Lab space values run high enough that even two backups alongside a primary candidate can approach what an exchanger is comfortable naming under the count-only three-property rule, while lower-value coastal multifamily deals often fit several candidates comfortably under the 200% rule's combined-value ceiling instead."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 953
+}

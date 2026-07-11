@@ -1,0 +1,62 @@
+{
+ "slug": "95-percent-rule-strategy",
+ "taxonomy": "services",
+ "title": "95% Rule Strategy",
+ "name": "95% Rule Strategy",
+ "metaTitle": "95% Rule Strategy in San Diego, CA",
+ "metaDescription": "95% rule strategy for San Diego exchanges that need to identify beyond the 200% ceiling, with the all-or-nothing risk explained before you commit.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The 95% rule lets a San Diego investor identify an unlimited number of replacement properties, with no value ceiling, as long as at least 95% of the total value identified actually gets acquired by day 180. It is the least forgiving of the three identification rules, and it is also the one most likely to get glossed over in a sales conversation because it sounds like more flexibility, not less.</p>"
+  },
+  {
+   "heading": "The Part Most Quotes Do Not Walk You Through",
+   "html": "<p>Anyone can tell you the 95% rule removes the value cap. Fewer people will tell you plainly that missing the 95% threshold by even a small margin disqualifies the entire identification, the shortfall included. There is no partial credit. If you list five properties worth a combined ten million dollars and only close on eight million, the whole exchange can fail, even if the eight million you did close on was more than enough to defer your gain under a different rule.</p>"
+  },
+  {
+   "heading": "Why San Diego Coastal Multifamily Makes This Rule Come Up",
+   "html": "<p>Coastal multifamily deals in San Diego, particularly buildings subject to AB 1482 rent caps, can carry valuation swings between the 45-day letter and closing as rent-roll assumptions get retested against actual collected rents. An investor identifying several multifamily candidates to hedge against one falling through can accidentally back into 95% rule territory without meaning to, simply because the combined value crossed the 200% ceiling.</p>"
+  },
+  {
+   "heading": "Why This Rule Is a Last Resort, Not a Default",
+   "html": "<p>We do not recommend the 95% rule as a starting strategy. It gets used when an investor genuinely needs to identify more properties than the 200% ceiling allows, usually because a coastal multifamily portfolio play or a mixed industrial and retail hedge requires it. Outside of that situation, the three-property or 200% rules carry less all-or-nothing risk for the same outcome.</p>"
+  },
+  {
+   "heading": "Tracking the 95% Threshold as Deals Close",
+   "html": "<p>Once the 95% rule is in play, we track the running acquisition total against the identified total after every closing, not only at the very end. The tracking covers:</p><ul><li>Confirmed fair market value of every identified property at the identification date</li><li>Actual purchase price on each closed acquisition</li><li>Running percentage of identified value acquired to date</li><li>Days remaining before the 180-day deadline</li></ul>"
+  },
+  {
+   "heading": "What to Confirm Before You Rely on This Rule",
+   "html": "<p>Because the 95% threshold applies to the full identified list, dropping a weak candidate late in the window can sometimes help more than adding a new one. Any decision to add, drop, or re-value an identified property under this rule should be confirmed with your qualified intermediary and tax advisor before the change is made, not after.</p>"
+  },
+  {
+   "heading": "Where a Provider's Pitch Tends to Undersell the Risk",
+   "html": "<p>A pitch centered on the 95% rule's lack of a value ceiling often stops short of walking through what happens on the downside. It sounds like more freedom to identify, and it is, but it converts a manageable identification exercise into an acquisition-tracking exercise that has to be maintained accurately for the entire 180-day period, rather than filed once and forgotten.</p><p>Ask any provider recommending this rule to show you, in writing, what the acquired-to-identified ratio would look like under a realistic scenario where one property in the group falls through. If they cannot produce that number quickly, they likely have not modeled the actual risk they are recommending you take on.</p><p>We build that scenario before recommending the rule at all, since a strategy that only looks good under a best-case assumption is not really a strategy for a San Diego market where at least one identified deal falling through is closer to normal than exceptional.</p><p>If the modeled downside still leaves the investor short of the 95% threshold under a realistic scenario, that is a signal to reconsider the rule entirely, not a detail to gloss over because the paperwork has already been drafted.</p><p>This is also where a second opinion from your tax advisor is worth the extra call, since the advisor reviewing the numbers independently of whoever assembled the identification strategy can catch a gap in the modeling before it becomes a filed letter.</p><p>That extra review costs little compared to the cost of an identification that fails outright after months of otherwise careful work on the rest of the exchange.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the 95% rule in a San Diego 1031 exchange?",
+   "a": "It allows unlimited identified properties with no value ceiling, as long as at least 95% of the combined value identified is actually acquired by the 180-day deadline."
+  },
+  {
+   "q": "What happens if I only acquire 90% of the identified value?",
+   "a": "The identification fails entirely under this rule, not partially. Missing the 95% threshold by any margin can disqualify the whole exchange, so this rule is used deliberately, not casually."
+  },
+  {
+   "q": "Why would a San Diego investor use the 95% rule instead of the 200% rule?",
+   "a": "Usually because a multifamily or mixed-portfolio strategy needs more identified value than the 200% ceiling allows. Coastal multifamily under AB 1482 rent caps is a common trigger given how valuations can shift before closing."
+  },
+  {
+   "q": "Can I drop a weak candidate after using the 95% rule?",
+   "a": "Sometimes dropping a candidate helps your acquired-to-identified ratio, but any change to the list needs to be checked against the 95% math with your qualified intermediary before you act on it."
+  },
+  {
+   "q": "Is the 95% rule ever a good starting strategy?",
+   "a": "Rarely. It carries the least room for error of the three identification rules. Most San Diego investors are better served starting with the three-property or 200% rule unless a specific portfolio situation requires more."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 873
+}

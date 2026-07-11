@@ -1,0 +1,54 @@
+{
+ "slug": "utc-university-city-ca",
+ "taxonomy": "locations",
+ "title": "UTC / University City 1031 Exchange Coordination",
+ "name": "UTC / University City 1031 Exchange Coordination",
+ "metaTitle": "UTC / University City 1031 Exchange Coordination in San Diego, CA",
+ "metaDescription": "1031 exchange coordination for UTC and University City office, retail, and multifamily owners in San Diego, covering biotech spillover and QI handoffs.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>UTC and University City form one of the densest infill nodes in the San Diego market, home to the Westfield UTC retail center, Class A office towers, and mid-rise and high-rise apartment stock clustered near UC San Diego. An owner exchanging out of property here is dealing with some of the highest replacement-cost pressure anywhere in San Diego County, and coordination needs to price that reality in early.</p>"
+  },
+  {
+   "heading": "What Trades at This Density Level",
+   "html": "<p>Office towers here have absorbed spillover demand from the tighter biotech and life-science corridor at Torrey Pines and Sorrento Valley, and a growing share of that office stock has converted to lab or hybrid lab-office use to capture that demand. Westfield UTC and the surrounding retail parcels draw regional traffic well beyond the immediate neighborhood, giving this corridor retail fundamentals closer to a regional mall than a typical San Diego neighborhood center.</p><p>Multifamily is dense and mostly newer construction relative to older San Diego submarkets, built to house both university-affiliated renters and the office and retail workforce. High-rise product here also draws institutional buyers who would otherwise be looking downtown, since UTC offers comparable density with a different tenant mix and a shorter commute for university-adjacent employment.</p>"
+  },
+  {
+   "heading": "What Actually Drives This Submarket",
+   "html": "<p>UC San Diego is the anchor driver, generating steady rental demand from students, staff, and visiting researchers that holds up better than tourism-driven demand elsewhere in San Diego. Overflow demand from Torrey Pines and Sorrento Valley biotech tenants unable to find space or willing to pay a premium for proximity is the second driver, pushing lab-conversion activity into UTC office stock.</p><p>Regional retail draw from Westfield UTC supports retail rents well above the typical San Diego neighborhood corridor, though that also means retail performance here is more exposed to regional consumer spending shifts than smaller, hyper-local centers. Continued hospital and medical campus expansion in the immediate area adds a fourth, steadier driver that has kept both office and multifamily demand from tracking the biotech cycle too closely.</p>"
+  },
+  {
+   "heading": "Watchouts on a UTC Replacement Property",
+   "html": "<p>Several conditions are worth confirming before an identification letter goes out.</p><ul><li>Premium pricing relative to the rest of San Diego County, which affects how far exchange proceeds actually stretch</li><li>Lab-conversion costs and mechanical requirements if a candidate office building was not originally built for lab use</li><li>University-affiliated tenant concentration in nearby multifamily that ties occupancy to the academic calendar</li><li>Parking structure condition and capacity on older office towers built before current demand levels</li><li>Retail co-tenancy clauses tied to anchor tenants at Westfield UTC that can affect smaller adjacent parcels</li></ul>"
+  },
+  {
+   "heading": "What a Generic Office Exchange Quote Won't Price In",
+   "html": "<p>A coordination proposal written for a suburban San Diego office deal usually doesn't account for how much of UTC's office value now depends on lab-conversion potential, or how much premium pricing here can eat into an investor's buying power on the replacement side compared to a similar-sized deal elsewhere in the county. It also tends to gloss over academic-calendar-driven occupancy swings in nearby multifamily, treating it like a standard year-round rental market.</p><p>Ask directly whether the proposed coordinator has priced in this submarket's premium before assuming a standard San Diego identification strategy will stretch the exchange proceeds far enough. A coordinator who quotes the same fee and timeline for a UTC tower as for a suburban office park likely hasn't sized the actual replacement search correctly.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does premium pricing in UTC affect how the 200% identification rule works?",
+   "a": "No, the 200% rule is based on the relinquished property's value regardless of where replacement candidates are priced; higher UTC pricing just means fewer or smaller replacement properties may fit within that 200% ceiling, so it affects strategy, not the rule itself. An investor should confirm early whether their proceeds realistically reach a UTC-caliber replacement before setting the identification list."
+  },
+  {
+   "q": "Can I identify a lab-conversion office building as a replacement property?",
+   "a": "Yes, office and lab-office buildings both qualify as like-kind real property, so a conversion candidate can be identified; conversion costs and timeline should be underwritten separately since they are a business decision, not an exchange rule."
+  },
+  {
+   "q": "How does academic-calendar-driven occupancy affect underwriting on a University City apartment building?",
+   "a": "It can create seasonal vacancy patterns tied to the school year that don't show up in a simple trailing twelve-month average, so a replacement analysis should look at monthly occupancy trends rather than just the annual figure before relying on it for financing. A lender unfamiliar with this pattern may size a loan around an inflated peak-season number."
+  },
+  {
+   "q": "Who confirms boot exposure if I trade a lower-priced San Diego property for higher-priced UTC real estate?",
+   "a": "The investor's tax advisor or CPA should confirm the boot calculation; trading up in value generally avoids boot as long as equity and debt are both equal to or greater than the relinquished property, but that should be verified against the specific numbers."
+  },
+  {
+   "q": "Should I confirm retail co-tenancy clauses before identifying a parcel near Westfield UTC?",
+   "a": "Yes, some smaller retail parcels near a major anchor carry co-tenancy clauses tied to that anchor's operation, and those clauses should be reviewed before identification since they can affect lease value if the anchor tenant changes. That review is worth doing even on parcels that look stable, since anchor tenant decisions are outside the smaller owner's control."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 856
+}

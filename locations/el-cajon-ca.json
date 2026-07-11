@@ -1,0 +1,54 @@
+{
+ "slug": "el-cajon-ca",
+ "taxonomy": "locations",
+ "title": "El Cajon 1031 Exchange Coordination",
+ "name": "El Cajon 1031 Exchange Coordination",
+ "metaTitle": "El Cajon 1031 Exchange Coordination in San Diego, CA",
+ "metaDescription": "1031 exchange coordination for El Cajon value-add multifamily and East County retail owners in San Diego, covering cap rate spreads and QI handoffs.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>El Cajon anchors East County within the San Diego market, a larger inland city with older garden apartment stock, a long retail corridor, and a general aviation airport that supports its own pocket of light industrial and flex space. Owners exchanging out of El Cajon real estate are generally trading value on price rather than coastal scarcity, and coordination should be scoped for that difference.</p>"
+  },
+  {
+   "heading": "The Value-Add Case East County Actually Offers",
+   "html": "<p>Older garden apartment complexes, many built from the 1960s through the 1980s, make up the core of El Cajon's multifamily stock and trade at cap rates a meaningful step above coastal San Diego comparables, which draws replacement buyers specifically seeking yield rather than appreciation. Retail runs long stretches of Fletcher Parkway and Main Street, a mix of national tenants and independent operators serving a large East County trade area.</p><p>Gillespie Field, the regional general aviation airport, supports a smaller cluster of light-industrial and flex buildings tied to aviation services and general contractors, distinct from the larger logistics product found closer to the border. A modest amount of medical and professional office space has grown up around the hospital campus on the west side of downtown El Cajon, giving investors a fourth, smaller asset class to consider.</p>"
+  },
+  {
+   "heading": "What Actually Moves This Submarket",
+   "html": "<p>Affordability is the clearest driver: El Cajon's rents and sale prices sit below most of the rest of San Diego County, which pulls both tenants and investors priced out of coastal or central submarkets. East County's larger population base supports the Fletcher Parkway and Main Street retail corridor independent of tourism, giving it a steadier demand profile than beach-adjacent San Diego retail.</p><p>Gillespie Field activity is a narrower driver tied to general aviation and flight training demand rather than broader San Diego employment trends. A growing share of East County's population has also settled here specifically for larger household sizes and multigenerational living arrangements, which supports steady occupancy on older, larger-unit apartment stock that would be considered undersized product in denser San Diego submarkets.</p>"
+  },
+  {
+   "heading": "Watchouts Before Identifying an El Cajon Replacement",
+   "html": "<p>A few conditions come up often enough in this submarket to check upfront.</p><ul><li>Deferred maintenance on older garden apartment buildings that a lender will price into the loan terms</li><li>Airport influence area restrictions near Gillespie Field affecting building height and use</li><li>Retail corridor vacancy patterns that vary block by block along Fletcher Parkway and Main Street</li><li>Water and sewer capacity on older East County parcels that predates current development standards</li><li>Trailing rent roll gaps between in-place rents and true market rent, which affects both valuation and lender underwriting</li></ul>"
+  },
+  {
+   "heading": "What a Coastal-Focused Exchange Quote Gets Wrong Here",
+   "html": "<p>A coordination proposal written with a coastal San Diego apartment deal in mind tends to assume rent growth is the main value driver, which misreads an East County value-add deal where the real opportunity is closing the gap between in-place and market rent through capital improvement rather than betting on appreciation. It also tends to skip Gillespie Field's airport influence area, which can quietly cap redevelopment options on a candidate replacement.</p><p>Ask whether the proposed coordinator has actually underwritten a value-add deal in this part of San Diego County before assuming their coastal experience transfers directly.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does a lower purchase price in El Cajon change the 1031 identification rules?",
+   "a": "No, the identification rules apply the same regardless of price; the three-property rule allows up to three properties regardless of value, and the 95% rule requires acquiring 95% of the value identified if more than three or 200% of relinquished value are named. Lower pricing in East County simply means an investor's dollars stretch further within any of these identification limits, which can support a longer backup list of candidates."
+  },
+  {
+   "q": "Can I exchange a coastal San Diego property for value-add El Cajon multifamily?",
+   "a": "Yes, like-kind treatment covers real property broadly regardless of price point or location within the same exchange, so a coastal relinquished property can exchange into an East County value-add asset as long as both meet the holding requirements."
+  },
+  {
+   "q": "How does deferred maintenance on an older apartment building affect exchange timing?",
+   "a": "It doesn't change the 45-day or 180-day clocks, but a lender's underwriting on a heavily deferred-maintenance property can take longer, so that timeline should be confirmed early rather than assumed to fit inside a tight closing window. A capital needs assessment ordered before identification can prevent that delay from surfacing late in the process, especially on a building with a long deferred-maintenance list."
+  },
+  {
+   "q": "Does Gillespie Field's airport influence area affect what I can build on a replacement property?",
+   "a": "It can restrict height and certain uses near the flight path, so any redevelopment plans for a replacement property near Gillespie Field should be checked against the airport influence area rules before identification, not after. That review can also affect insurance and financing terms on candidate buildings."
+  },
+  {
+   "q": "Who confirms the boot calculation if I trade a higher-priced coastal property for lower-priced El Cajon real estate?",
+   "a": "The investor's tax advisor or CPA should confirm boot exposure, since receiving less value or cash back on the trade can trigger taxable boot; this coordination flags the issue but does not replace that advisor's calculation. This scenario comes up often for owners trading coastal appreciation for East County yield, so it is worth modeling before identification rather than after closing."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 859
+}

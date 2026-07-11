@@ -1,0 +1,58 @@
+{
+ "slug": "self-storage-replacement-sourcing",
+ "taxonomy": "services",
+ "title": "Self-Storage Replacement Property Sourcing",
+ "name": "Self-Storage Replacement Property Sourcing",
+ "metaTitle": "Self-Storage Replacement Property Sourcing in San Diego, CA",
+ "metaDescription": "Self-storage replacement sourcing in San Diego checks third-party management fees, climate-control costs, and REIT-driven cap rate pressure on every quote.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Self-storage gets pitched as the simplest asset class to underwrite in an exchange, and the sourcing quotes tend to reflect that assumption by skipping the two line items that actually move the numbers: what the management contract really costs once every fee is added up, and what climate-control operating costs look like along San Diego's coast versus inland.</p>"
+  },
+  {
+   "heading": "Management Contracts Hide Cost Behind a Simple Percentage",
+   "html": "<p>Third-party self-storage operators generally charge a base management fee as a percentage of gross revenue, but the real cost of the contract often includes separate marketing fees, software or platform charges, and reimbursement for corporate overhead that doesn't show up in the headline percentage. Two facilities with identical rent rolls can carry very different net income once the full management contract is added up rather than just the quoted percentage.</p><p>Ask for a trailing twelve-month statement showing every fee actually charged by the operator, not the management agreement's fee schedule in isolation, since the agreement lists maximum rates while actual billing practice can run lower or, in some cases, add charges the agreement only describes in general terms.</p>"
+  },
+  {
+   "heading": "What a Self-Storage Sourcing Quote Tends to Skip",
+   "html": "<p>Check every self-storage candidate against this list before it goes on your identification list, since a quote missing more than one of these hasn't done the real underwriting yet.</p><ul><li>Full management contract cost, including marketing, software, and overhead reimbursement fees beyond the base percentage</li><li>Climate-controlled versus standard unit mix, and the utility cost difference between them</li><li>Trailing occupancy by unit size, not only an overall facility occupancy figure</li><li>Insurance program structure &mdash; tenant insurance revenue share versus the owner's own property coverage</li><li>Expansion or additional-unit development rights already entitled on the parcel</li></ul>"
+  },
+  {
+   "heading": "Climate Control Costs More Near the Coast Than the Number Suggests",
+   "html": "<p>Coastal humidity in San Diego pushes climate-controlled self-storage into a different cost category than the same unit type would run in an inland, drier submarket, since HVAC systems run harder and more continuously to manage moisture rather than just temperature. A pro forma that applies a flat climate-control expense assumption across coastal and inland comparables is understating the coastal number, sometimes by a meaningful margin.</p><p>Ask for at least two years of utility bills broken out by month rather than a single trailing total, since a coastal facility's marine layer season can push HVAC runtime well beyond what an inland facility ever sees, and a single annual figure can hide that seasonal swing entirely.</p><p>Comparing coastal and inland utility histories side by side, rather than trusting a single blended assumption from a sourcing quote, is the only reliable way to price this expense line correctly before an offer goes in.</p>"
+  },
+  {
+   "heading": "REIT Buyers Are Compressing Cap Rates on Stabilized Facilities",
+   "html": "<p>Large storage REITs and institutional buyers actively compete for stabilized, well-located San Diego facilities, and that competition has generally compressed cap rates on the strongest assets below what a smaller private buyer might expect from trailing income alone. A facility priced against that institutional comp set may leave less room for error than the same cap rate would on a less-competed asset class, so lean on actual trailing performance rather than the comp set alone when setting an offer.</p><p>A facility a notch below institutional quality, whether on location, unit mix, or building condition, can still trade at a meaningfully wider cap rate even in a market where the top tier is being bid up aggressively, and that gap is where a careful buyer finds real value instead of chasing the same handful of trophy assets everyone else is competing for.</p>"
+  },
+  {
+   "heading": "Matching the Purchase Timeline to Exchange Deadlines",
+   "html": "<p>Self-storage due diligence, particularly verifying the management contract's full fee structure and unit-mix occupancy, can take longer than a quick review suggests, so start that request as early in the search as possible rather than waiting until a property is already identified. Keep the qualified intermediary updated on where diligence stands relative to the 45-day identification window so the list reflects properties actually cleared, not only properties under contract.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What costs does a self-storage management contract hide beyond the base fee percentage?",
+   "a": "Marketing fees, software or platform charges, and overhead reimbursement are commonly billed separately from the headline management percentage. Ask for the full fee schedule rather than assuming the quoted percentage represents the entire management cost."
+  },
+  {
+   "q": "Why does climate-controlled storage cost more to operate near the San Diego coast?",
+   "a": "Coastal humidity requires HVAC systems to manage moisture continuously, not only temperature, which generally runs utility costs higher than the same unit type in a drier inland submarket. A flat expense assumption across coastal and inland comparables tends to understate the coastal figure."
+  },
+  {
+   "q": "How have REIT buyers affected self-storage pricing in San Diego?",
+   "a": "Large storage REITs and institutional buyers compete actively for stabilized facilities, which has generally compressed cap rates on the strongest assets. That competition can leave less margin for error than the same cap rate would on a less institutionally competed property."
+  },
+  {
+   "q": "What occupancy figure should I ask for on a self-storage rent roll?",
+   "a": "Occupancy broken out by unit size, not only an overall facility figure, since climate-controlled and larger units often perform differently than standard small units. An aggregate occupancy number can mask weakness in a specific unit category."
+  },
+  {
+   "q": "How long does self-storage due diligence typically take relative to the 45-day identification window?",
+   "a": "Verifying a full management contract and unit-mix occupancy can take longer than a quick review suggests, so starting the request early in the search, rather than after a property is identified, keeps the timeline realistic against the 45-day window."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 884
+}

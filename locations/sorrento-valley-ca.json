@@ -1,0 +1,62 @@
+{
+ "slug": "sorrento-valley-ca",
+ "taxonomy": "locations",
+ "title": "Sorrento Valley",
+ "name": "Sorrento Valley",
+ "metaTitle": "Sorrento Valley in San Diego, CA",
+ "metaDescription": "1031 exchange coordination for Sorrento Valley life-science lab buildings, wet-lab infrastructure costs, and venture-backed biotech tenant lease structures.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Sorrento Valley is San Diego's original life-science corridor, and a lab building here is not the same asset as an office building with a fume hood bolted on. Power capacity, gas lines, waste-neutralization systems, and vibration-sensitive floor slabs are built into these properties, and a quote priced off standard office or industrial comparables is going to miss most of what makes this submarket expensive to underwrite correctly.</p>"
+  },
+  {
+   "heading": "What a Wet-Lab Building Actually Requires",
+   "html": "<p>Converting a shell building to wet-lab use in Sorrento Valley typically means adding emergency generator capacity, compressed gas storage with proper containment, acid-neutralization tanks for lab waste, and reinforced floor loading for equipment that a standard office tenant improvement budget never anticipates. A buyer evaluating a Sorrento Valley lab building should request the building's existing infrastructure specifications rather than assume a listing's square footage and asking rent tell the whole story, since the gap between shell space and functioning wet lab can run into a meaningfully larger build-out cost than a generic office conversion. A quote that prices a Sorrento Valley shell building against a standard office comparable, without pricing what a wet-lab fit-out actually costs, is leaving out the single biggest variable in the deal.</p>"
+  },
+  {
+   "heading": "The Tenant Base That Sets Sorrento Valley Rents",
+   "html": "<p>Venture-backed biotech tenants dominate leasing activity here, and their lease structures differ from a standard corporate tenant in ways that matter for underwriting:</p><ul><li>shorter initial lease terms tied to funding-round milestones rather than standard five- or ten-year commitments</li><li>larger tenant-improvement allowances built into effective rent to cover lab build-out</li><li>personal or corporate guaranty structures that lean on a company's cash runway rather than long operating history</li><li>renewal options contingent on the tenant successfully raising its next funding round</li></ul><p>A buyer treating a Sorrento Valley lease like a standard corporate office lease is missing the funding-cycle risk that actually drives renewal probability in this submarket.</p>"
+  },
+  {
+   "heading": "Underwriting Around a Tenant's Cash Runway",
+   "html": "<p>Because many Sorrento Valley tenants are pre-revenue or early-revenue biotech companies, a lender and buyer should look past the headline rent and ask how the tenant's most recent funding round is positioned relative to its lease term, since a well-capitalized tenant on a short lease is a very different credit risk than a thinly funded tenant on a long one. Rent-roll underwriting that treats every biotech tenant as equally stable is a common shortcut that generic quotes take, and it is one of the first places a deal goes wrong after closing.</p>"
+  },
+  {
+   "heading": "Reposition Costs When a Lab Tenant Leaves",
+   "html": "<p>When a lab tenant vacates, the building rarely reverts cleanly to shell condition, and the next tenant's specific equipment needs often require ripping out the prior occupant's custom infrastructure rather than reusing it. A buyer should budget for this reposition cost explicitly in a Sorrento Valley acquisition rather than assume existing lab infrastructure transfers value to whatever tenant comes next, since specialized build-out for one biotech company's process rarely suits another's without significant rework. A buyer should request a walk-through with a mechanical contractor familiar with lab space specifically, rather than a general commercial inspector, since the systems that need evaluating here, fume-hood exhaust runs and specialty gas piping among them, are not part of a standard building inspection checklist.</p>"
+  },
+  {
+   "heading": "Sequencing a Lab-Property Identification",
+   "html": "<p>Given how specialized Sorrento Valley product is, an investor identifying a lab building here should confirm early whether their qualified intermediary and lender have actually closed lab-space transactions before, since appraisal comparables and loan underwriting for wet-lab buildings differ meaningfully from standard office or industrial financing. Pairing a Sorrento Valley identification with a Kearny Mesa flex-space alternative is a common way to keep a three-property list from depending entirely on lab-specific financing coming together inside the exchange period.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What infrastructure separates a Sorrento Valley lab building from a standard office building?",
+   "a": "Emergency generator capacity, compressed gas storage, acid-neutralization systems for lab waste, and reinforced floor loading are common in functioning wet-lab space and rarely present in a standard office shell, which is why converting one to the other costs more than a typical office build-out."
+  },
+  {
+   "q": "Why do Sorrento Valley biotech leases run shorter than typical corporate leases?",
+   "a": "Many tenants are venture-backed companies whose lease commitments tie to funding-round milestones rather than standard long-term corporate planning, so renewal probability often depends on the tenant's next capital raise rather than business stability alone."
+  },
+  {
+   "q": "What happens to lab infrastructure when a biotech tenant vacates?",
+   "a": "It rarely transfers value cleanly to the next tenant. Specialized build-out for one company's equipment and process needs often has to be removed and reconfigured for whoever leases the space next, and that reposition cost should be budgeted separately."
+  },
+  {
+   "q": "Should I underwrite every Sorrento Valley biotech tenant the same way?",
+   "a": "No. A well-funded tenant early in its lease term carries different renewal risk than a thinly capitalized one nearing lease end, and the tenant's funding position relative to its lease term matters more than the headline rent alone."
+  },
+  {
+   "q": "Does a lender underwrite a Sorrento Valley lab building like a standard industrial property?",
+   "a": "Not typically. Appraisal comparables and loan terms for wet-lab buildings differ from standard industrial or office financing, so confirming a lender's actual experience with lab-space transactions before relying on their quote is worth doing early."
+  },
+  {
+   "q": "What should a mechanical inspection cover on a Sorrento Valley lab building that a standard inspection would not?",
+   "a": "Fume-hood exhaust systems, specialty gas piping, emergency generator condition, and acid-neutralization tank status all need a lab-experienced contractor's review, since a general commercial building inspector is not typically trained to evaluate this equipment."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 888
+}

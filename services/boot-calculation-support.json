@@ -1,0 +1,62 @@
+{
+ "slug": "boot-calculation-support",
+ "taxonomy": "services",
+ "title": "Boot Calculation Support",
+ "name": "Boot Calculation Support",
+ "metaTitle": "Boot Calculation Support in San Diego, CA",
+ "metaDescription": "Boot calculation support for San Diego exchanges, covering cash boot and debt-relief boot together, plus how Prop 13 reassessment changes the math.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Boot is whatever value comes out of a San Diego exchange that is not rolled into like-kind replacement property, and it is taxable in the year the exchange closes. It shows up in two forms, cash pulled out at closing and debt relief that is not replaced by equal or greater new debt, and both need to be tracked together, not separately, to get an accurate picture before you sign anything.</p>"
+  },
+  {
+   "heading": "Where a Boot Estimate Usually Goes Quiet",
+   "html": "<p>Plenty of exchange coordination quotes will happily run a cash boot estimate off the sale and purchase prices. Fewer will walk through debt-relief boot, what happens when the mortgage paid off on the relinquished property is larger than the new loan on the replacement, even if no cash actually lands in your account. That gap in the debt is still boot. An estimate that only covers cash and skips the debt side is not really a boot calculation, it is half of one.</p>"
+  },
+  {
+   "heading": "Running Both Sides of the Ledger Before You Commit",
+   "html": "<p>We build the estimate from both the relinquished-side payoff figures and the replacement-side financing terms at the same time, so a shortfall on one side does not get missed because attention was only on the other. That includes closing costs that qualify as exchange expenses versus ones that do not, since misclassifying a cost is a common way a boot estimate comes in wrong.</p>"
+  },
+  {
+   "heading": "Why Prop 13 Reassessment Changes the Bigger Picture",
+   "html": "<p>A replacement purchase in San Diego triggers a property tax reassessment under Prop 13, which is a separate issue from boot but affects the same decision: how much equity to roll forward and how much leverage to carry on the new property. A higher post-transfer assessed value means higher ongoing property tax, which changes the cash flow math even when the boot calculation itself looks clean. We flag this alongside the boot estimate so it is part of the same conversation, not a surprise on the first tax bill.</p>"
+  },
+  {
+   "heading": "What Goes Into the Estimate",
+   "html": "<p>A working boot estimate for a San Diego exchange typically pulls together:</p><ul><li>Relinquished-property payoff figure and closing statement</li><li>Replacement-property financing terms and loan amount</li><li>Cash received or retained at either closing</li><li>Exchange expenses that offset boot versus those that do not</li><li>Estimated post-transfer property tax under Prop 13 reassessment</li></ul>"
+  },
+  {
+   "heading": "This Is Coordination, Not Tax Advice",
+   "html": "<p>The estimate we build is meant to give you and your tax advisor a clear starting number, not a final tax position. Boot is ultimately reported on your return, and the exact taxable amount depends on your basis and other details we do not calculate. Confirm the final figure with your tax advisor or CPA before relying on it for planning.</p>"
+  },
+  {
+   "heading": "Where a Rough Estimate Gets Investors Into Trouble",
+   "html": "<p>A quick cash-boot estimate handed over with a purchase-price comparison is easy to produce and easy to get wrong, because it treats the transaction as a single number instead of a set of moving pieces. Closing costs allocated incorrectly, prorated rent or security deposits handled inconsistently between the two closings, and financing terms that shift between the initial quote and the final loan documents can each move the boot figure without anyone noticing until the return is being prepared.</p><p>We rerun the estimate whenever a material term changes, a financing rate moves, a purchase price is renegotiated, a closing date shifts, rather than treating the first number produced as final. In a San Diego market where financing terms and pricing can both move during a five- or six-month exchange window, an estimate that is not updated is an estimate that is quietly going stale.</p><p>Ask any provider running your boot estimate how often it gets refreshed between the identification letter and closing, and whether that refresh is automatic or something you have to remember to request.</p><p>A one-time estimate delivered at the start of the exchange and never revisited is the version most likely to be wrong by the time it actually matters.</p><p>Building the habit of revisiting the number at each major milestone, identification, financing commitment, final closing statement, costs little and catches most of the drift before it turns into a surprise on the tax return.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What counts as boot in a San Diego 1031 exchange?",
+   "a": "Cash you receive or retain at closing, and any debt relief on the relinquished property that is not replaced by equal or greater new debt on the replacement property. Both are taxable."
+  },
+  {
+   "q": "If no cash changes hands, can there still be boot?",
+   "a": "Yes. If the mortgage paid off on the sale is larger than the new loan on the replacement, that gap is treated as debt-relief boot even without cash in hand."
+  },
+  {
+   "q": "Does Prop 13 reassessment count as boot?",
+   "a": "No, reassessment is a property tax issue, not part of the boot calculation. It does affect the ongoing cost of holding the replacement property, which is why we flag it in the same conversation."
+  },
+  {
+   "q": "Can boot be avoided entirely?",
+   "a": "Often, by matching or exceeding both the sale price and the debt on the relinquished property with the replacement purchase. Whether that is achievable depends on financing and pricing at the time of the exchange."
+  },
+  {
+   "q": "Who actually calculates the final taxable boot amount?",
+   "a": "Your tax advisor or CPA, using your basis and the transaction details. Our estimate is meant to give you a working number early, not to replace that final calculation."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 855
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "retail-replacement-sourcing",
+ "taxonomy": "services",
+ "title": "Retail Replacement Property Sourcing",
+ "name": "Retail Replacement Property Sourcing",
+ "metaTitle": "Retail Replacement Property Sourcing in San Diego, CA",
+ "metaDescription": "Retail replacement sourcing in San Diego checks tourist-season sales concentration, co-tenancy clauses, and anchor exposure before a quote gets trusted.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A retail sourcing quote built entirely on a trailing twelve-month sales figure is treating a tourist-driven San Diego shopping strip the same way it would treat a neighborhood strip center in a market with no seasonal swing at all. Those are different assets wearing the same spreadsheet, and the difference only shows up if someone actually asks the seasonal question.</p>"
+  },
+  {
+   "heading": "Tourist Traffic Inflates the Trailing Number",
+   "html": "<p>Retail corridors near the Gaslamp Quarter, Mission Beach, and La Jolla's village core see sales volume that leans heavily on summer and holiday visitor traffic rather than a steady local customer base. A twelve-month sales average can look strong while masking months where revenue drops well below what the property needs to cover debt service if percentage rent is part of the lease structure. Ask for month-by-month sales, not an annual total, before treating that average as a stable baseline.</p><p>A tenant's own reporting practices matter too, since percentage-rent sales figures are self-reported and rarely audited unless the lease specifically grants that right. Confirm the lease includes an audit provision before assuming the reported sales figures reflect what the location actually took in.</p>"
+  },
+  {
+   "heading": "What a Retail Sourcing Package Should Include and Usually Doesn't",
+   "html": "<p>Run every retail candidate through this list before it makes an identification list, because a package silent on more than one of these items hasn't done the underlying work yet.</p><ul><li>Month-by-month sales history for any tenant paying percentage rent, not only an annual figure</li><li>Co-tenancy and exclusive-use clauses that could trigger rent reductions if a nearby anchor or category tenant closes</li><li>Common area maintenance reconciliation history &mdash; whether charges track actual costs or run as a flat estimate that never true's up</li><li>Parking ratio and any shared-parking agreement with an adjacent property</li><li>Zoning confirmation for the specific retail use, not only a general commercial designation</li></ul>"
+  },
+  {
+   "heading": "Anchor Exposure in a Multi-Tenant Center",
+   "html": "<p>A shopping center's smaller tenants often carry co-tenancy clauses tied to the anchor's continued operation, meaning an anchor closure or dark period can trigger reduced rent, or an outright termination right, across multiple leases at once. Confirm which leases in the center carry co-tenancy protection and what specifically triggers it before assuming the center's income is as stable as the anchor's own lease term suggests.</p>"
+  },
+  {
+   "heading": "Border-Adjacent Retail Runs on a Different Demand Driver",
+   "html": "<p>Retail near Otay Mesa and the South Bay draws cross-border shoppers alongside local demand, and that traffic pattern behaves differently from tourist-driven coastal retail or standard neighborhood centers &mdash; it responds to currency exchange rates, border wait times, and broader trade activity tied to the port and industrial employment base rather than to vacation seasonality. Underwrite that demand driver on its own terms instead of applying assumptions built for a coastal retail comparable.</p><p>A sourcing quote that applies the same seasonal sales curve to a border-adjacent property and a coastal tourist property is applying the wrong model to at least one of them. Ask specifically what comparable set was used to build any sales projection before accepting it.</p><p>The safest approach treats each corridor as its own market rather than assuming lessons learned sourcing one retail asset class in San Diego automatically carry over to a different corridor with a different customer base.</p>"
+  },
+  {
+   "heading": "Timing Retail Sourcing to the Exchange Calendar",
+   "html": "<p>Retail leases with percentage rent clauses take longer to underwrite properly than a flat net lease does, since sales history has to be requested, verified, and broken down by month before a real number emerges. Start that request the day the relinquished property goes under contract, not after, so the qualified intermediary has verified numbers to work with well before the 45-day identification window closes.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does tourist-driven retail need month-by-month sales data instead of an annual figure?",
+   "a": "Seasonal visitor traffic in corridors near the Gaslamp Quarter or coastal villages can concentrate sales in a handful of months, which an annual average hides. Month-by-month data shows whether the property can cover expenses during the slower off-season, not only during peak visitor months."
+  },
+  {
+   "q": "What is a co-tenancy clause and why does it matter for retail replacement property?",
+   "a": "A co-tenancy clause ties a smaller tenant's rent, or their right to terminate, to the continued operation of an anchor tenant in the same center. If the anchor closes or goes dark, multiple leases across the property can be affected at once, not only the anchor's own space."
+  },
+  {
+   "q": "How is border-adjacent retail near Otay Mesa different from coastal tourist retail?",
+   "a": "Border-adjacent retail responds to cross-border shopping patterns, currency exchange rates, and trade activity tied to the port and industrial employment base, rather than vacation seasonality. Underwriting it with assumptions built for coastal tourist retail can miss its actual demand drivers."
+  },
+  {
+   "q": "What should I check in a common area maintenance reconciliation before buying a retail property?",
+   "a": "Confirm whether CAM charges are trued up against actual costs each year or billed as a flat estimate that never reconciles, since the latter can hide expense increases that eventually land on the owner instead of the tenants. Review at least two years of reconciliation history if available."
+  },
+  {
+   "q": "When should sales verification start for a percentage-rent retail replacement property?",
+   "a": "As soon as the relinquished property goes under contract, since verifying and breaking down sales history by month takes longer than a standard net lease review. Starting early leaves the qualified intermediary with real numbers well before the 45-day identification window closes."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 858
+}

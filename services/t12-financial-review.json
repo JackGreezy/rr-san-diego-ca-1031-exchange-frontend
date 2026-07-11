@@ -1,0 +1,58 @@
+{
+ "slug": "t12-financial-review",
+ "taxonomy": "services",
+ "title": "Trailing Twelve-Month Financial Review",
+ "name": "Trailing Twelve-Month Financial Review",
+ "metaTitle": "Trailing Twelve-Month Financial Review in San Diego, CA",
+ "metaDescription": "T12 financial review in San Diego checks one-time items, expense recasting, and Prop 13 basis reset before a trailing statement gets trusted at face value.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A trailing twelve-month statement handed over with a seller's broker's pro forma attached is two different documents wearing the same cover page, and treating the second one as if it were the first is how a San Diego exchanger ends up overpaying for a property that never actually performed the way the numbers suggest.</p>"
+  },
+  {
+   "heading": "One-Time Items Dressed Up as Recurring Income",
+   "html": "<p>Insurance settlement proceeds, a single large lease termination fee, or a one-time utility reimbursement can land inside a trailing twelve-month period and inflate net operating income for that stretch without reflecting anything about the property's ongoing performance. Walk through every unusual line item on the statement and ask what generated it, since a seller's broker rarely volunteers that a strong month came from a one-time event rather than the property's normal operations.</p><p>Request the general ledger behind the summary statement, not only the summary itself, since a one-time item is much easier to spot in the underlying ledger entries than in a rolled-up annual total that blends everything together.</p>"
+  },
+  {
+   "heading": "What a Rushed T12 Review Tends to Miss",
+   "html": "<p>Check every trailing statement against this list before it becomes the basis for an offer, since a review that skips more than one or two of these is a review still in progress.</p><ul><li>Non-recurring income or expense items identified and backed out, not folded into the recurring baseline</li><li>Expense categories recast between periods &mdash; repairs moved to capital expenditures, for instance &mdash; that shrink the reported operating expense line</li><li>Property tax expense shown at the seller's current basis rather than what a new owner will actually pay after reassessment</li><li>Utility reimbursement income reconciled against the actual utility expense, not only shown as a net figure</li><li>Deferred maintenance not reflected anywhere in the expense line, since deferred work doesn't disappear, it just moves to the buyer's side of the ledger</li></ul>"
+  },
+  {
+   "heading": "Expense Recasting Is a Quiet Way to Inflate Net Income",
+   "html": "<p>Reclassifying a routine repair as a capital expenditure removes it from the operating expense line entirely, which makes trailing net operating income look stronger than the property's actual operating performance supports. This kind of recasting is rarely dishonest on its face, since capital versus expense classification involves real judgment calls, but it needs to be reviewed line by line rather than accepted as presented, especially on older San Diego buildings where deferred capital needs are common.</p><p>Ask for a straightforward walkthrough of every reclassified line item from the seller's accountant, and compare the current period's expense categories against at least one prior year to see whether the classification pattern actually changed or whether this year's statement was simply prepared differently to present better.</p><p>None of this means the seller is acting in bad faith, since accounting judgment calls happen on every property, but a buyer relying on the exchange's tight timeline shouldn't skip the walkthrough just because time is short.</p>"
+  },
+  {
+   "heading": "Prop 13 Means the Seller's Tax Line Isn't Your Tax Line",
+   "html": "<p>Because Proposition 13 generally triggers reassessment closer to the purchase price on a change of ownership, the property tax expense on the seller's trailing statement reflects what the seller has been paying, often for years, at a lower assessed value than what a new purchase price will trigger. Recalculate that line at the expected new basis before accepting the trailing statement's net operating income as the number that will actually apply after closing.</p>"
+  },
+  {
+   "heading": "Getting a Clean T12 to the Qualified Intermediary Before the Deadline",
+   "html": "<p>A property whose real net operating income only becomes clear after the identification deadline has passed is a property that should have been reviewed earlier in the search, not one to accept on faith because the clock is running. Build financial review into the front half of the exchange timeline so the qualified intermediary is working from verified numbers when the identification list gets finalized.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What kinds of one-time items commonly inflate a trailing twelve-month statement?",
+   "a": "Insurance settlement proceeds, lease termination fees, and one-time utility reimbursements can all land inside a T12 period and boost reported income without reflecting the property's ongoing performance. Ask about the source of any unusually strong month before treating it as recurring."
+  },
+  {
+   "q": "How does expense recasting distort net operating income?",
+   "a": "Reclassifying a routine repair as a capital expenditure removes it from the operating expense line, which makes net operating income look stronger than actual operations support. Review capital-versus-expense classifications line by line rather than accepting the statement as presented."
+  },
+  {
+   "q": "Why doesn't the seller's property tax line apply to a new owner in San Diego?",
+   "a": "Proposition 13 generally triggers reassessment closer to the purchase price on a change of ownership, so a seller who has owned the property for years may be paying tax on a much lower assessed value than what a new purchase price will trigger. Recalculate that expense at the expected new basis."
+  },
+  {
+   "q": "How should deferred maintenance factor into a T12 review if it isn't in the expense line?",
+   "a": "Deferred maintenance that never shows up as an expense hasn't disappeared, it's simply been pushed onto the next owner's ledger. Get an inspection or capital needs assessment alongside the financial review rather than relying on the trailing statement alone."
+  },
+  {
+   "q": "When should T12 financial review happen relative to the exchange timeline?",
+   "a": "Early, ideally before a property is placed on the identification list, since discovering a real problem in the financials after day forty-five leaves little room to substitute a different candidate. Build the review into the front half of the search."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 861
+}

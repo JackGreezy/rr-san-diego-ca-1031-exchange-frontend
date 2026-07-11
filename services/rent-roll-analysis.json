@@ -1,0 +1,58 @@
+{
+ "slug": "rent-roll-analysis",
+ "taxonomy": "services",
+ "title": "Rent Roll Analysis",
+ "name": "Rent Roll Analysis",
+ "metaTitle": "Rent Roll Analysis in San Diego, CA",
+ "metaDescription": "Rent roll analysis in San Diego checks scheduled rent against actual collections, related-party leases, and AB 1482 status before a number goes into a model.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A rent roll is a claim, not a fact, until someone checks it against bank deposits, lease files, and the actual payment history behind every unit. In a San Diego market where sellers know exchange buyers are working against a 45-day clock, the pressure to accept the rent roll as handed over is real, and that's exactly when the sloppiest numbers get through.</p>"
+  },
+  {
+   "heading": "Scheduled Rent Is Not Collected Rent",
+   "html": "<p>Every rent roll shows a scheduled amount per unit, but that figure means nothing without a trailing collections history to confirm tenants are actually paying it. Chronic partial payment, rent concessions not reflected on the roll itself, and units carried at a higher scheduled rent than what's ever actually been collected are common enough in San Diego's tighter multifamily and retail submarkets that a buyer working from the schedule alone can overpay by a meaningful margin.</p><p>A landlord under pressure to sell inside a seller's own timeline sometimes leaves the rent roll unchanged even after granting an informal concession to a struggling tenant, which means the schedule shows a number the tenant hasn't actually been paying for months. Cross-reference every unit's scheduled figure against the deposit records and payment history rather than assuming the two always match.</p>"
+  },
+  {
+   "heading": "The Checks a Rushed Analysis Skips",
+   "html": "<p>Run every rent roll through this list before the underlying property makes your identification list. A rent roll that hasn't been checked against these items is a schedule, not an analysis.</p><ul><li>Trailing twelve-month collections by unit, compared line by line against the scheduled rent</li><li>Security deposit balances reconciled against the lease files, not only the roll's summary line</li><li>Related-party or below-market leases to an owner's family member or affiliated business</li><li>AB 1482 exemption status for every covered residential unit, with documentation on file</li><li>Lease expiration concentration &mdash; too many units rolling in the same quarter is a re-leasing risk, not a convenience</li></ul>"
+  },
+  {
+   "heading": "Related-Party Leases Distort the Whole Picture",
+   "html": "<p>A unit or suite leased to a relative of the owner, or to a business the owner also controls, can carry rent set well below or above market to serve some other purpose entirely, and that lease rarely transfers on the same terms to a new owner. Flag any lease where the tenant's name matches the seller's family name or a related entity, and underwrite that space at a market rent assumption instead of the number on the roll.</p><p>This check matters most on smaller San Diego multifamily and mixed-use buildings, where an owner-occupied unit or a unit leased to a family business is common enough that it can slip past a quick review unless someone actually compares tenant names against the seller's own entity filings.</p>"
+  },
+  {
+   "heading": "Prop 13 Changes What the Rent Roll Has to Support",
+   "html": "<p>Because Proposition 13 generally triggers a reassessment closer to the purchase price on a change of ownership, the property tax expense a new owner faces is higher than what's reflected in the seller's trailing operating statement. That means the same rent roll has to cover a bigger expense line than it did for the seller, which changes the actual net income supporting your offer even if gross rent stays identical.</p>"
+  },
+  {
+   "heading": "Getting Verified Numbers to the Qualified Intermediary in Time",
+   "html": "<p>A rent roll that hasn't been checked against bank deposits and lease files shouldn't be the basis for identifying a property inside the 45-day window, because discovering the real numbers after identification leaves no room to swap in a different candidate. Build in time for this analysis before the list is finalized, not after, so the property you name is the property you actually underwrote.</p><p>A verification pass that takes a week is a reasonable trade against the risk of naming a property whose real numbers turn out to be materially different once the closing statement is finally in hand.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why isn't the scheduled rent on a rent roll enough to underwrite a property?",
+   "a": "Scheduled rent shows what a lease says a tenant should pay, not what's actually been collected, and gaps between the two are common in tighter San Diego submarkets. Trailing collections history, checked unit by unit, is what confirms the number is real."
+  },
+  {
+   "q": "How do I spot a related-party lease on a rent roll?",
+   "a": "Look for a tenant name matching the seller's family name or a business entity connected to the seller, since these leases often carry rent set for reasons other than market value. Underwrite that space using a market rent assumption instead of the number shown on the roll."
+  },
+  {
+   "q": "Does AB 1482 status need to be checked for every unit or just the building overall?",
+   "a": "Unit by unit. Exemptions can apply differently within the same building depending on construction date and ownership structure, so a blanket assumption about the whole property can miss units that are actually covered by the rent cap."
+  },
+  {
+   "q": "How does Proposition 13 reassessment change what a rent roll needs to support?",
+   "a": "Reassessment closer to the purchase price on a change of ownership generally raises the property tax expense above what the seller had been paying. The same gross rent roll now has to cover a larger expense line, which lowers effective net income for the new owner."
+  },
+  {
+   "q": "When should rent roll verification happen relative to the 45-day identification window?",
+   "a": "Before the property is placed on the identification list, not after, since finding a problem post-identification leaves little room to substitute a different candidate. Build verification time into the search from the start of the exchange."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 872
+}

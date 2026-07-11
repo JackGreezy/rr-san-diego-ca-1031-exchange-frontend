@@ -1,0 +1,58 @@
+{
+ "slug": "nnn-and-stnl-property-sourcing",
+ "taxonomy": "services",
+ "title": "NNN and Single-Tenant Net Lease Property Sourcing",
+ "name": "NNN and Single-Tenant Net Lease Property Sourcing",
+ "metaTitle": "NNN and STNL Property Sourcing in San Diego, CA",
+ "metaDescription": "NNN and STNL sourcing in San Diego checks lease term remaining, guarantee strength, and dark-store risk, not only the headline cap rate on the flyer.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A single-tenant net lease flyer that leads with a cap rate and a corporate logo is telling you the least useful thing about the deal. What actually decides whether an STNL property holds its value through the 180-day exchange period and beyond is how much lease term is left, who's actually on the hook for the rent, and what happens to the building if that tenant leaves.</p>"
+  },
+  {
+   "heading": "What the Flyer Doesn't Say About the Lease Behind the Rent",
+   "html": "<p>Before an STNL candidate makes your identification list, run it through this set of questions. A sourcing package missing more than one or two of these is a package that leaned on the broker's summary instead of the actual lease.</p><ul><li>Years of primary term remaining versus years left including unexercised options</li><li>Whether the guarantee runs to the parent corporation or only to a franchisee entity with limited assets</li><li>Co-tenancy or exclusive-use clauses that could trigger a rent reduction if a nearby anchor closes</li><li>Landlord repair obligations that survive under a so-called triple-net structure &mdash; roof, structure, or parking lot are common carve-outs</li><li>Any pending change-of-control or store-closure announcement from the tenant's own public filings</li></ul>"
+  },
+  {
+   "heading": "Corporate Guarantee Versus Franchisee Paper",
+   "html": "<p>Two locations of the same national brand can carry entirely different credit behind the lease. A store leased directly to the parent company's corporate entity carries that company's balance sheet; a store leased to a regional franchisee carries whatever that operator's individual finances can support, which is a much thinner cushion if sales soften. San Diego's franchisee-operated retail and quick-service locations are common enough that this distinction gets glossed over in a quick pitch, so confirm which one you're actually buying before treating the rent as investment-grade.</p><p>Some sourcing packages describe a location as company-operated when the underlying entity on the actual lease is a regional development affiliate with a much thinner balance sheet than the parent brand. Ask for the signed lease and the guarantor's own financial disclosures where available, not a marketing description of the brand relationship.</p>"
+  },
+  {
+   "heading": "Tourism-Driven Retail Carries Its Own Seasonality Risk",
+   "html": "<p>Single-tenant retail near the Gaslamp Quarter, Mission Beach, and other visitor-heavy corridors can show strong trailing sales figures that lean heavily on tourist traffic rather than a stable local customer base. A tenant whose percentage-rent or sales-reporting clause reveals that concentration is a different credit risk than one with steady local demand, even if the base rent looks identical on paper. Ask for trailing sales by month, not only an annual figure, to see how much of the year that revenue actually depends on.</p>"
+  },
+  {
+   "heading": "What Happens If the Box Goes Dark",
+   "html": "<p>A single-tenant building is worth its rent stream until the tenant leaves, and then it's worth whatever the shell and the dirt are worth on their own. Before bidding, price the building on a dark-store basis &mdash; what it would take to re-lease or repurpose the space for a different use &mdash; and compare that number to what the sourcing quote is asking. If the gap between the going-concern price and the dark-store price is wide, that gap is the real risk being sold to you as a cap rate.</p><p>Redevelopment potential softens this risk on some San Diego parcels, particularly larger single-tenant sites near transit corridors where a future change of use is realistic, but that potential shouldn't be assumed for every single-tenant purchase. Confirm zoning flexibility and lot size before crediting a property with redevelopment upside that may not actually apply to it.</p>"
+  },
+  {
+   "heading": "Coordinating the Purchase Timeline With the Qualified Intermediary",
+   "html": "<p>Sale-leaseback originations and off-market STNL deals in San Diego often move on a seller-driven timeline that doesn't leave much room to negotiate around the 45-day identification window. Get the qualified intermediary looped in as soon as a candidate is under serious review, not after terms are agreed, so the exchange documentation and any escrow instructions match the actual closing date rather than an assumed one.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does the lease guarantee matter more than the cap rate on an STNL property?",
+   "a": "A corporate guarantee reflects the financial strength of the parent company, while a franchisee guarantee only reflects that individual operator's finances, which is a much thinner cushion. Two properties with identical cap rates can carry very different real risk depending on which one backs the lease."
+  },
+  {
+   "q": "How should I think about tourism-driven retail sales when underwriting an STNL property in San Diego?",
+   "a": "Ask for trailing sales broken out by month rather than an annual total, since visitor-heavy corridors can show revenue concentrated in a handful of seasonal months. A tenant whose income depends heavily on tourist traffic carries different risk than one with steady year-round local demand."
+  },
+  {
+   "q": "What does dark-store pricing mean and why should I ask for it?",
+   "a": "Dark-store pricing values the building on what it's worth if the current tenant leaves and the space needs to be re-leased or repurposed, rather than on the current rent stream. Comparing that number to the asking price shows how much of the deal's value depends on the current tenant staying in place."
+  },
+  {
+   "q": "What lease clauses reduce the value of an otherwise strong single-tenant lease?",
+   "a": "Co-tenancy clauses that cut rent if a nearby anchor closes, and landlord repair carve-outs for roof or structure hidden inside a triple-net lease, both shift real cost or risk back onto the owner. Read the full lease rather than relying on a broker's one-page summary of terms."
+  },
+  {
+   "q": "How early should the qualified intermediary get involved in an off-market STNL purchase?",
+   "a": "As soon as a candidate is under serious review, not after price and terms are agreed, since sale-leaseback and off-market deals often move on the seller's timeline. Early coordination keeps the exchange documentation aligned with the actual closing date inside the 45-day identification window."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 916
+}

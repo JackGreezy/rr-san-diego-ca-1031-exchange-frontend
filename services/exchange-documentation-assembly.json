@@ -1,0 +1,62 @@
+{
+ "slug": "exchange-documentation-assembly",
+ "taxonomy": "services",
+ "title": "Exchange Documentation Assembly",
+ "name": "Exchange Documentation Assembly",
+ "metaTitle": "Exchange Documentation Assembly in San Diego, CA",
+ "metaDescription": "Exchange documentation assembly for San Diego 1031s, with a real document-by-document checklist instead of a vague bundled line item on the invoice.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>&quot;Documentation assembly&quot; is one of the vaguest line items on a San Diego exchange invoice, and it can mean anything from a single exchange agreement to a full set of assignments, notices, and closing instructions. We treat it as a specific, named list of documents, not a catch-all fee, so you know exactly what you are paying for before the clock starts running.</p>"
+  },
+  {
+   "heading": "The Bundled Fee That Hides What Is Actually Included",
+   "html": "<p>A flat &quot;documentation&quot; fee sounds simple until you ask which documents are actually inside it. Some packages include only the exchange agreement itself and treat the assignment of contract, notice to the seller, and notice to the buyer as separate charges added later. Others skip lease assignment paperwork entirely, which matters in San Diego where Navy and defense-contractor tenants often carry leases with specific assignment and consent requirements. Ask for the document list before you agree to the fee, not after.</p>"
+  },
+  {
+   "heading": "What a Complete Set Actually Covers",
+   "html": "<p>A full exchange documentation package for a San Diego transaction typically assembles the exchange agreement, the assignment of the relinquished-property purchase contract, the assignment of the replacement-property purchase contract, written notice to the relinquished-property buyer, written notice to the replacement-property seller, and the qualified intermediary's certification of receipt and disbursement. Each one has to be executed and delivered in the right sequence relative to closing, rather than filed at some point during the exchange.</p>"
+  },
+  {
+   "heading": "Where Lease Assignments Add a Step",
+   "html": "<p>Replacement properties with existing tenants, common in San Diego's industrial and office-lab stock, need a lease assignment and estoppel alongside the standard exchange paperwork. Defense and Navy-adjacent tenants in particular sometimes require landlord consent language that is not standard in a typical purchase contract, and missing that step can delay a closing even after every exchange document is otherwise ready.</p>"
+  },
+  {
+   "heading": "The Assembly Checklist We Run Against Every File",
+   "html": "<p>Every San Diego file gets checked against the same list before it goes to the qualified intermediary:</p><ul><li>Exchange agreement with correct property and party details</li><li>Assignment of relinquished-property contract</li><li>Assignment of replacement-property contract</li><li>Notice to buyer and notice to seller, both delivered and dated</li><li>Lease assignment and estoppel where a tenant is in place</li><li>QI certification of receipt and disbursement</li></ul>"
+  },
+  {
+   "heading": "What This Service Does Not Cover",
+   "html": "<p>Documentation assembly is not a substitute for legal review of contract terms or tax advice on structuring the exchange. We assemble and sequence the paperwork correctly. Confirm the underlying legal and tax positions with your attorney, qualified intermediary, and tax advisor.</p>"
+  },
+  {
+   "heading": "Why Sequencing Matters as Much as the Documents Themselves",
+   "html": "<p>Two exchange files can contain the exact same set of documents and still produce different outcomes, because the order and timing of delivery matters. A notice sent to a buyer after closing instead of before it, or an assignment executed a day after the deadline the purchase contract requires, can create a defect even when every document itself was drafted correctly.</p><p>We map the required sequence against the actual closing calendar for each San Diego file, since a template checklist built for a generic transaction does not account for a deal running two closings within days of each other or a lender's own conditions shifting the timeline late.</p><p>That mapping is what separates document assembly that actually protects a closing date from a checklist that only confirms every form exists somewhere in a file folder without confirming it was delivered at the right moment.</p><p>On a San Diego file with two closings a week apart, the sequencing map usually has to account for which documents can be executed in parallel and which have to wait for the first closing to actually record before the second one can proceed.</p><p>Getting that order wrong even once can force a re-execution of documents under time pressure, which is a preventable delay when the sequence is mapped out before either closing date is finalized.</p><p>Building that map early also gives the title companies on both sides enough notice to align their own closing instructions, rather than discovering a conflict the week both transactions are supposed to close.</p><p>That same lead time gives the qualified intermediary a chance to flag any inconsistency between the two closing statements before either one is signed, which is a far easier fix than trying to unwind a signed document after the fact.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What documents are actually included in exchange documentation assembly?",
+   "a": "The exchange agreement, assignments of both purchase contracts, notices to the buyer and seller, lease assignments where applicable, and the QI's certification. Ask any provider for this exact list before agreeing to a fee."
+  },
+  {
+   "q": "Why do San Diego deals sometimes need extra lease paperwork?",
+   "a": "Because industrial and office-lab replacement properties often come with existing tenants, including Navy and defense-contractor leases that carry their own assignment and consent requirements beyond a standard purchase contract."
+  },
+  {
+   "q": "Is documentation assembly the same as legal review?",
+   "a": "No. We assemble and sequence the correct documents. Reviewing contract terms or resolving legal disputes is a separate service from your attorney."
+  },
+  {
+   "q": "What happens if a notice to the seller or buyer is missed?",
+   "a": "It can create a defect in the exchange structure that surfaces later, sometimes not until the exchange is reviewed. That is why every file gets checked against the same document list before closing, not after."
+  },
+  {
+   "q": "Does this service replace the qualified intermediary?",
+   "a": "No. The QI holds funds and issues certifications. We assemble the documents that support the QI's role and keep them sequenced correctly against the closing calendar."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 864
+}

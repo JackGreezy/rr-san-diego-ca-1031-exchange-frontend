@@ -1,0 +1,58 @@
+{
+ "slug": "qualified-intermediary-coordination",
+ "taxonomy": "services",
+ "title": "Qualified Intermediary Coordination",
+ "name": "Qualified Intermediary Coordination",
+ "metaTitle": "Qualified Intermediary Coordination in San Diego, CA",
+ "metaDescription": "Qualified intermediary coordination in San Diego reviewed for fund custody, escrow structure, and fee transparency, not only the lowest quote on the fee sheet.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The lowest qualified intermediary fee quote in San Diego is rarely the lowest total cost, because the fee sheet almost never shows where your exchange funds actually sit while the clock is running. That gap between the number on the quote and what the arrangement actually costs, in risk if nothing else, is the whole reason this coordination step exists.</p>"
+  },
+  {
+   "heading": "Why the Qualified Intermediary Exists at All",
+   "html": "<p>Federal tax rules require an exchanger to avoid actual or constructive receipt of sale proceeds between closing the relinquished property and closing the replacement, or the exchange fails outright. A qualified intermediary is the party who holds those funds under a written exchange agreement so the seller never has access to, or control over, the cash during the 180-day exchange period. Skip that structure, or let the arrangement drift into something less formal, and the IRS can treat the transaction as a straight taxable sale.</p>"
+  },
+  {
+   "heading": "What a Fee Quote Usually Doesn't Show You",
+   "html": "<p>Compare intermediaries on these points before signing an exchange agreement, because a quote that's silent on more than one of these is a quote still missing its real terms.</p><ul><li>Whether funds sit in a qualified escrow or qualified trust account requiring dual signatures, versus the intermediary's general operating account</li><li>Fidelity bond and errors-and-omissions coverage amounts, and whether they've actually been verified recently</li><li>Additional fees for reverse exchanges, improvement exchanges, or multiple identification amendments beyond the base flat fee</li><li>Interest earned on held funds during the exchange period, and who actually receives it</li><li>Wire confirmation and dual-authorization procedures for releasing funds at each closing</li></ul>"
+  },
+  {
+   "heading": "Custody Structure Is the Whole Ballgame",
+   "html": "<p>An intermediary holding funds in a qualified escrow account with dual-signature release requirements is a fundamentally different risk than one holding funds commingled in its own operating account. San Diego has seen exchangers elsewhere in the country lose exchange funds entirely when an intermediary's business failed while holding commingled cash, which is the scenario a qualified escrow structure is designed to prevent. Ask for the actual escrow agreement, not a description of one, before wiring proceeds.</p><p>A verbal assurance that funds are held safely isn't the same document as a signed escrow or trust agreement naming the specific account, the bank, and the release conditions. Some San Diego exchangers only ask for that paperwork after a problem surfaces, when it should be the first document reviewed before any funds move.</p>"
+  },
+  {
+   "heading": "Keeping Constructive Receipt Off the Table",
+   "html": "<p>Constructive receipt doesn't require the exchanger to actually touch the money; it can be triggered by having the right to demand it, direct its use, or receive a benefit from it before the exchange completes. That's why the exchange agreement, not a verbal understanding, has to specify exactly when and how funds move, and why an exchanger shouldn't be a signatory on the account holding the proceeds. Confirm the final tax treatment of any unusual arrangement with your own tax advisor rather than assuming the intermediary's boilerplate covers your situation.</p>"
+  },
+  {
+   "heading": "Matching the Intermediary's Timeline to the Exchange Documentation",
+   "html": "<p>The 45-day identification window and the 180-day exchange period both run from the relinquished-property closing date, and the intermediary's paperwork needs to reflect that date precisely, not an estimated one. Confirm identification notices are delivered in writing to the intermediary before day forty-five, and that any amendment to the identified list is documented the same way, since a verbal update to a broker doesn't satisfy the requirement.</p><p>Ask how the intermediary tracks these deadlines internally, whether that's a shared calendar with automated reminders or a manual log kept by a single staff member, since a firm juggling many San Diego exchanges at once needs a system, not memory, to avoid missing a client's deadline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why can't I just hold the sale proceeds myself between closings?",
+   "a": "Holding or having the right to control the proceeds yourself, even briefly, generally triggers constructive receipt and disqualifies the exchange entirely, converting it into a taxable sale. A qualified intermediary holds the funds under a written agreement specifically to prevent that outcome."
+  },
+  {
+   "q": "What's the difference between a qualified escrow account and an intermediary's operating account?",
+   "a": "A qualified escrow or trust account generally requires dual signatures to release funds and keeps them segregated from the intermediary's own business assets, while an operating account commingles exchange funds with the company's cash. The escrow structure is the one that protects exchange funds if the intermediary's business runs into trouble."
+  },
+  {
+   "q": "What should I ask about before choosing a qualified intermediary in San Diego?",
+   "a": "Ask for the actual escrow agreement, current fidelity bond and errors-and-omissions coverage amounts, and a complete fee schedule covering reverse exchanges or identification amendments, not only the base fee. A quote that's silent on custody structure is missing the most important term."
+  },
+  {
+   "q": "Can constructive receipt happen even if I never touch the money?",
+   "a": "Yes. Having the right to demand the funds, direct how they're used, or benefit from them before the exchange closes can trigger constructive receipt without any funds actually changing hands. The written exchange agreement needs to remove that right entirely, not only discourage using it."
+  },
+  {
+   "q": "Do the 45-day and 180-day deadlines depend on which intermediary I use?",
+   "a": "No, both deadlines run from the relinquished-property closing date regardless of intermediary, but the intermediary's documentation needs to track those exact dates precisely. Confirm identification notices are delivered in writing before day forty-five rather than relying on a verbal update."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 862
+}

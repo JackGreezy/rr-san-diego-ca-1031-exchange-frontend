@@ -1,0 +1,66 @@
+{
+ "slug": "form-8824-preparation-support",
+ "taxonomy": "services",
+ "title": "Form 8824 Preparation Support",
+ "name": "Form 8824 Preparation Support",
+ "metaTitle": "Form 8824 Preparation Support in San Diego, CA",
+ "metaDescription": "Form 8824 preparation support for San Diego investors, organizing exchange data cleanly for your CPA instead of promising to file the return itself.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Form 8824 is where a San Diego exchange gets reported to the IRS, and the numbers on it, realized gain, recognized gain, basis in the new property, only come out clean if the underlying transaction data was organized correctly from the start. Our role is assembling that data in the format your CPA needs, not preparing or filing the return itself.</p>"
+  },
+  {
+   "heading": "Read the Engagement Letter Before You Assume What This Covers",
+   "html": "<p>Some exchange coordination packages describe this service in language that sounds like tax preparation, &quot;8824 preparation included,&quot; without clarifying that the actual filing still has to happen through a CPA or tax preparer. We are not licensed to prepare or file your tax return, and any provider who implies otherwise is describing something different than what they can legally deliver. Ask directly whether &quot;preparation support&quot; means data organization or an actual filed form.</p>"
+  },
+  {
+   "heading": "What Feeds Into an Accurate Form 8824",
+   "html": "<p>The relinquished-property sale price, adjusted basis, and depreciation history all carry forward into the replacement property's basis calculation, along with any boot recognized and exchange expenses incurred. Getting these numbers wrong on the front end means your CPA either has to reconstruct them later or files a return based on incomplete figures.</p>"
+  },
+  {
+   "heading": "Why Prop 13 Basis History Matters Here",
+   "html": "<p>Because San Diego properties can carry a long assessed-value history under Prop 13 that is distinct from the federal tax basis, it is easy to conflate the two when pulling records together. We keep the property tax assessment history separate from the federal depreciation and basis schedule so your CPA is working from the correct figures for each, not a blended number that looks close but is not accurate.</p>"
+  },
+  {
+   "heading": "The Data Package We Assemble",
+   "html": "<p>For every San Diego exchange, the package handed to your CPA includes:</p><ul><li>Relinquished-property sale price and closing statement</li><li>Adjusted basis and depreciation schedule on the relinquished property</li><li>Replacement-property purchase price and closing statement</li><li>Boot calculation, both cash and debt-relief components</li><li>Qualified intermediary fees and other exchange expenses</li></ul>"
+  },
+  {
+   "heading": "Your CPA Files the Return, Not Us",
+   "html": "<p>Once the data package is assembled, your CPA or tax preparer uses it to complete and file Form 8824 with your return. Confirm the final figures, elections, and filing position with them directly. We can answer questions about how the underlying transaction data was gathered, but the tax return itself is their responsibility.</p>"
+  },
+  {
+   "heading": "Why the Data Package Matters More on a Multi-Property Exchange",
+   "html": "<p>A single relinquished property exchanged for a single replacement property is relatively simple to summarize. A San Diego exchange involving multiple identified properties under the 200% or 95% rule, or a partial-boot scenario across several closings, produces a much larger set of figures that all have to reconcile against each other before a CPA can complete the form accurately.</p><p>We keep a running ledger through the exchange rather than reconstructing the numbers after the fact, so the handoff to your CPA at tax time is a finished package instead of a pile of closing statements that still need to be sorted and cross-checked under a filing deadline.</p>"
+  },
+  {
+   "heading": "What to Ask a Provider Before You Rely on Their Support",
+   "html": "<p>Ask directly whether the service includes ongoing data collection throughout the exchange or a single reconstruction at the end, and whether the person assembling the package has actually reviewed the closing statements line by line or is working from summary figures supplied by someone else. The answer changes how much your CPA has to redo before the return can be filed.</p><p>It is worth asking these questions before the exchange closes, not after, since reconstructing a closing statement or a depreciation schedule months later is slower and more error-prone than confirming the figures while the transaction records are still fresh and easy to reach.</p><p>A CPA working from a complete, organized package can usually turn the filing around faster and with fewer follow-up questions than one starting from a folder of scattered documents handed over at the last minute.</p><p>That efficiency matters more in years with a compressed filing timeline, where the CPA is juggling multiple clients' returns and an incomplete package can push your filing to the back of the queue.</p><p>Getting the package assembled early also leaves room to catch a missing document, an unclear closing statement line item, while there is still time to track it down, rather than during the final week before the filing deadline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Do you prepare and file Form 8824 for me?",
+   "a": "No. We assemble the transaction data your CPA or tax preparer needs to complete and file the form. We are not licensed to prepare or file tax returns."
+  },
+  {
+   "q": "What data actually goes into Form 8824?",
+   "a": "Sale and purchase prices, adjusted basis and depreciation history, boot calculations, and exchange expenses from both sides of the transaction."
+  },
+  {
+   "q": "Does Prop 13 assessed value affect my federal basis on Form 8824?",
+   "a": "No, they are separate figures. Prop 13 governs property tax assessment, while Form 8824 uses federal adjusted basis and depreciation history. We keep the two records separate so they do not get confused."
+  },
+  {
+   "q": "What should I ask a provider who says 8824 preparation is included?",
+   "a": "Ask whether they mean organizing your transaction data or actually preparing and filing the return. Only a CPA or licensed tax preparer can legally do the latter."
+  },
+  {
+   "q": "When should the data package be ready?",
+   "a": "Ideally by the time your CPA starts your return for the year the exchange closed, which means gathering closing statements and basis records well before tax season, not after the deadline is close."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 860
+}

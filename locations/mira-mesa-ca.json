@@ -1,0 +1,54 @@
+{
+ "slug": "mira-mesa-ca",
+ "taxonomy": "locations",
+ "title": "Mira Mesa 1031 Exchange Coordination",
+ "name": "Mira Mesa 1031 Exchange Coordination",
+ "metaTitle": "Mira Mesa 1031 Exchange Coordination in San Diego, CA",
+ "metaDescription": "1031 exchange coordination for Mira Mesa tech-campus and multifamily owners in San Diego, covering employer concentration risk and QI handoffs.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Mira Mesa sits in central San Diego between the biotech corridor at Sorrento Valley and the defense employment base at Marine Corps Air Station Miramar, a combination that shapes both its office campus stock and its dense residential apartment supply. An owner exchanging out of Mira Mesa real estate should scope coordination around whichever of those two demand drivers actually supports the relinquished property's tenant base.</p>"
+  },
+  {
+   "heading": "What Investors Trade in This Submarket",
+   "html": "<p>Large corporate and technology campus buildings, some historically leased to major telecommunications and semiconductor employers headquartered near the Mira Mesa and Sorrento Valley border, make up a significant share of the office stock, alongside a growing share of multi-tenant conversions as those campuses have downsized. Multifamily is dense here relative to much of San Diego County, with apartment complexes built to house the workforce for both the tech campuses and Miramar.</p><p>Retail along Mira Mesa Boulevard serves that dense residential base directly, giving it steadier daytime and evening traffic than retail tied purely to tourism elsewhere in San Diego. A handful of larger-format retail parcels near the boulevard's midpoint have drawn interest from investors looking for redevelopment potential as household density in the surrounding neighborhoods continues to grow.</p>"
+  },
+  {
+   "heading": "What Actually Drives This Market",
+   "html": "<p>Technology and telecommunications employment is the largest driver, though it is more concentrated among a smaller number of large employers than the broader, more diversified San Diego innovation economy further south. Marine Corps Air Station Miramar adds a defense-employment layer that keeps rental demand steady even when tech hiring slows.</p><p>Dense existing multifamily supply keeps rent growth here more moderate than in supply-constrained coastal San Diego submarkets, which changes how a replacement buyer should model rent growth assumptions. A newer wave of biotech overflow tenants priced out of Sorrento Valley has also started leasing space in Mira Mesa's older office campuses, adding a third driver that didn't exist in this submarket a decade ago.</p>"
+  },
+  {
+   "heading": "Watchouts on a Mira Mesa Replacement Property",
+   "html": "<p>A handful of conditions are specific enough to flag before identification.</p><ul><li>Single-employer or single-industry concentration risk on office and R&D buildings tied to a small number of large tech tenants</li><li>Miramar-related noise or flight path overlays affecting certain parcels near the base</li><li>Aging garden apartment stock that may need capital improvement to compete with newer product</li><li>Parking and traffic constraints along Mira Mesa Boulevard that affect retail redevelopment</li><li>Renewal-cap rent history on multifamily buildings that affects trailing NOI for lender underwriting</li></ul>"
+  },
+  {
+   "heading": "What a Generic Tech-Campus Exchange Quote Misses",
+   "html": "<p>A coordination proposal that treats Mira Mesa like the broader San Diego innovation economy usually overstates tenant diversification, when in practice a single large employer's lease decision can move vacancy meaningfully in this submarket. It also tends to skip Miramar's flight path overlays, which can limit height or use on certain replacement parcels without anyone flagging it until late in due diligence.</p><p>Before signing an engagement letter, ask whether the coordinator has actually checked employer concentration on the relinquished building, beyond simply describing the general strength of the San Diego tech sector. A coordinator who can name the building's actual anchor tenant and its lease expiration is doing real diligence; one who speaks only in market-wide averages likely isn't.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does single-employer concentration risk change the 1031 identification rules for a Mira Mesa office building?",
+   "a": "No, the identification rules are the same regardless of tenant concentration; the three-property and 200% rules apply as they would anywhere. Concentration risk affects how a lender and buyer underwrite the property, so it should be priced into the deal separately from the identification mechanics. A lender may require a larger reserve on a building with heavier single-employer exposure regardless of the exchange structure, which can affect the investor's total cash needed at closing."
+  },
+  {
+   "q": "Can I identify a Mira Mesa office building against a multifamily property using the three-property rule?",
+   "a": "Yes, the three-property rule allows identification of up to three properties of any type regardless of value, so comparing an office candidate against multifamily or retail alternatives is permitted as long as all identifications are written and delivered within 45 days."
+  },
+  {
+   "q": "How does Miramar's flight path affect a replacement property near the base?",
+   "a": "Noise and height overlays near Marine Corps Air Station Miramar can restrict certain uses or construction on nearby parcels, so any redevelopment plans for a replacement property should be checked against those overlays before the property is formally identified. Overlooking this step can quietly cap a building's future value if planned improvements turn out to be restricted."
+  },
+  {
+   "q": "Who tracks the 180-day exchange period once I've identified a Mira Mesa property?",
+   "a": "The qualified intermediary tracks the exchange period and holds proceeds until closing, but the investor remains responsible for meeting financing and closing deadlines, so coordination support should keep the QI, lender, and title company aligned on the same calendar. Miscommunication between those parties is a common, avoidable reason exchanges run late."
+  },
+  {
+   "q": "Should I confirm rent-cap history before identifying a Mira Mesa apartment complex as a replacement?",
+   "a": "Yes, California's statewide renewal caps affect trailing rent rolls and NOI, and a tax advisor or lender should review that history before an investor relies on projected income to justify the replacement's valuation. Skipping that review can leave a gap between the pitched pro forma and what the building can actually produce after closing, which is worth catching before the exchange closes rather than after."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 867
+}

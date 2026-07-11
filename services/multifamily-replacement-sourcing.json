@@ -1,0 +1,58 @@
+{
+ "slug": "multifamily-replacement-sourcing",
+ "taxonomy": "services",
+ "title": "Multifamily Replacement Property Sourcing",
+ "name": "Multifamily Replacement Property Sourcing",
+ "metaTitle": "Multifamily Replacement Property Sourcing in San Diego, CA",
+ "metaDescription": "Multifamily replacement sourcing in San Diego weighed against AB 1482 status, trailing turnover, and short-term rental exposure before it reaches the 45-day list.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Two San Diego multifamily buildings can post the same trailing net operating income and still carry very different upside once you check what's actually capping the rent roll. A sourcing quote that hands over a rent roll and a cap rate without checking AB 1482 status against every unit is handing over half the underwriting.</p>"
+  },
+  {
+   "heading": "The Number That Matters More Than the Cap Rate",
+   "html": "<p>California's statewide rent cap under AB 1482 limits annual increases to the lesser of 5% plus local CPI or 10%, applied per twelve-month period, on any covered unit. Buildings built within the last fifteen years are generally exempt, and single-family or condo units held by an individual owner of a small portfolio can qualify for a different exemption &mdash; but exemption status has to be confirmed unit by unit, not assumed from the building's age alone.</p><p>A rent roll priced as if every unit can move to market on turnover is a different asset than one where most units are capped. Get the exemption paperwork, not only a verbal claim from the listing broker, before that upside goes into your model.</p><p>Older multifamily stock scattered through San Diego's mid-city neighborhoods can carry a mix of covered and exempt units within the same building, since a partial renovation or a change in ownership structure over the years can shift a unit's status without the rent roll ever noting the change. Treat exemption status as a unit-level fact to be confirmed with documentation, not a building-wide label carried over from one owner's description to the next.</p>"
+  },
+  {
+   "heading": "What a Coastal San Diego Multifamily Quote Tends to Skip",
+   "html": "<p>Run every candidate through the same checklist before it earns a spot on the identification list, because a sourcing package that skips these items is a package still being assembled, not a finished one.</p><ul><li>Unit-by-unit AB 1482 exemption status with supporting documentation, not a building-wide assumption</li><li>Trailing 24-month turnover and vacancy, not only the current snapshot</li><li>Short-term rental or vacation-rental use on any unit, and whether that use survives a change of ownership</li><li>Soft-story or seismic retrofit obligations that transfer with the building</li><li>Utility billing structure &mdash; RUBS versus master-metered &mdash; and how that shows up in the expense line</li></ul>"
+  },
+  {
+   "heading": "Short-Term Rental Exposure Along the Coast",
+   "html": "<p>Buildings in Pacific Beach, Mission Beach, and parts of La Jolla sometimes carry units operated as short-term or vacation rentals rather than standard leases, and municipal short-term rental licensing rules can restrict or cap that use going forward. A rent roll that shows strong income from a handful of short-term units is showing you a revenue stream that may not transfer cleanly to a new owner under current licensing caps, so verify license status and transferability rather than underwriting the trailing income as if it were a standard lease.</p>"
+  },
+  {
+   "heading": "Prop 13 Resets the Tax Line the Seller Was Paying",
+   "html": "<p>Proposition 13 generally triggers reassessment to a value closer to the purchase price on a change of ownership, so the property tax line on the seller's trailing financials is not the number that applies once you own the building. Model the new basis, not the seller's number, or the operating statement you underwrote on day one will already be wrong by the time you close.</p>"
+  },
+  {
+   "heading": "Sizing Debt Without Creating a Boot Problem",
+   "html": "<p>Multifamily lenders in San Diego are generally underwriting to loan-to-value in the mid-50s to mid-60s percent range with a minimum debt-service-coverage ratio, and that ceiling sets how much debt a replacement property can actually carry. If the new loan lands below what was retired on the relinquished property, the shortfall needs cash or it gets treated as boot &mdash; run that comparison with your qualified intermediary before the property is identified, and confirm final treatment with a tax advisor.</p><p>Lenders on San Diego multifamily deals also tend to require a working capital or replacement reserve set aside at closing, sized to the age and condition of major building systems, and that reserve requirement changes how much of the exchange proceeds are actually available for the purchase versus held back in an account. Ask for reserve requirements alongside the loan term sheet rather than discovering the number at the closing table.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How does AB 1482 affect multifamily replacement underwriting in San Diego?",
+   "a": "AB 1482 caps annual rent increases at the lesser of 5% plus local CPI or 10% on covered units, which limits how fast in-place rent can move toward market. Confirm exemption status unit by unit with documentation rather than relying on the building's age alone."
+  },
+  {
+   "q": "Do short-term rental units transfer cleanly with a coastal San Diego multifamily building?",
+   "a": "Not always. Municipal short-term rental licensing is generally tied to the license holder and can be capped or restricted, so income from vacation-rental units may not transfer the same way to a new owner. Verify license status and transferability before underwriting that income as stable."
+  },
+  {
+   "q": "How does Proposition 13 change the operating statement after closing?",
+   "a": "Proposition 13 generally triggers reassessment closer to the purchase price on a change of ownership, which raises the property tax line above what the seller had been paying. Underwrite the new basis, not the seller's trailing tax figure."
+  },
+  {
+   "q": "What debt-service-coverage ratio should I expect on a multifamily replacement loan?",
+   "a": "Lenders in the current environment are generally requiring a minimum DSCR alongside loan-to-value in the mid-50s to mid-60s percent range, though exact terms vary by lender and building condition. Confirm actual terms before assuming a specific debt amount will clear underwriting."
+  },
+  {
+   "q": "What happens if the new mortgage is smaller than the one being paid off?",
+   "a": "A shortfall between retired debt and new debt is generally treated as boot unless covered with additional cash at closing. Review that gap with a qualified intermediary during identification, and confirm the final tax treatment with a tax advisor."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 920
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "market-comparable-analysis",
+ "taxonomy": "services",
+ "title": "Market Comparable Analysis",
+ "name": "Market Comparable Analysis",
+ "metaTitle": "Market Comparable Analysis in San Diego, CA",
+ "metaDescription": "Market comparable analysis for San Diego replacement property, built from actual submarket sales instead of a national database report with the serial numbers changed.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A comparable sales report pulled from a national database can look thorough, formatted nicely, full of charts, and still miss what actually drives value in a specific San Diego submarket. Comps analysis for an exchange candidate needs to reflect the corridor, the tenant base, and the supply dynamics of the exact few blocks the property sits in, not a citywide or countywide average.</p>"
+  },
+  {
+   "heading": "How a Generic Comps Report Gets Built",
+   "html": "<p>A lot of &quot;market analysis&quot; add-ons are assembled by pulling every recent sale within a mile radius or a broad property-type filter, then presenting the average as if it applies evenly across the area. That approach treats a Sorrento Valley lab sale and a Kearny Mesa flex sale as comparable data points just because both are labeled industrial or flex in a database, when the tenant demand and rent structure behind each is completely different.</p>"
+  },
+  {
+   "heading": "Why Submarket Boundaries Actually Matter in San Diego",
+   "html": "<p>Life-science and office-lab rents near UTC and Torrey Pines are set by biotech and research tenant demand that has almost nothing in common with a border-adjacent warehouse near Otay Mesa, where value is driven by logistics and trade-zone access. Coastal multifamily under AB 1482 rent caps prices differently than inland multifamily with more rent flexibility. A comp set that blends these categories together produces a number that is technically an average and practically useless.</p>"
+  },
+  {
+   "heading": "What Goes Into an Analysis Built for the Actual Submarket",
+   "html": "<p>Before we hand over a comparable set for an identified property, we pull closed sales from the specific submarket, adjust for property condition, tenant quality, and lease term remaining, and flag any comp that required unusual seller concessions or off-market terms that would distort the number. That adjustment step is what separates a usable comp set from a raw data pull.</p>"
+  },
+  {
+   "heading": "The Comp Set Structure for Every Candidate",
+   "html": "<p>Every San Diego replacement candidate gets a comparable set assembled from:</p><ul><li>Closed sales within the same submarket, not a citywide radius</li><li>Property-condition and tenant-quality adjustments</li><li>Lease term remaining on any in-place tenant</li><li>Flagged outliers with concessions or off-market terms</li><li>Price-per-square-foot range with the outliers explained, not averaged in</li></ul>"
+  },
+  {
+   "heading": "What the Analysis Does Not Replace",
+   "html": "<p>A comparable analysis supports the identification and financing conversation. It is not an appraisal, and it does not substitute for the formal valuation your lender will require. Confirm final pricing decisions with a licensed appraiser and your own underwriting review before closing.</p>"
+  },
+  {
+   "heading": "Why the Analysis Gets Revisited as the Deadline Approaches",
+   "html": "<p>A comp set pulled at day ten of the identification window can be stale by day forty if a comparable sale closes in the meantime or a competing buyer's offer resets pricing expectations in the submarket. We revisit the comp set before the identification letter is finalized and again before closing, rather than treating the first pull as good for the life of the exchange.</p><p>That refresh matters most in a fast-moving San Diego submarket, where a single closed sale can shift the reasonable price range for every other candidate in the same corridor within a matter of weeks.</p><p>Ask any provider handing you a comp set when it was last updated relative to the date on the report, since a set that is several weeks old in a fast-moving submarket may already be describing a market that has since moved.</p><p>A dated report is not necessarily useless, but it should be treated as a starting point for a fresh check rather than a final number to negotiate from, especially when the identification deadline is still weeks away and conditions can shift before a decision has to be made.</p><p>Building in a refresh checkpoint before the letter is finalized costs little time and protects against making a final identification decision on numbers that were accurate weeks earlier but no longer reflect current conditions.</p><p>Investors comparing two providers' comp work should ask directly how each one handles this refresh step, since a provider who treats the first pull as final is offering a narrower service than one who checks the numbers again before it matters.</p><p>That single question tends to separate a comp report treated as a one-time deliverable from one treated as a living reference that actually supports the decision through closing.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why isn't a generic comps report from a national database enough for a San Diego property?",
+   "a": "Because it often blends unrelated submarkets, like Sorrento Valley lab space and Kearny Mesa flex, that trade on completely different tenant demand and rent structures despite sharing a general property type label."
+  },
+  {
+   "q": "How do you handle a comp that involved unusual seller concessions?",
+   "a": "It gets flagged and explained separately rather than folded into an average, since including it unadjusted would distort the price-per-square-foot range for the actual submarket."
+  },
+  {
+   "q": "Does coastal multifamily need a different comp approach than inland multifamily?",
+   "a": "Yes. AB 1482 rent caps affect achievable rent growth on coastal properties differently than on inland multifamily with more rent flexibility, which changes how comparable sales should be read."
+  },
+  {
+   "q": "Is a comparable analysis the same as an appraisal?",
+   "a": "No. It supports the identification and financing conversation, but a licensed appraiser's formal valuation is still required for lending purposes."
+  },
+  {
+   "q": "What submarket boundaries matter most for San Diego industrial comps?",
+   "a": "Border-adjacent corridors near Otay Mesa trade on logistics and trade-zone access, while inland flex space trades more on general business-park demand, so pulling comps across both without adjustment understates or overstates value depending on which side you're on."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 856
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "180-day-closing-coordination",
+ "taxonomy": "services",
+ "title": "180-Day Closing Coordination",
+ "name": "180-Day Closing Coordination",
+ "metaTitle": "180-Day Closing Coordination in San Diego, CA",
+ "metaDescription": "San Diego 180-day closing coordination that covers what flat-fee quotes often skip: clearance handoffs, lab buildout items, and border account transfers.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Ask five closing-coordination providers in San Diego for a flat fee and you'll get five numbers that all sound reasonable until you compare what's actually included. The 180-day deadline itself doesn't bend: it's fixed to the day the relinquished property closes, and it runs in tandem with the 45-day identification clock rather than picking up once that window ends. What happens between those two dates, a security-clearance handoff on a defense-adjacent lease, a lab buildout punch list in Torrey Pines, a delayed account transfer at the border, is where a bare-bones quote quietly stops covering the work.</p>"
+  },
+  {
+   "heading": "The Line Item Most Border-Area Quotes Skip: A Federal Clearance Handoff",
+   "html": "<p>A San Diego closing near the border or adjacent to Navy and defense-contractor space isn't only a real estate transaction. If the relinquished property's tenant holds a facility security clearance or handles export-controlled equipment, transferring operational responsibility to a new owner can require sign-off from a security officer rather than only a signature on an estoppel certificate. That step doesn't show up on a generic closing checklist, and it doesn't move at the same speed as a title company's timeline.</p><p>We build that handoff into the closing calendar from the start rather than discovering it exists two weeks before the deadline. A provider quoting a flat fee for closing coordination without asking whether the tenant is defense-adjacent is quoting a price for a simpler deal than the one actually in front of them.</p>"
+  },
+  {
+   "heading": "Lab Space Around Torrey Pines and UTC Closes on the Lab's Timeline, Not the Exchange's",
+   "html": "<p>Biotech and life-science buildings around Torrey Pines and UTC carry mechanical systems, fume hood exhaust, emergency generator capacity, specialized waste handling, that a standard property inspection doesn't fully capture. A tenant improvement punch list on lab space routinely runs longer than an office or retail closing, and a county sign-off on a mechanical permit can land later than either side expects.</p><p>None of that changes the 180-day deadline. It does mean an exchange involving lab space needs its inspection and permit timeline built backward from day 180, rather than assumed to fit inside whatever window is left once the identification period ends.</p>"
+  },
+  {
+   "heading": "What We Confirm Before the Border, the Coast, and the Lender Are All Moving at Once",
+   "html": "<p>A weekly check keeps the pieces from colliding, particularly on a deal that touches more than one kind of asset:</p><ul><li>Title report on both properties cleared of open exceptions before the final ten days</li><li>CBP or foreign-trade-zone account transfer confirmed for any Otay Mesa industrial property, since that paperwork runs on its own timeline</li><li>AB1482 rent-cap disclosure and current rent roll confirmed for any coastal multifamily property changing hands</li><li>Lender payoff figure and final approval letter reconciled against the settlement statement</li><li>Prop 13 reassessment notice timing flagged for the buyer's side so it isn't mistaken for an exchange problem</li><li>The identification letter's own deadline confirmed against whatever the closing date has shifted to, not the date first quoted</li></ul>"
+  },
+  {
+   "heading": "AB1482's Rent Cap Leaves Coastal Owners With Fewer Real Backup Candidates",
+   "html": "<p>A multifamily property on the coast bought subject to AB1482's rent cap trades differently than an uncapped building inland, and that thinner pool of comparable buyers and sellers means a backup identified property is harder to line up than it looks on paper. An owner who assumes a second coastal candidate is just as available as the first one is often working from stale listing data.</p><p>We ask early whether an owner's backup is a genuine, financeable option or a name added to the identification letter to satisfy the paperwork. In a market where cap-rate-sensitive buyers are already thin for rent-capped product, a real fallback usually means looking inland or at a different asset class rather than assuming a second coastal deal will be there.</p>"
+  },
+  {
+   "heading": "If a Border Delay or a Lab Item Surfaces in the Final Two Weeks",
+   "html": "<p>A stalled CBP account transfer, a lab mechanical item that fails final inspection, or a defense tenant's clearance sign-off running past its expected date doesn't have to sink the exchange, but it forces a real decision quickly: push the closing date within what the contract allows, escrow a holdback, or fall back to a second identified property if one is genuinely ready to close. If nothing closes by day 180, the funds held by the qualified intermediary become part of a failed exchange, and the deferred gain is taxable for the year the relinquished property sold.</p><p>There's no standing extension for a border delay, a permit backlog, or a slow security review, no matter how routine that delay is in this particular market. Confirm any late-stage timing question directly with a qualified intermediary and tax advisor rather than assuming local bottlenecks count as an exception.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What actually determines the 180-day deadline on a San Diego exchange?",
+   "a": "The closing date of the relinquished property sets the deadline, and it runs in calendar days alongside the 45-day identification window rather than after it. Nothing about the replacement property's location or asset type changes that calculation."
+  },
+  {
+   "q": "Does a security clearance transfer on a defense-adjacent lease delay the exchange deadline?",
+   "a": "No, the IRS deadline doesn't move for it, but the operational handoff can still take longer than a standard estoppel process. Build that step into the closing calendar early rather than treating it as a same-week formality."
+  },
+  {
+   "q": "Why would a flat-fee quote not cover a lab space closing in Torrey Pines?",
+   "a": "Most flat fees are priced against a standard office or retail closing. Lab space carries mechanical and permit items that take longer to clear, and a provider who hasn't asked about the asset type is likely pricing the wrong job."
+  },
+  {
+   "q": "Is there any flexibility in the 180 days for a border-related delay?",
+   "a": "Not routinely. Relief has, in practice, only followed a federally declared disaster, not a local processing timeline at the border or a permitting office. Confirm any specific situation with a qualified intermediary and tax advisor before assuming otherwise."
+  },
+  {
+   "q": "How does AB1482 affect finding a backup property on the coast?",
+   "a": "It narrows the pool of buyers willing to take on a rent-capped asset, which means a coastal backup candidate needs to be verified as genuinely financeable rather than assumed to exist just because it's listed."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 968
+}

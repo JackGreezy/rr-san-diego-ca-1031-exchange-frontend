@@ -1,0 +1,58 @@
+{
+ "slug": "reverse-exchange-coordination",
+ "taxonomy": "services",
+ "title": "Reverse Exchange Coordination",
+ "name": "Reverse Exchange Coordination",
+ "metaTitle": "Reverse Exchange Coordination in San Diego, CA",
+ "metaDescription": "Reverse exchange coordination in San Diego covers the exchange accommodation titleholder structure, lender comfort, and the deadlines a rushed quote skips.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A reverse exchange gets pitched as the fix for San Diego's tight inventory: buy the replacement first, sell the relinquished property after. That pitch is accurate, but a quote that stops there is skipping the part that actually determines whether the structure holds up &mdash; who holds title to the parked property while the sale side catches up, and whether a lender will even go along with it.</p>"
+  },
+  {
+   "heading": "Why San Diego's Market Pushes Exchangers Toward Reverse Structures",
+   "html": "<p>Good replacement properties in San Diego's tighter asset classes &mdash; multifamily, medical office, well-located retail &mdash; don't sit on the market long enough to guarantee one will still be available once a relinquished property closes and the 45-day clock starts running. A reverse exchange lets an investor secure that replacement property first, parking it with an exchange accommodation titleholder until the relinquished property sells, which removes the risk of losing a good building while waiting on a buyer.</p>"
+  },
+  {
+   "heading": "The Parking Structure Most Quotes Gloss Over",
+   "html": "<p>In a reverse exchange, an exchange accommodation titleholder, generally an entity set up by the qualified intermediary, holds legal title to either the replacement property or the relinquished property for up to 180 days while the other side of the transaction is completed. Confirm exactly which property will be parked, since that choice affects financing, insurance, and who's responsible for operating the property during the parking period &mdash; details a quick verbal pitch tends to skip entirely.</p><p>The choice of which side to park generally comes down to which property is ready to close first and which one carries financing that's easier to arrange under the accommodation structure, and that decision should be made with input from a lender familiar with San Diego reverse exchanges, not defaulted to whichever side the intermediary finds simpler to document.</p>"
+  },
+  {
+   "heading": "What to Confirm Before Committing to a Reverse Structure",
+   "html": "<p>Check these points before signing a qualified exchange accommodation agreement, since any one of them left unresolved can turn a reverse exchange into an expensive mess.</p><ul><li>Which lenders in San Diego will actually finance a property titled to an accommodation titleholder rather than the exchanger directly</li><li>Insurance and property management responsibility during the parking period, and who carries that cost</li><li>The 45-day identification requirement for the relinquished property, which still applies even though the replacement is already secured</li><li>The full 180-day outside limit for completing both sides of the exchange, not only the purchase side</li><li>Additional accommodation titleholder fees beyond the standard qualified intermediary fee</li></ul>"
+  },
+  {
+   "heading": "Lender Comfort Is the Real Bottleneck",
+   "html": "<p>Financing a property held by an accommodation titleholder is more complicated than a standard purchase loan, and not every lender active in San Diego is set up to handle that structure without extra documentation, a higher rate, or a shorter timeline for unwinding the arrangement. Confirm financing terms before committing to a reverse structure rather than assuming any lender who quoted a standard purchase loan will handle the parked-title version the same way.</p><p>Some San Diego lenders will only finance a reverse structure if the exchanger personally guarantees the loan alongside the accommodation titleholder entity, which changes the risk profile of the deal even though the ownership structure looks similar to a standard purchase on paper.</p>"
+  },
+  {
+   "heading": "Keeping the Relinquished-Side Deadline From Getting Lost",
+   "html": "<p>Because the replacement property is already secured in a reverse exchange, it's easy to treat the relinquished property sale as the less urgent half of the transaction, but the 45-day identification requirement on that side still applies and the 180-day outside limit still runs. Coordinate closely with the qualified intermediary on both timelines at once, and confirm the final tax treatment of the structure with a tax advisor before relying on it.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is an exchange accommodation titleholder?",
+   "a": "It's generally an entity set up by the qualified intermediary that holds legal title to either the replacement or relinquished property during a reverse exchange, for up to 180 days, while the other side of the transaction is completed. The exchanger doesn't hold title to the parked property directly during that period."
+  },
+  {
+   "q": "Why would I use a reverse exchange instead of a standard forward exchange in San Diego?",
+   "a": "Good replacement properties in tighter San Diego asset classes can sell quickly, so a reverse exchange lets an investor secure the replacement first rather than risk losing it while waiting for the relinquished property to sell. It trades that risk for added structural complexity."
+  },
+  {
+   "q": "Will any lender finance a property held by an accommodation titleholder?",
+   "a": "Not every lender active in San Diego is set up for that structure, and financing it can require additional documentation, different rate terms, or a shorter timeline for unwinding the title arrangement. Confirm financing specifically for the reverse structure before relying on standard purchase loan terms."
+  },
+  {
+   "q": "Does the 45-day identification rule still apply in a reverse exchange?",
+   "a": "Yes, the relinquished property still needs to be identified within 45 days even though the replacement property is already secured through the accommodation titleholder. That deadline is easy to overlook because the purchase side feels already handled."
+  },
+  {
+   "q": "Who is responsible for the parked property during the reverse exchange period?",
+   "a": "Insurance and property management responsibility during the parking period should be spelled out in the qualified exchange accommodation agreement before closing, since it isn't automatically the exchanger's responsibility just because they're the intended eventual owner. Confirm this in writing rather than assuming."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 852
+}

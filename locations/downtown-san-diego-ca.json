@@ -1,0 +1,58 @@
+{
+ "slug": "downtown-san-diego-ca",
+ "taxonomy": "locations",
+ "title": "Downtown San Diego",
+ "name": "Downtown San Diego",
+ "metaTitle": "Downtown San Diego in San Diego, CA",
+ "metaDescription": "1031 exchange coordination for Downtown San Diego office towers, Port tideland leaseholds, and coastal high-rise multifamily near the Bayfront and Convention Center.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Downtown San Diego holds three ownership structures under one skyline, and a quote that treats them as interchangeable is missing the part that actually matters. Fee-simple office towers, Port of San Diego tideland leaseholds along the Bayfront, and redevelopment-era ground leases inherited from the old CCDC parcels each carry a different diligence path, and an investor identifying a downtown replacement property needs to know which one they are underwriting before the 45-day window gets tight.</p>"
+  },
+  {
+   "heading": "Three Ownership Structures, One Skyline",
+   "html": "<p>A broker's flyer will often quote cap rate and square footage and leave the ownership structure for the fine print, which is backwards for a downtown parcel. The realistic categories an identification list draws from are:</p><ul><li>fee-simple office towers along Broadway and the Columbia district</li><li>Port of San Diego tideland leasehold parcels near the Bayfront and Navy Broadway Complex</li><li>legacy redevelopment-agency ground leases carried over from the former CCDC footprint</li><li>coastal high-rise multifamily condominium and rental towers in Marina and Cortez Hill</li><li>hospitality and tourism-retail leaseholds tied to the Convention Center corridor</li></ul><p>Each of these trades on a different basis, and a downtown identification that lumps them together is guessing rather than underwriting.</p>"
+  },
+  {
+   "heading": "The Leasehold Term a Rushed Quote Skips",
+   "html": "<p>Post-2018 like-kind rules generally require a leasehold to run thirty years or more, counting renewal options, before it is treated as real property for exchange purposes. A tideland ground lease with an unclear remaining term is not a straightforward drop-in replacement, and a buyer should confirm the actual years left, not the years originally granted, before adding a Bayfront leasehold to a three-property identification list. Providers who quote a cap rate on a leasehold parcel without stating the remaining term up front are leaving out the one number that decides whether the deal even qualifies.</p><p>A qualified intermediary coordinating a downtown closing should flag this early, since fixing a leasehold-term problem after the 45-day window closes is not something documentation can fix later.</p>"
+  },
+  {
+   "heading": "Hospitality Retail Runs on a Different Clock",
+   "html": "<p>Ground-floor retail and hotel-adjacent commercial space near the Convention Center often carries percentage-rent structures tied to tourism volume rather than flat base rent, and that swings with convention calendars and cruise-season traffic in a way flat-rent office space does not. An investor comparing a downtown hospitality-retail replacement against a suburban net-lease property should ask for at least a few years of gross-sales history behind the percentage rent instead of relying on the current in-place minimum alone, before treating the number on the flyer as a stable baseline. A quote that reports only the minimum rent is reporting the least useful number on the page.</p>"
+  },
+  {
+   "heading": "Rent Caps and the Reassessment Bill Together",
+   "html": "<p>Most downtown apartment towers built before the statewide cap took effect fall under AB 1482's rent-increase limits, and a rent roll pulled without checking each unit's coverage status is not one a lender should rely on. Separately, Proposition 13 reassessment at transfer means a long-held downtown building's tax bill can jump meaningfully once the new basis is set, and that new figure belongs in the year-one pro forma, not the seller's trailing tax bill. A quote that carries forward the current owner's property tax line without flagging reassessment is quietly understating the buyer's real carrying cost.</p>"
+  },
+  {
+   "heading": "Sequencing an Identification Around Thin Downtown Supply",
+   "html": "<p>Because so few downtown parcels change hands in a given cycle, it is common practice to pair a downtown identification with a second asset class elsewhere in the exchange to protect against financing or entitlement delays specific to older towers and leasehold parcels. A qualified intermediary who has actually closed a tideland leasehold before is worth more here than one who only handles fee-simple product, and an investor should ask that question directly rather than assume every intermediary quote covers the same scope of work.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does a Port of San Diego tideland leasehold qualify as like-kind replacement property?",
+   "a": "It can, but the remaining lease term matters. Current rules generally require thirty years or more remaining, counting renewal options, before a leasehold is treated as real property for exchange purposes, so the actual years left need to be confirmed rather than assumed from the original grant."
+  },
+  {
+   "q": "Does AB 1482 cap rent increases on every downtown apartment tower?",
+   "a": "Not automatically. Coverage depends on the building's age and a few statutory exemptions, so each unit's status should be checked individually before a downtown rent roll is used to underwrite a purchase."
+  },
+  {
+   "q": "How much should I expect a downtown property's tax bill to change after purchase?",
+   "a": "Long-held downtown buildings often carry an assessed value well under current market value, and Proposition 13 reassessment at transfer can raise the tax bill noticeably. That reassessed figure, not the seller's trailing bill, should drive the year-one budget."
+  },
+  {
+   "q": "Why does downtown hospitality retail use percentage rent instead of flat rent?",
+   "a": "Ground-floor retail near the Convention Center often ties rent to tourism and event volume, which moves with convention and cruise calendars. A buyer should review historical gross sales behind the percentage clause rather than treat the quoted minimum as a stable number."
+  },
+  {
+   "q": "Can this service confirm whether my Downtown San Diego property qualifies for a 1031 exchange?",
+   "a": "No. This service coordinates identification, documentation, and communication among an investor's advisors. Whether a specific property and transaction qualify is a determination made by the investor's CPA, tax attorney, and qualified intermediary."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 852
+}
