@@ -10,30 +10,53 @@ export const servicesData: ServiceItem[] = [
   {
     slug: "nnn-replacement-property-identification",
     name: "NNN Replacement Property Identification",
-    short: "Curated single tenant net lease lists aligned to your 45 day window.",
+    short: "Curated single tenant net lease lists aligned to your forty five day window.",
     route: "/services/nnn-replacement-property-identification",
     category: "Identification",
     description:
-      "We track active and off market single tenant deals nationwide and organize them by lease term, rent coverage, and credit quality. Every list references San Diego, CA exchange timelines so you stay compliant while sourcing across all 50 states.",
+      "A Section 1031 exchange defers, and does not eliminate, capital gains and depreciation recapture tax on the sale of qualifying real property, and the replacement property identification step is where most San Diego, CA exchanges succeed or stall. We track active and off market single tenant net lease deals nationwide and organize each candidate by lease term, rent coverage ratio, tenant credit quality, and remaining option periods so you can compare offerings on equal footing. Because California generally taxes capital gains as ordinary income at the state level in addition to federal tax, San Diego, CA sellers carrying substantial appreciation often have the most to protect if the identification window closes without a workable list in hand. We build shortlists that respect the identification rule you are using, whether that is the three property rule, the two hundred percent rule, or the ninety five percent rule, and every candidate references the replacement value needed to avoid taxable boot from a downgrade in purchase price or debt. Every list we prepare cites current San Diego, CA lease comparables and cap rate context so out of state opportunities can be weighed against local benchmarks, and we flag zoning, lease assignment, and estoppel issues before they threaten your forty five day timeline.",
     heroImage: heroRetail,
-    tags: ["NNN", "Single Tenant", "Nationwide"],
-    workflows: ["Needs intake", "Inventory brief", "Letter of intent support"],
-    highlight: "Same day NNN shortlists tied to your equity amount.",
+    tags: ["NNN", "Single Tenant", "Nationwide", "Identification", "San Diego"],
+    workflows: [
+      "Intake call to document equity, debt payoff, and rent coverage targets",
+      "Same day pull of active and off market single tenant inventory",
+      "Credit and lease abstract review on every shortlisted candidate",
+      "Draft identification letter language for your Qualified Intermediary",
+      "Weekly refresh of the shortlist through day forty five",
+      "Backup candidate tracking in case a primary target falls out of contract",
+    ],
+    highlight:
+      "Same day NNN shortlists sized to your equity amount, with backups tracked through day forty five so a single fallout does not cost you the exchange.",
     faqs: [
       {
         question: "How do you tailor NNN lists to my exchange?",
         answer:
-          "We gather debt, equity, and rent goals during intake, then cross match those targets against active and shadow inventory tracked from San Diego, CA.",
+          "We gather debt payoff, equity, and target rent coverage during intake, then cross match those figures against active and shadow single tenant inventory tracked from San Diego, CA. Every candidate is checked against the replacement value your exchange needs to avoid boot, since taking on less debt or less value than the relinquished property typically triggers a partial tax bill even though the exchange remains valid.",
       },
       {
         question: "Do you cover coastal and inland metros?",
         answer:
-          "Yes, San Diego, CA investors receive candidates from primary, secondary, and tertiary metros so you can blend yield and credit strength.",
+          "Yes, San Diego, CA investors receive candidates from primary, secondary, and tertiary metros nationwide so you can blend yield and credit strength. Coastal San Diego, CA pricing runs tighter on cap rate than many inland or Sun Belt markets, and we generally show both so you can decide whether to trade yield for market depth or the reverse.",
       },
       {
-        question: "Can you keep me on pace for the 45 day deadline?",
+        question: "Can you keep me on pace for the forty five day deadline?",
         answer:
-          "We timestamp every drop, flag ready-to-tour assets, and keep a shared tracker so your San Diego, CA exchange stays inside the IRS window.",
+          "We timestamp every property drop, flag assets that are ready to tour immediately, and maintain a shared tracker so your San Diego, CA exchange stays inside the Internal Revenue Service window. The forty five days run on calendar days with no extension for weekends, holidays, or slow escrow response, so we generally recommend starting the search before the relinquished property even closes.",
+      },
+      {
+        question: "What happens if my preferred property falls through?",
+        answer:
+          "Property identified within the forty five days can generally be revoked and replaced in writing before the deadline expires, which is why we keep two or three backup candidates active on every San Diego, CA shortlist. Once the forty five days lapse the identification list is generally locked, so backups need to be qualified in advance rather than sourced after a fallout.",
+      },
+      {
+        question: "Do you coordinate directly with my Qualified Intermediary?",
+        answer:
+          "Yes, we share draft identification language, property addresses, and legal descriptions with your Qualified Intermediary so the written notice meets Internal Revenue Service requirements. We are not a Qualified Intermediary ourselves and do not hold exchange funds; we focus on sourcing and coordination for San Diego, CA investors.",
+      },
+      {
+        question: "Are DST or TIC interests included on the shortlist?",
+        answer:
+          "When a San Diego, CA investor wants a passive alternative, we can include Delaware Statutory Trust or tenant in common interests alongside fee simple candidates. A DST or TIC interest may be a security. We do not sell securities. We provide introductions to licensed providers only, and any allocation decision should be made with your own advisor.",
       },
     ],
   },
@@ -44,26 +67,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/stnl-retail-list-san-diego",
     category: "Retail",
     description:
-      "Retail investors receive branded convenience, pharmacy, fuel, and service retail options sized for San Diego, CA relinquished proceeds. We include rent bump notes, roof responsibilities, and store sales context.",
+      "Single tenant net lease retail remains one of the most liquid replacement categories for San Diego, CA exchangers because inventory turns quickly and lease terms are easy to compare across regions. We assemble branded convenience, pharmacy, quick service, fuel, and service retail options sized to match your relinquished proceeds, and every candidate includes rent bump schedules, roof and structure responsibilities, and store level sales context where it is available from the tenant or franchisor. Because California generally taxes capital gains as ordinary income rather than at a preferential rate, San Diego, CA investors exchanging out of appreciated coastal retail often prioritize replacement value certainty over speculative upside, and our lists are built around that preference. We benchmark every retail candidate against current San Diego, CA cap rates and rent per square foot figures so a Sun Belt or Midwest opportunity can be evaluated on the same basis as a local one, and we flag common area maintenance caps, co tenancy clauses, and remaining lease term before you commit identification days to a property.",
     heroImage: heroCoastal,
-    tags: ["Retail", "STNL", "San Diego"],
-    workflows: ["Tenant targeting", "Cap rate benchmarking", "Store performance pulls"],
-    highlight: "Retail replacements that keep tax deferral and income predictable.",
+    tags: ["Retail", "STNL", "San Diego", "Net Lease", "Identification"],
+    workflows: [
+      "Define target tenant category, rent bump structure, and lease term minimums",
+      "Screen local coastal and national retail inventory against those filters",
+      "Pull franchisor or corporate financial snapshots on shortlisted tenants",
+      "Benchmark asking cap rate against current San Diego, CA retail comps",
+      "Review roof, structure, and common area maintenance responsibilities",
+      "Package a comparison memo for your broker, attorney, and Qualified Intermediary",
+    ],
+    highlight:
+      "Retail replacements that keep tax deferral on track while giving San Diego, CA investors predictable, tenant funded income.",
     faqs: [
       {
         question: "Do you include new construction retail options near San Diego, CA?",
         answer:
-          "Yes, we surface local coastal ground up builds plus national portfolios so you can weigh brand strength against yield.",
+          "Yes, we surface local coastal ground up builds plus national retail portfolios so you can weigh brand strength against yield. New construction often carries a lower initial cap rate but longer remaining lease term, which some San Diego, CA investors prefer for long hold predictability.",
       },
       {
         question: "How detailed are your tenant write ups?",
         answer:
-          "Each San Diego, CA retail brief includes credit snapshots, corporate guarantees, and maintenance language from the lease form.",
+          "Each San Diego, CA retail brief includes credit snapshots, corporate guarantee language, store sales data when disclosed, and maintenance responsibilities pulled directly from the lease form. We flag any clauses that shift roof or structure risk to the landlord before you spend identification days evaluating the property.",
       },
       {
         question: "Can I mix local and out of state retail assets?",
         answer:
-          "We build blended identification lists so San Diego, CA investors can keep one asset nearby and chase yield elsewhere when needed.",
+          "We build blended identification lists under the three property rule or the two hundred percent rule so San Diego, CA investors can keep one asset nearby and chase yield elsewhere. Combining assets requires care, since the total identified value cannot exceed two hundred percent of the relinquished property value unless you plan to satisfy the ninety five percent acquisition rule instead.",
+      },
+      {
+        question: "How does replacement value affect my tax deferral?",
+        answer:
+          "To defer all recognized gain, San Diego, CA investors generally need to acquire replacement property equal to or greater in value than the relinquished property and reinvest all net proceeds, while also replacing any debt that was paid off at closing unless offset with additional cash. Buying down in price or debt typically creates boot, which is taxable even though the rest of the exchange remains valid.",
+      },
+      {
+        question: "What retail sectors perform best for coastal California exchangers?",
+        answer:
+          "We commonly see San Diego, CA investors favor pharmacy, dollar store, quick service, and essential service retail because these categories tend to hold occupancy through economic cycles. Discretionary retail categories can offer higher yield, and we present both so you can weigh income stability against return.",
+      },
+      {
+        question: "Do you charge for building the shortlist?",
+        answer:
+          "This is an example of the type of engagement we can handle for San Diego, CA investors; fee structure and scope are discussed directly during intake so there is no confusion once the forty five day clock begins running.",
       },
     ],
   },
@@ -74,26 +120,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/industrial-net-lease-scouting",
     category: "Industrial",
     description:
-      "We find shallow bay, last mile, truck court, and manufacturing assets with creditworthy occupants. Each package includes ceiling height, dock counts, and rent growth assumptions benchmarked to San Diego, CA logistics demand.",
+      "San Diego, CA sits inside one of the most supply constrained industrial corridors in the country, and coastal owners who exchange out of local industrial assets often struggle to reinvest at a comparable basis without leaving the region. We scout shallow bay, last mile, truck court, and light manufacturing assets nationwide with creditworthy occupants, and every package documents clear height, dock door count, trailer parking, power capacity, and rent growth assumptions benchmarked against current San Diego, CA logistics demand. Industrial leases vary widely in structure, from full triple net to modified gross with landlord responsibility for roof and structure, and we flag those distinctions early because they change both your net yield and your ongoing capital exposure. Because industrial replacement property must generally equal or exceed the value of the relinquished San Diego, CA asset to fully defer gain, we prioritize candidates where purchase price, debt assumption, and rent coverage all line up with your exchange math rather than simply presenting the highest advertised cap rate.",
     heroImage: heroNorth,
-    tags: ["Industrial", "Logistics", "NNN"],
-    workflows: ["Spec verification", "Operating expense study", "Tenant interview"],
-    highlight: "Industrial filters tuned for supply constrained coastal investors.",
+    tags: ["Industrial", "Logistics", "NNN", "Last Mile", "San Diego"],
+    workflows: [
+      "Confirm target clear height, dock ratio, and power specifications",
+      "Screen shallow bay, last mile, and manufacturing inventory nationwide",
+      "Verify tenant credit and lease guarantee structure",
+      "Study operating expense history and landlord versus tenant responsibilities",
+      "Coordinate broker tours and owner interviews on shortlisted assets",
+      "Confirm replacement value covers the relinquished San Diego, CA basis",
+    ],
+    highlight:
+      "Industrial filters tuned for supply constrained coastal investors who need replacement value, not just an advertised cap rate.",
     faqs: [
       {
         question: "Do you cover Southern California and interior markets?",
         answer:
-          "Yes, we compare San Diego, CA rent comps with Inland Empire, Phoenix, Dallas, and Midwest markets to match your return target.",
+          "Yes, we compare San Diego, CA rent comps with Inland Empire, Phoenix, Dallas, and Midwest industrial markets so you can match your return target. Coastal California industrial pricing generally trades at a premium to interior markets, so many exchangers accept a longer commute to logistics demand in exchange for a materially higher yield.",
       },
       {
         question: "Can you evaluate mission critical leases?",
         answer:
-          "We extract assignment clauses, expansion options, and maintenance splits so San Diego, CA buyers understand control points.",
+          "We extract assignment clauses, expansion options, renewal rights, and maintenance responsibility splits so San Diego, CA buyers understand where control sits before they identify the property. Mission critical tenants, such as regional distribution hubs, often negotiate stronger lease protections than a typical single tenant retailer, and those clauses affect resale value later.",
       },
       {
         question: "How fast can you set up property tours?",
         answer:
-          "Most industrial tours are scheduled within one week because we keep broker and owner introductions warm for San Diego, CA buyers.",
+          "Most industrial tours are scheduled within one week because we keep broker and owner introductions warm for San Diego, CA buyers working against a forty five day identification clock. Touring quickly matters most when a shortlisted asset has competing offers, which is common in constrained industrial submarkets.",
+      },
+      {
+        question: "What replacement value do I need to fully defer gain?",
+        answer:
+          "To defer all recognized gain, San Diego, CA investors generally need to acquire industrial replacement property equal to or greater in value than the relinquished asset and reinvest all net proceeds, while replacing debt that was paid off unless offset with additional cash. Buying a smaller or lower leverage asset typically creates boot that is taxable in the year of the exchange.",
+      },
+      {
+        question: "Do you evaluate build to suit or expansion land alongside stabilized assets?",
+        answer:
+          "Yes, some San Diego, CA investors pair a stabilized industrial building with a smaller expansion parcel identified under the two hundred percent rule, and we can model both paths so you understand the aggregate value ceiling before submitting identification.",
+      },
+      {
+        question: "How do you vet tenant financial strength?",
+        answer:
+          "We review available financial statements, Dun and Bradstreet or similar credit indicators, and corporate guarantee language, then summarize findings for San Diego, CA buyers in plain language. This is an example of the type of engagement we can handle; deeper underwriting support is coordinated with your lender and accountant.",
       },
     ],
   },
@@ -104,26 +173,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/medical-office-1031-matching",
     category: "Medical",
     description:
-      "We spotlight outpatient, dental, urgent care, and specialty clinics where leases deliver escalations, strong coverage, and minimal landlord duties. Each match references hospital systems that align with San Diego, CA demographics.",
+      "Medical office remains one of the more defensive replacement categories available to San Diego, CA exchangers because outpatient demand tends to hold through economic cycles and tenants generally build out space at their own expense. We spotlight outpatient clinics, dental groups, urgent care, and specialty practices where the lease delivers contractual rent escalations, strong rent coverage from the operator, and minimal landlord maintenance duties. Each match references nearby hospital systems and population growth data so San Diego, CA investors can judge whether local demographics support the tenant long term, and we compare that context against the target market for the replacement asset when it sits outside California. Because real property held for productive use in a trade, business, or investment generally qualifies as like kind to other real property under current law, a medical office building can replace almost any other qualifying commercial asset, which gives San Diego, CA investors flexibility to pivot into healthcare even if the relinquished property was retail, industrial, or multifamily.",
     heroImage: heroSouth,
-    tags: ["Medical Office", "Healthcare", "NNN"],
-    workflows: ["Physician credit review", "Equipment audit", "Healthcare compliance"],
-    highlight: "Healthcare assets with predictable rent and defensive demand.",
+    tags: ["Medical Office", "Healthcare", "NNN", "Outpatient", "San Diego"],
+    workflows: [
+      "Define target specialty, lease structure, and rent escalation minimums",
+      "Screen outpatient, dental, and specialty clinic inventory nationwide",
+      "Review physician or group guarantor financial statements",
+      "Confirm equipment ownership and landlord versus tenant maintenance duties",
+      "Flag healthcare regulatory or licensing considerations for counsel review",
+      "Benchmark asking terms against San Diego, CA medical office comps",
+    ],
+    highlight:
+      "Healthcare assets with predictable, escalating rent and demand that tends to hold up through economic cycles.",
     faqs: [
       {
         question: "Do you vet physician financials for San Diego, CA clients?",
         answer:
-          "Yes, we review guarantor statements and match them to lease obligations so you see real coverage numbers before offering.",
+          "Yes, we review guarantor statements, practice revenue where disclosed, and match them to lease obligations so you see real rent coverage before submitting an offer. A well capitalized single practitioner tenant carries different risk than a multi location group, and we present both profiles clearly.",
       },
       {
         question: "Can you source sale leasebacks with medical operators?",
         answer:
-          "We maintain a sale leaseback list that includes hospital affiliates and private practices, all benchmarked to San Diego, CA returns.",
+          "We maintain a sale leaseback list that includes hospital affiliates and private practices, all benchmarked to San Diego, CA return expectations. Sale leaseback transactions let an operator free up capital while giving a San Diego, CA exchanger a long term lease with a motivated, in place tenant.",
       },
       {
         question: "What about compliance risk?",
         answer:
-          "We flag Stark and anti kickback considerations and route San Diego, CA investors to healthcare counsel when the structure requires it.",
+          "We flag Stark Law and anti kickback statute considerations whenever a lease involves a referring physician group, and we route San Diego, CA investors to healthcare regulatory counsel before closing when the structure requires it. This is educational coordination only and not a substitute for legal review.",
+      },
+      {
+        question: "Does medical office qualify as like kind replacement property?",
+        answer:
+          "Generally yes. Under current law, real property held for investment or business use is considered like kind to other real property regardless of asset class, so San Diego, CA investors exchanging out of retail, industrial, or residential rental property can typically identify a medical office building as replacement property.",
+      },
+      {
+        question: "How do you handle tenant improvement or equipment ownership questions?",
+        answer:
+          "We confirm whether major medical equipment is owned by the tenant or the landlord, since fixtures tied to the building versus movable equipment can affect both operating expenses and future resale for San Diego, CA owners. Equipment owned outside the real property generally falls outside the scope of the exchange itself.",
+      },
+      {
+        question: "What lease term do you look for?",
+        answer:
+          "We generally favor remaining lease terms of ten years or longer with contractual escalations for San Diego, CA investors who want income predictability, though shorter term leases with strong renewal history can still make sense depending on your return target.",
       },
     ],
   },
@@ -134,56 +226,102 @@ export const servicesData: ServiceItem[] = [
     route: "/services/self-storage-exchange-targets",
     category: "Alternative",
     description:
-      "Storage remains recession resistant and simple to manage. We track institutional stabilized assets, regional operators, and ground up conversions so San Diego, CA exchangers can diversify beyond retail.",
+      "Self storage has grown into a mainstream replacement category because demand tends to hold up through economic downturns and operating costs are generally lower than multifamily or office. We track institutional grade stabilized facilities, regional operator portfolios, and conversion or ground up development sites so San Diego, CA exchangers can diversify beyond traditional retail and net lease assets without leaving the identification window exposed. Every profile includes unit mix, historical occupancy, rate growth trends, and a note on whether third party management is already in place, since a storage facility without an existing manager can be harder to operate passively from a distance. Because San Diego, CA storage rental rates rank among the highest in the country, some coastal owners exchange local storage gains into lower cost markets to capture a larger footprint, while others reinvest locally to keep the asset close to home; we build lists that support either strategy and size each candidate to typical coastal exchange proceeds.",
     heroImage: heroInland,
-    tags: ["Self Storage", "Value Add", "NNN"],
-    workflows: ["Rent roll scrub", "Unit mix review", "Management plan"],
-    highlight: "Storage opportunities sized to typical coastal exchange proceeds.",
+    tags: ["Self Storage", "Value Add", "NNN", "Alternative", "San Diego"],
+    workflows: [
+      "Confirm target facility size, class, and management preference",
+      "Screen stabilized, value add, and conversion storage inventory",
+      "Scrub trailing rent roll and unit mix data",
+      "Verify zoning and expansion potential against demand studies",
+      "Compare projected storage yield to San Diego, CA retail cap rates",
+      "Coordinate third party management introductions where needed",
+    ],
+    highlight:
+      "Storage opportunities sized to typical coastal exchange proceeds, with management already mapped out for passive ownership.",
     faqs: [
       {
         question: "Do you include third party management options?",
         answer:
-          "Yes, we connect San Diego, CA investors with ISS and REIT level managers so operations stay passive.",
+          "Yes, we connect San Diego, CA investors with regional and national storage managers so day to day operations can stay passive after closing. A facility already under professional management typically transitions with less disruption than one that was owner operated.",
       },
       {
         question: "What about expansion potential?",
         answer:
-          "Each profile lists zoning notes and coverage ratios next to San Diego, CA demand studies so you know if expansion is possible.",
+          "Each profile lists zoning notes, lot coverage ratios, and nearby demand studies next to San Diego, CA benchmarks so you know whether the site can support additional unit phases. Expansion potential can materially change long term returns even when the in place cap rate looks similar to a stabilized facility.",
       },
       {
         question: "Can you compare cap rates versus STNL retail?",
         answer:
-          "We benchmark storage yields next to current San Diego, CA retail cap rates so you can quantify the spread.",
+          "We benchmark storage yields next to current San Diego, CA net lease retail cap rates so you can quantify the spread and decide which asset class fits your risk tolerance and management appetite. Storage often trades at a modest premium to credit tenant retail to compensate for month to month tenancy risk.",
+      },
+      {
+        question: "Does self storage qualify as like kind for a 1031 exchange?",
+        answer:
+          "Yes, self storage facilities are real property held for investment or business use, which generally makes them like kind to any other qualifying real estate a San Diego, CA investor is relinquishing, including retail, multifamily, or industrial property.",
+      },
+      {
+        question: "How do you handle facilities with a retail component, such as truck rental or a kiosk?",
+        answer:
+          "We flag any ancillary retail or truck rental income separately so San Diego, CA investors and their tax advisor can confirm how that income and any related personal property is treated for exchange purposes.",
+      },
+      {
+        question: "What if I want to add storage to a larger identification list?",
+        answer:
+          "Self storage pairs well with other candidates under the two hundred percent rule, and we can model a blended list for San Diego, CA investors who want both a stabilized net lease asset and a higher yield storage facility inside the same exchange.",
       },
     ],
   },
   {
     slug: "multifamily-dst-placement",
     name: "Multifamily DST Placement",
-    short: "Match exchange proceeds to institutional multifamily DST offerings.",
+    short: "Match exchange proceeds to institutional multifamily Delaware Statutory Trust offerings.",
     route: "/services/multifamily-dst-placement",
     category: "DST",
     description:
-      "When investors prefer securities, we introduce DST sponsors through licensed partners. Expect San Diego, CA compliant suitability screens, sponsor due diligence, and a clear explanation of fees and hold periods.",
+      "A Delaware Statutory Trust, generally referred to as a DST, allows a San Diego, CA investor to hold a fractional, passive interest in institutional grade multifamily real estate while still qualifying as like kind replacement property under Revenue Ruling 2004 86 guidance. A DST or TIC interest may be a security. We do not sell securities. We provide introductions to licensed providers only, and any DST sponsor introduction is made through a properly licensed broker dealer or registered representative who handles suitability review. When a San Diego, CA investor prefers to step away from active property management, whether due to age, health, or simply wanting predictable distributions without landlord duties, we help introduce multifamily DST offerings sized to fit remaining exchange proceeds, and we walk through sponsor track record, leverage level, hold period, and fee structure in plain language before any suitability conversation with a licensed representative begins.",
     heroImage: heroRetail,
-    tags: ["DST", "Multifamily", "Passive"],
-    workflows: ["Suitability prep", "Sponsor comparison", "Allocation plan"],
-    highlight: "DST pathways that complement direct fee simple holdings.",
+    tags: ["DST", "Multifamily", "Passive", "Securities", "San Diego"],
+    workflows: [
+      "Discuss passive ownership goals and remaining exchange proceeds",
+      "Introduce licensed representatives who handle DST suitability review",
+      "Compare sponsor track record, leverage, and target hold period",
+      "Review fee structure and distribution assumptions in plain language",
+      "Coordinate document delivery timelines against your forty five day window",
+      "Plan allocation between DST interests and any direct fee simple assets",
+    ],
+    highlight:
+      "DST pathways that complement direct fee simple holdings for San Diego, CA investors who want passive, professionally managed income.",
     faqs: [
       {
         question: "Do you sell securities?",
         answer:
-          "We do not sell securities. Instead we connect San Diego, CA investors with licensed representatives and stay focused on education and coordination.",
+          "We do not sell securities. Instead we connect San Diego, CA investors with licensed representatives and registered broker dealers who handle suitability and offering documents, and we stay focused on education, timeline coordination, and sponsor comparison.",
       },
       {
         question: "How do you vet DST sponsors?",
         answer:
-          "We share third party research, prior performance references, and regulatory disclosures so San Diego, CA buyers can make informed decisions.",
+          "We share third party research, sponsor track record on prior offerings, and available regulatory disclosures so San Diego, CA buyers can make informed decisions before speaking with a licensed representative. Final suitability determination is made by the licensed provider, not by our team.",
       },
       {
         question: "What if I split funds between DST and fee simple?",
         answer:
-          "We help allocate equity between DST tranches and direct NNN deals while keeping the aggregate San Diego, CA exchange compliant.",
+          "We help San Diego, CA investors plan an allocation between DST tranches and direct net lease or multifamily deals while keeping the aggregate exchange identification compliant under the three property, two hundred percent, or ninety five percent rule, whichever applies to the full list.",
+      },
+      {
+        question: "Why would an investor choose a DST over direct ownership?",
+        answer:
+          "San Diego, CA investors often choose a DST to remove landlord duties, gain access to institutional grade multifamily assets below the minimum check size required for direct ownership, or simplify estate planning by holding a fractional interest instead of a whole property.",
+      },
+      {
+        question: "Are DST distributions guaranteed?",
+        answer:
+          "No distributions or investment outcomes are guaranteed, and DST offerings carry sponsor, leverage, and market risk like any other real estate investment. San Diego, CA investors should review offering documents and risk factors directly with a licensed representative before committing exchange proceeds.",
+      },
+      {
+        question: "Can a DST interest later exchange into another property?",
+        answer:
+          "In many cases a DST interest can later be exchanged into another qualifying replacement property or another DST offering, though timing and sponsor specific terms vary. San Diego, CA investors should confirm exit mechanics with the licensed representative and sponsor before investing.",
       },
     ],
   },
@@ -194,26 +332,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/drive-thru-qsr-sale-leaseback",
     category: "Retail",
     description:
-      "Quick service restaurants remain a staple for San Diego, CA investors. We surface corporate and franchise sale leasebacks with transparent rent coverage, remodel schedules, and brand performance data.",
+      "Quick service restaurant real estate with a drive thru component remains one of the most consistently traded replacement categories for San Diego, CA net lease investors because the underlying operators tend to sign long, corporately guaranteed leases with built in rent escalations. We surface corporate and franchise sale leaseback opportunities where the operator sells the real estate and immediately signs back as tenant, giving San Diego, CA buyers transparent rent coverage ratios, remodel or prototype upgrade schedules, and store level sales context where the franchisor or operator discloses it. Sale leaseback transactions can move quickly once a term sheet is agreed, which fits well against a forty five day identification window, but they also require careful review of assignment language and personal versus corporate guarantee structure before you rely on the property to complete your exchange. We track drive thru pricing against San Diego, CA coastal retail land values so investors can judge whether a national QSR banner replacement makes more sense than staying local.",
     heroImage: heroCoastal,
-    tags: ["QSR", "Sale Leaseback", "Drive Thru"],
-    workflows: ["Franchise diligence", "Remodel planning", "Lease drafting"],
-    highlight: "Proactive sale leaseback sourcing with national QSR banners.",
+    tags: ["QSR", "Sale Leaseback", "Drive Thru", "Retail", "San Diego"],
+    workflows: [
+      "Screen corporate and franchise sale leaseback pipelines nationwide",
+      "Review franchise agreement and guarantee structure with counsel",
+      "Collect trailing twelve month sales and rent coverage data",
+      "Confirm remodel or prototype upgrade obligations under the lease",
+      "Draft and negotiate the sale leaseback lease terms",
+      "Benchmark pricing against San Diego, CA retail land values",
+    ],
+    highlight:
+      "Proactive sale leaseback sourcing with national QSR banners, vetted for rent coverage before you spend identification days.",
     faqs: [
       {
         question: "Do you work with franchise counsel?",
         answer:
-          "Yes, we loop in franchise counsel when San Diego, CA buyers need clarity on assignment rights and personal guarantees.",
+          "Yes, we loop in franchise counsel when San Diego, CA buyers need clarity on assignment rights, personal guarantees, and franchisor approval requirements. Franchise agreements often restrict who can hold the lease, which affects how quickly a sale leaseback can close.",
       },
       {
         question: "How do you confirm store level sales?",
         answer:
-          "We collect trailing twelve merchandising reports and POS data so San Diego, CA investors can verify rent coverage.",
+          "We collect trailing twelve month sales reports and point of sale data where the operator or franchisor discloses it, so San Diego, CA investors can verify rent coverage before making an offer rather than relying on the asking cap rate alone.",
       },
       {
         question: "Can I roll multiple QSRs into one exchange?",
         answer:
-          "We structure multi asset identification lists so San Diego, CA exchangers can combine several stores and still stay inside the three property or 200 percent rules.",
+          "We structure multi asset identification lists so San Diego, CA exchangers can combine several drive thru stores and still stay inside the three property rule or the two hundred percent rule, whichever fits the combined value of the relinquished property.",
+      },
+      {
+        question: "Is a sale leaseback different from buying an existing net lease store?",
+        answer:
+          "Yes, in a sale leaseback the current operator is selling the real estate and signing a fresh lease at closing, while an existing net lease purchase involves an assumed lease already in place. San Diego, CA investors sometimes prefer sale leasebacks because lease terms can be negotiated fresh to match exchange timing.",
+      },
+      {
+        question: "What corporate guarantee should I look for?",
+        answer:
+          "We generally prioritize leases backed by a corporate guarantee from the parent franchisor or a well capitalized multi unit operator rather than a single store personal guarantee, since corporate backing typically provides stronger downside protection for San Diego, CA investors.",
+      },
+      {
+        question: "How does this affect my identification timeline?",
+        answer:
+          "Sale leaseback transactions can close quickly once terms are agreed, which helps San Diego, CA exchangers working against the forty five day identification and one hundred eighty day closing deadlines, though we still recommend building backup candidates in case a specific deal stalls in due diligence.",
       },
     ],
   },
@@ -224,26 +385,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/ground-lease-outparcel-sourcing",
     category: "Land",
     description:
-      "We identify bank pad, grocery outparcel, and coastal mixed use ground leases that deliver predictable income with minimal landlord duties. Every candidate is compared against San Diego, CA land valuations.",
+      "A ground lease separates land ownership from the building on top of it, and the tenant generally funds and owns the improvements for the lease term, which leaves a San Diego, CA landowner with a simple, low maintenance income stream and less exposure to physical building risk. We identify bank pad, grocery outparcel, and coastal mixed use ground lease opportunities nationwide that deliver predictable, often long term income with minimal landlord duties, and every candidate is compared against current San Diego, CA land valuations so you can judge whether a distant parcel offers a genuine yield advantage or simply reflects a less liquid market. Ground leases generally qualify as an interest in real property for exchange purposes when the lease term, including renewal options, runs thirty years or longer, which is a distinction we flag on every candidate since a shorter ground lease may not meet that threshold. We also model rent reset mechanics, since many ground leases step up on a fixed schedule or tie to appraisal rather than a simple percentage bump.",
     heroImage: heroNorth,
-    tags: ["Ground Lease", "Land", "Passive"],
-    workflows: ["Title review", "Rent reset modeling", "Tenant interview"],
-    highlight: "Land control strategies for investors who want hands off income.",
+    tags: ["Ground Lease", "Land", "Passive", "Outparcel", "San Diego"],
+    workflows: [
+      "Screen bank pad, grocery outparcel, and mixed use ground leases",
+      "Confirm lease term, including renewal options, meets exchange criteria",
+      "Review title, easements, and reciprocal easement agreements",
+      "Model rent reset mechanics and step up timing",
+      "Coordinate Phase I or Phase II environmental review where needed",
+      "Compare candidate pricing against San Diego, CA land valuations",
+    ],
+    highlight:
+      "Land control strategies for San Diego, CA investors who want hands off income and lower exposure to building level risk.",
     faqs: [
       {
         question: "Are rent resets modeled?",
         answer:
-          "Yes, each package includes rent reset math so San Diego, CA investors understand step ups tied to CPI or appraisals.",
+          "Yes, each package includes rent reset math so San Diego, CA investors understand step ups tied to a fixed schedule, the Consumer Price Index, or a periodic appraisal, since the reset mechanism materially affects long term yield.",
       },
       {
         question: "Can you cover environmental diligence?",
         answer:
-          "We coordinate with consultants for Phase I or II studies whenever a San Diego, CA investor wants additional comfort.",
+          "We coordinate with third party consultants for Phase I or Phase II environmental studies whenever a San Diego, CA investor wants additional comfort before identification, particularly on older gas station or industrial adjacent pads.",
       },
       {
         question: "Do you source coastal and inland pads?",
         answer:
-          "We monitor prime coastal pads plus suburban parcels so San Diego, CA exchangers can diversify geography while keeping similar lease structures.",
+          "We monitor prime coastal pads plus suburban and inland parcels so San Diego, CA exchangers can diversify geography while keeping similar low maintenance lease structures across the portfolio.",
+      },
+      {
+        question: "Does a ground lease qualify as like kind replacement property?",
+        answer:
+          "A ground lease with a term, including renewal options, of thirty years or longer is generally treated as an interest in real property that can qualify as like kind replacement for a San Diego, CA investor's relinquished property. Shorter term ground leases may not meet this threshold, so we confirm lease term before recommending a candidate for identification.",
+      },
+      {
+        question: "Who owns the improvements during the lease term?",
+        answer:
+          "In most ground lease structures the tenant funds, owns, and depreciates the improvements during the lease term, with ownership typically reverting to the landlord at expiration under terms defined in the ground lease, which San Diego, CA investors should review carefully with counsel.",
+      },
+      {
+        question: "How liquid is a ground lease if I want to sell later?",
+        answer:
+          "Ground leases with strong credit tenants and clear rent reset mechanics generally trade well, though the buyer pool is narrower than for a standard fee simple net lease asset, which San Diego, CA investors should weigh against the passive income benefit.",
       },
     ],
   },
@@ -254,26 +438,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/zero-cash-flow-bridge",
     category: "Financing",
     description:
-      "Zero cash flow assets help investors satisfy debt replacement or estate planning asks. We flag corporately guaranteed bonds, telecom nodes, and distribution centers that match San Diego, CA leverage requirements.",
+      "A zero cash flow property is financed with debt sized so that the loan payment consumes essentially all of the rent, which produces little or no current income but can help a San Diego, CA investor satisfy the debt replacement requirement of a Section 1031 exchange without deploying additional cash. To fully defer gain, an exchanger generally needs to replace both the equity and the debt that were tied to the relinquished property, or add cash to make up any shortfall, and a heavily leveraged zero cash flow asset can solve that math for investors who sold a highly leveraged San Diego, CA property. We flag corporately guaranteed bond lease structures, telecom node ground leases, and distribution center sale leasebacks that fit this profile, and we coordinate with tenant in common structures when an investor wants to split a larger zero cash flow asset among multiple exchange participants. These structures carry meaningful long term financing risk and are generally suited to sophisticated investors working closely with a tax advisor and lender.",
     heroImage: heroRetail,
-    tags: ["Zero Cash Flow", "Debt", "Planning"],
-    workflows: ["Debt sizing", "Trust coordination", "TIC introductions"],
-    highlight: "Structured solutions for high leverage replacement needs.",
+    tags: ["Zero Cash Flow", "Debt", "Planning", "TIC", "San Diego"],
+    workflows: [
+      "Confirm relinquished property debt and equity to be replaced",
+      "Screen corporately guaranteed bond lease and zero cash flow candidates",
+      "Coordinate with lenders experienced in zero cash flow underwriting",
+      "Review amortization, defeasance, and prepayment terms",
+      "Evaluate tenant in common splits for larger assets",
+      "Model blended debt replacement across the full identification list",
+    ],
+    highlight:
+      "Structured solutions for San Diego, CA investors who need to replace significant debt without adding new cash to the exchange.",
     faqs: [
       {
         question: "Do you coordinate with lenders?",
         answer:
-          "We bring in lenders familiar with zero cash flow underwriting so San Diego, CA timelines stay intact.",
+          "We bring in lenders familiar with zero cash flow underwriting so San Diego, CA timelines stay intact, since these loans require specialized structuring around the bond lease credit and amortization schedule rather than a standard commercial mortgage.",
       },
       {
         question: "Can this be paired with DST interests?",
         answer:
-          "Yes, we help San Diego, CA investors blend zero cash flow bonds with DST or fee simple slices to balance cash flow.",
+          "Yes, we help San Diego, CA investors blend zero cash flow bond lease assets with Delaware Statutory Trust interests or direct fee simple slices to balance overall cash flow across the exchange. A DST or TIC interest may be a security. We do not sell securities. We provide introductions to licensed providers only.",
       },
       {
         question: "How transparent is the amortization schedule?",
         answer:
-          "We break down amortization and defeasance language using plain English so San Diego, CA exchangers know the exit path.",
+          "We break down amortization, interest rate, and defeasance or prepayment language in plain English so San Diego, CA exchangers understand the exit path and what happens if the property is sold or refinanced before the loan matures.",
+      },
+      {
+        question: "Why would an investor choose a zero cash flow asset?",
+        answer:
+          "San Diego, CA investors typically choose zero cash flow structures when they sold a highly leveraged property and need to replace a large amount of debt to avoid boot, or when estate planning goals favor a simplified, hands off asset over an actively managed one.",
+      },
+      {
+        question: "What are the main risks?",
+        answer:
+          "Zero cash flow assets depend heavily on the underlying tenant remaining creditworthy for the life of the bond lease, since there is little or no cushion if rent is interrupted, and San Diego, CA investors should review tenant financial strength carefully before relying on this structure.",
+      },
+      {
+        question: "Is a tenant in common interest the same as a DST?",
+        answer:
+          "No, a tenant in common structure gives each investor direct fractional ownership of the property, while a DST holds title in trust for beneficial owners; both may qualify as like kind replacement property, and both may involve securities depending on how the interest is offered, so San Diego, CA investors should confirm structure with licensed counsel before committing.",
       },
     ],
   },
@@ -284,116 +491,208 @@ export const servicesData: ServiceItem[] = [
     route: "/services/reverse-exchange-readiness-san-diego",
     category: "Timelines",
     description:
-      "Tight markets often require reverse exchanges. We coordinate parking entities, accommodators, and lender approvals for San Diego, CA investors who locate the replacement before selling the relinquished asset.",
+      "In a competitive market, the property a San Diego, CA investor wants can disappear before the relinquished asset sells, which is where a reverse exchange comes in. Under Revenue Procedure 2000 37 guidance, an Exchange Accommodation Titleholder, generally called an EAT, takes and holds title to either the replacement property or the relinquished property while the other side of the transaction catches up, and the same forty five day identification and one hundred eighty day completion deadlines apply, running from the date the EAT takes title. We coordinate parking entities, accommodators, and lender approvals for San Diego, CA investors who need to close on a replacement property before their existing asset is under contract, and because a reverse exchange requires financing for the EAT to acquire and hold title, lender participation has to be lined up early rather than treated as a formality. This structure carries more moving parts and cost than a standard delayed exchange, so we generally recommend it only when the replacement opportunity is strong enough to justify the added complexity.",
     heroImage: heroSouth,
-    tags: ["Reverse Exchange", "Timeline", "Accommodator"],
-    workflows: ["EAT setup", "Loan approvals", "Document tracker"],
-    highlight: "Reverse strategies mapped to your local closing calendar.",
+    tags: ["Reverse Exchange", "Timeline", "Accommodator", "EAT", "San Diego"],
+    workflows: [
+      "Confirm reverse exchange rationale and lender financing capacity",
+      "Set up the Exchange Accommodation Titleholder parking entity",
+      "Coordinate loan approvals sized for EAT held title",
+      "Track the forty five day identification window from title transfer",
+      "Manage document flow between QI, lender, and closing attorneys",
+      "Align the relinquished property sale with the one hundred eighty day deadline",
+    ],
+    highlight:
+      "Reverse strategies mapped to your San Diego, CA closing calendar, with financing lined up before title ever moves to the EAT.",
     faqs: [
       {
-        question: "Do you coordinate with my QI?",
+        question: "Do you coordinate with my Qualified Intermediary?",
         answer:
-          "Yes, we surround your San Diego, CA reverse exchange with experienced QIs, attorneys, and lenders so documents stay synchronized.",
+          "Yes, we surround your San Diego, CA reverse exchange with experienced Qualified Intermediaries, exchange accommodation titleholders, attorneys, and lenders so every document stays synchronized against the same deadline calendar.",
       },
       {
-        question: "How do you manage escrow funds?",
+        question: "How do you manage escrow and parked title funds?",
         answer:
-          "We outline bank level security procedures so San Diego, CA clients know where funds sit during the hold period.",
+          "We outline the bank level security procedures used by the parking entity so San Diego, CA clients know exactly where funds and title sit during the hold period before the exchange is completed.",
       },
       {
         question: "Can you keep my relinquished sale on track?",
         answer:
-          "We manage a shared tracker so brokers, buyers, and lenders in San Diego, CA stay aligned while the replacement asset is parked.",
+          "We manage a shared tracker so brokers, buyers, and lenders in San Diego, CA stay aligned while the replacement asset is parked with the EAT, since the relinquished property sale still needs to close within one hundred eighty days of the reverse exchange starting.",
+      },
+      {
+        question: "Do the forty five and one hundred eighty day deadlines still apply?",
+        answer:
+          "Yes, under current safe harbor guidance a reverse exchange generally must be completed within one hundred eighty days of the EAT taking title, and the property not already owned by the investor must be identified within forty five days, mirroring the deadlines in a standard delayed exchange.",
+      },
+      {
+        question: "Why is lender coordination different in a reverse exchange?",
+        answer:
+          "Because the EAT, not the investor, holds title during the parking period, lenders need to underwrite financing that closes into a special purpose entity, and not every lender is set up for that structure, which is why we line up financing before recommending a reverse exchange to San Diego, CA clients.",
+      },
+      {
+        question: "Is a reverse exchange more expensive than a standard exchange?",
+        answer:
+          "Generally yes, reverse exchanges involve additional legal, accounting, and accommodator fees compared with a standard delayed exchange, so San Diego, CA investors should weigh that added cost against the value of securing a replacement property that might otherwise be lost.",
       },
     ],
   },
   {
     slug: "improvement-exchange-site-planning",
     name: "Improvement Exchange Site Planning",
-    short: "Direct proceeds into construction or rehab while staying within IRS rules.",
+    short: "Direct proceeds into construction or rehab while staying within Internal Revenue Service rules.",
     route: "/services/improvement-exchange-site-planning",
     category: "Development",
     description:
-      "Build to suit and improvement exchanges require strict budgeting. We map contractor draws, permit milestones, and disbursement schedules so San Diego, CA investors can modernize or reposition replacement assets.",
+      "An improvement exchange, sometimes called a build to suit exchange, lets a San Diego, CA investor use exchange proceeds to fund construction or renovation on the replacement property before taking title, with an Exchange Accommodation Titleholder holding the asset during construction so the improvements can be counted toward replacement value. Because all construction must generally be substantially complete and title must transfer to the investor within one hundred eighty days of the relinquished property sale, improvement exchanges require strict budgeting from day one rather than a rough estimate. We map contractor draw schedules, permit milestones, and disbursement timing so San Diego, CA investors can modernize a dated building, complete a partial rehab, or fund tenant improvements without jeopardizing the exchange deadline. Only improvements actually completed and in place by the one hundred eightieth day generally count toward the replacement property value, so any work still in progress at that deadline is typically treated as personal property rather than part of the like kind exchange.",
     heroImage: heroNorth,
-    tags: ["Improvement", "Construction", "Planning"],
-    workflows: ["Budget controls", "Draw approvals", "Schedule alignment"],
-    highlight: "Construction coordination that safeguards exchange compliance.",
+    tags: ["Improvement", "Construction", "Planning", "Build to Suit", "San Diego"],
+    workflows: [
+      "Confirm construction scope and target completion date",
+      "Set up the Exchange Accommodation Titleholder to hold title during construction",
+      "Build a contractor draw schedule tied to the one hundred eighty day deadline",
+      "Coordinate permit milestones with the general contractor and city",
+      "Track disbursements and document every payment for the Qualified Intermediary",
+      "Confirm title transfer timing once improvements are substantially complete",
+    ],
+    highlight:
+      "Construction coordination that safeguards exchange compliance for San Diego, CA investors racing the one hundred eighty day deadline.",
     faqs: [
       {
         question: "Do you oversee budgets?",
         answer:
-          "We set up cost trackers and coordinate approvals with your QI so every San Diego, CA disbursement is documented.",
+          "We set up cost trackers and coordinate draw approvals with your Qualified Intermediary and the Exchange Accommodation Titleholder so every San Diego, CA disbursement is documented and tied to completed, verifiable work.",
       },
       {
         question: "How do you keep work on timeline?",
         answer:
-          "We align contractor schedules with exchange deadlines so San Diego, CA investors do not miss completion requirements.",
+          "We align contractor schedules and permit milestones with the one hundred eighty day exchange deadline so San Diego, CA investors do not miss the completion requirement, building in buffer time for inspection delays that are common on renovation projects.",
       },
       {
         question: "Can this support tenant improvements?",
         answer:
-          "Yes, we structure improvement exchanges that fund TI packages for tenants relocating within San Diego, CA.",
+          "Yes, we structure improvement exchanges that fund tenant improvement packages for operators relocating into a San Diego, CA replacement property, provided the improvements are complete and reflected in the property value by the deadline.",
+      },
+      {
+        question: "What happens to unfinished construction at the deadline?",
+        answer:
+          "Improvements not substantially complete by the one hundred eightieth day generally cannot be counted as part of the like kind replacement property value, which can create unexpected boot for a San Diego, CA investor who underestimated construction timelines, so realistic scheduling matters more than an ambitious budget.",
+      },
+      {
+        question: "Who holds title during construction?",
+        answer:
+          "An Exchange Accommodation Titleholder generally holds legal title to the property while improvements are made, then transfers title to the San Diego, CA investor once construction is substantially complete and within the one hundred eighty day window.",
+      },
+      {
+        question: "Is an improvement exchange more expensive to run?",
+        answer:
+          "Yes, improvement exchanges typically involve added legal, accounting, and accommodation titleholder fees compared with a standard delayed exchange, and San Diego, CA investors should weigh that cost against the value of being able to reposition or modernize the replacement asset before taking title.",
       },
     ],
   },
   {
     slug: "timeline-assurance-program",
     name: "45/180 Timeline Assurance Program",
-    short: "Detailed milestone planning so you never miss a 45 or 180 day marker.",
+    short: "Detailed milestone planning so you never miss a forty five or one hundred eighty day marker.",
     route: "/services/timeline-assurance-program",
     category: "Timelines",
     description:
-      "We turn deadlines into a visual tracker with reminders, assigned owners, and escalation paths. Every San Diego, CA exchange sees the schedule from sale to closing.",
+      "Every Section 1031 exchange runs on two deadlines that begin on the same day, the day after the relinquished property closes escrow: a forty five day window to identify replacement property in writing, and a one hundred eighty day window to close on that replacement property, and both run on calendar days with no extension for weekends, holidays, or slow paperwork. We turn those deadlines into a visual milestone tracker with reminders, assigned owners, and escalation paths so every San Diego, CA exchange participant, from the seller to the broker to the Qualified Intermediary, sees the same schedule from the day the relinquished property sale closes through the final replacement property closing. Because the one hundred eighty day period can be shortened if your tax return due date, including extensions, falls earlier, we also flag that interaction for San Diego, CA investors early so a spring closing does not quietly compress the back half of the exchange.",
     heroImage: heroRetail,
-    tags: ["Timeline", "Planning", "Compliance"],
-    workflows: ["Milestone tracker", "Reminder cadence", "Escalation plan"],
-    highlight: "Deadline visibility for the entire advisory team.",
+    tags: ["Timeline", "Planning", "Compliance", "Forty Five Day", "San Diego"],
+    workflows: [
+      "Build the milestone tracker starting the day escrow closes",
+      "Assign an owner to every identification and closing task",
+      "Set reminder cadence at day thirty, day forty, and day forty five",
+      "Flag any tax return due date interaction with the one hundred eighty day window",
+      "Share tracker access with brokers, Qualified Intermediary, and lenders",
+      "Escalate and adjust the plan the moment a milestone is at risk",
+    ],
+    highlight:
+      "Deadline visibility for the entire San Diego, CA advisory team, from day one of escrow through the final replacement closing.",
     faqs: [
       {
         question: "Do you share the tracker with my partners?",
         answer:
-          "Yes, the tracker is collaborative so San Diego, CA brokers, QIs, attorneys, and lenders stay aligned.",
+          "Yes, the tracker is collaborative so San Diego, CA brokers, Qualified Intermediaries, attorneys, and lenders all see the same forty five and one hundred eighty day milestones and stay aligned without repeated status calls.",
       },
       {
         question: "How often do you update it?",
         answer:
-          "We update status after every call or document delivery so San Diego, CA investors always know the next task.",
+          "We update status after every call or document delivery so San Diego, CA investors always know the next task and how many days remain in the current window.",
       },
       {
         question: "What if a milestone slips?",
         answer:
-          "We escalate immediately, add contingency plans, and expand the search list so San Diego, CA investors keep options open.",
+          "We escalate immediately, add contingency plans, and expand the replacement property search list so San Diego, CA investors keep options open, since the forty five day identification deadline itself cannot be extended for any reason short of a federally declared disaster.",
+      },
+      {
+        question: "Can the one hundred eighty day deadline ever be shorter than one hundred eighty days?",
+        answer:
+          "Yes, the exchange must close by the earlier of one hundred eighty days after the relinquished property sale or the due date, including extensions, of the tax return for the year of the sale, which can shorten the window for San Diego, CA investors selling late in the calendar year unless an extension is filed.",
+      },
+      {
+        question: "Do weekends or holidays extend either deadline?",
+        answer:
+          "No, both the forty five day and one hundred eighty day deadlines run on calendar days and are not extended for weekends or holidays, which is why we build reminder checkpoints well before each deadline rather than waiting until the final week for San Diego, CA clients.",
+      },
+      {
+        question: "What happens if I need a disaster relief extension?",
+        answer:
+          "The Internal Revenue Service occasionally grants deadline extensions for taxpayers affected by federally declared disasters, and when that applies to a San Diego, CA investor we help confirm eligibility and document the extension with your Qualified Intermediary.",
       },
     ],
   },
   {
     slug: "rent-roll-and-t12-validation",
     name: "Rent Roll and T12 Validation",
-    short: "Audit rent rolls, T12s, and GL exports before you commit.",
+    short: "Audit rent rolls, trailing twelve month statements, and general ledger exports before you commit.",
     route: "/services/rent-roll-and-t12-validation",
     category: "Underwriting",
     description:
-      "We verify revenue streams, occupancy, and expense reimbursements so San Diego, CA investors do not inherit surprises.",
+      "A replacement property that looks strong on a broker flyer can tell a very different story once the rent roll and trailing twelve month, generally called T12, financials are checked line by line, and San Diego, CA exchangers working against a forty five day identification window rarely have time to discover that gap after the deadline has passed. We verify in place rent, lease start and expiration dates, occupancy history, and expense reimbursement structure so San Diego, CA investors do not inherit surprises after closing on replacement property. Because fully deferring gain generally requires the replacement property to be equal to or greater in value than the relinquished asset, an inflated or misrepresented income stream can quietly turn a seemingly sound purchase into a below value acquisition that triggers boot once actual performance is reconciled. We compare the seller provided general ledger export against the rent roll and lease abstracts to catch inconsistencies before they become your problem.",
     heroImage: heroCoastal,
-    tags: ["Underwriting", "Rent Roll", "T12"],
-    workflows: ["Data request list", "Variance analysis", "Summary memo"],
-    highlight: "Clear financial story before every offer.",
+    tags: ["Underwriting", "Rent Roll", "T12", "Due Diligence", "San Diego"],
+    workflows: [
+      "Send a standardized document request list to the seller",
+      "Reconcile the rent roll against executed leases and amendments",
+      "Compare trailing twelve month income to the general ledger export",
+      "Test expense reimbursement and common area maintenance recovery",
+      "Flag variances and unresolved arrears for follow up",
+      "Deliver a summary memo for your lender and Qualified Intermediary",
+    ],
+    highlight:
+      "A clear, reconciled financial story before every offer, so San Diego, CA investors do not identify a property that will not underwrite.",
     faqs: [
       {
-        question: "Do you reconcile reimbursements?",
+        question: "Do you reconcile expense reimbursements?",
         answer:
-          "Yes, we test expense stops and reconciliation language so San Diego, CA buyers know what cash flow to expect.",
+          "Yes, we test expense stops, common area maintenance recovery, and reconciliation language against actual billed amounts so San Diego, CA buyers know what net cash flow to expect rather than relying on a pro forma figure.",
       },
       {
         question: "How fast is the review?",
         answer:
-          "Most rent roll reviews finish within three business days for San Diego, CA exchanges.",
+          "Most rent roll and trailing twelve month reviews finish within three business days for San Diego, CA exchanges, which matters when identification days are limited and you need a clean answer before committing to a property.",
       },
       {
         question: "Can you share lender ready packages?",
         answer:
-          "We organize findings so San Diego, CA lenders can underwrite without rework.",
+          "We organize findings into a lender ready package so San Diego, CA lenders can underwrite without rework, which helps keep financing on pace with your one hundred eighty day closing deadline.",
+      },
+      {
+        question: "What red flags do you typically find?",
+        answer:
+          "Common issues include rent roll figures that do not match executed leases, undisclosed tenant concessions, expense reimbursements billed but not collected, and leases nearing expiration without renewal activity, all of which San Diego, CA investors should know before identifying the property.",
+      },
+      {
+        question: "Does this affect my exchange value calculation?",
+        answer:
+          "Yes, if actual net operating income comes in below the seller's presented figures, the property may be worth less than the purchase price implies, which can affect whether the acquisition satisfies the replacement value San Diego, CA investors need to fully defer gain.",
+      },
+      {
+        question: "Do you review the seller's general ledger directly?",
+        answer:
+          "When the seller makes it available, yes, we compare the general ledger export against the rent roll and trailing twelve month statement to confirm the numbers tie out before a San Diego, CA investor relies on them for an offer.",
       },
     ],
   },
@@ -404,26 +703,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/capex-and-buildout-estimates",
     category: "Underwriting",
     description:
-      "We bring in contractors and cost estimators to outline near term capex so San Diego, CA buyers avoid post close surprises.",
+      "The purchase price on a net lease listing rarely reflects the roof, parking lot, HVAC, or interior condition in detail, and a San Diego, CA investor who skips that review can face a large capital call within the first year or two of ownership. We bring in contractors and independent cost estimators to outline near term capital expenditure needs before you finalize identification, and we distinguish between items the landlord is responsible for and items shifted to the tenant under the lease, since that split determines your real exposure. For long hold San Diego, CA investors, understanding likely capex over a five to ten year horizon is often as important as the in place cap rate, because a lower entry yield with minimal deferred maintenance can outperform a higher yield property that needs a new roof in year three. We fold every finding into a written reserve plan so financing, insurance, and future budgeting decisions are grounded in a real inspection rather than a seller's representation.",
     heroImage: heroNorth,
-    tags: ["Capex", "Budgeting", "Planning"],
-    workflows: ["Site call", "Estimate summary", "Reserve plan"],
-    highlight: "Better budgets for long hold investors.",
+    tags: ["Capex", "Budgeting", "Planning", "Underwriting", "San Diego"],
+    workflows: [
+      "Schedule a site call with a qualified contractor or inspector",
+      "Document roof, parking, HVAC, and structural condition",
+      "Confirm landlord versus tenant maintenance responsibility in the lease",
+      "Collect at least two independent cost bids where time allows",
+      "Build a near term and five year capital reserve plan",
+      "Feed findings into your shared San Diego, CA milestone tracker",
+    ],
+    highlight:
+      "Better capital budgets for long hold San Diego, CA investors, built from a real site inspection rather than a listing flyer.",
     faqs: [
       {
         question: "Can you get multiple bids?",
         answer:
-          "Yes, we organize at least two bids for San Diego, CA assignments when time allows.",
+          "Yes, we organize at least two independent cost bids for San Diego, CA assignments when time allows, since a single contractor estimate can vary significantly from actual market pricing on roof or parking lot work.",
       },
       {
         question: "What if the tenant handles maintenance?",
         answer:
-          "We still review leases to confirm landlord caps so San Diego, CA owners confirm exposure.",
+          "We still review the lease to confirm any landlord caps on reimbursable expenses so San Diego, CA owners understand their real exposure, since many net leases cap what can be passed through to the tenant for roof and structure items.",
       },
       {
         question: "Do you integrate findings into the tracker?",
         answer:
-          "Yes, capex tasks feed into the shared San Diego, CA milestone board for visibility.",
+          "Yes, capex tasks and estimated costs feed into the shared San Diego, CA milestone board so your identification decision, lender, and insurance provider all see the same picture before closing.",
+      },
+      {
+        question: "How does capex affect my exchange decision?",
+        answer:
+          "A property requiring significant near term capital expenditure may still make sense for a San Diego, CA investor if the purchase price reflects that condition, but unbudgeted capex discovered after closing effectively erodes the return you thought you were locking in through the exchange.",
+      },
+      {
+        question: "Do you review environmental or code compliance issues too?",
+        answer:
+          "Where relevant, yes, we flag Americans with Disabilities Act compliance gaps, life safety issues, and code items alongside standard capex categories so San Diego, CA investors see the full near term obligation, not just cosmetic wear.",
+      },
+      {
+        question: "Is this review done before or after identification?",
+        answer:
+          "We generally recommend a capex review before you commit identification days to a property, though we can also perform it during the due diligence period after identification if the forty five day window does not allow for a full site visit beforehand.",
       },
     ],
   },
@@ -434,26 +756,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/market-comp-digest-san-diego",
     category: "Research",
     description:
-      "We publish cap rate, rent, and pricing updates for San Diego, CA neighborhoods plus satellite markets like Carlsbad, Poway, and Chula Vista.",
+      "Knowing what a property should trade for is different from knowing what it is listed for, and San Diego, CA net lease and commercial pricing moves quickly enough that a comp set from six months ago can already be stale. We publish cap rate, rent per square foot, and pricing updates for San Diego, CA neighborhoods plus satellite markets like Carlsbad, Poway, Escondido, and Chula Vista, and we compare those local benchmarks against the metros where you are considering replacement property, since a nationwide identification strategy only works if you can judge whether an out of state cap rate is genuinely attractive or simply reflects a less desirable market. California generally taxes capital gains from a relinquished San Diego, CA property as ordinary income at the state level, which is one reason many exchangers pay close attention to whether reinvesting locally or diversifying into another state offers the better long term after tax outcome, and current market comps inform that decision directly.",
     heroImage: heroSouth,
-    tags: ["Research", "Comps", "San Diego"],
-    workflows: ["Data ingestion", "Summary drafting", "Action items"],
-    highlight: "Local intelligence that informs national offers.",
+    tags: ["Research", "Comps", "San Diego", "Market Data", "Underwriting"],
+    workflows: [
+      "Ingest weekly transaction and listing data across San Diego County",
+      "Track cap rate and rent per square foot trends by property type",
+      "Compare San Diego, CA figures against target replacement markets",
+      "Draft a plain language summary with pricing highlights",
+      "Flag submarkets showing meaningful cap rate compression or expansion",
+      "Deliver action items tied to your active identification list",
+    ],
+    highlight:
+      "Local San Diego County intelligence that informs national offers, so an out of state cap rate can be judged against real local context.",
     faqs: [
       {
         question: "How often is the digest delivered?",
         answer:
-          "Active San Diego, CA clients receive comp notes every Friday with highlights and action steps.",
+          "Active San Diego, CA clients receive comp notes every Friday with pricing highlights and action steps, and we increase frequency during an active forty five day identification window so decisions are made on current data.",
       },
       {
         question: "Do you include statewide context?",
         answer:
-          "Yes, we compare San Diego, CA comps with other California metros so you see the spread.",
+          "Yes, we compare San Diego, CA comps with other California metros so you see the spread and can judge whether staying in state or exchanging into another region offers a better yield for your goals.",
       },
       {
         question: "Can multiple partners receive it?",
         answer:
-          "We can copy advisors, attorneys, and family members who help steer your San Diego, CA exchange.",
+          "We can copy advisors, attorneys, and family members who help steer your San Diego, CA exchange so everyone is working from the same current market data during decision making calls.",
+      },
+      {
+        question: "Which submarkets do you cover beyond the urban core?",
+        answer:
+          "We track San Diego, CA coastal submarkets alongside North County communities like Carlsbad and Encinitas, inland areas such as Escondido and Poway, and South Bay communities including Chula Vista, since pricing and demand vary meaningfully across the county.",
+      },
+      {
+        question: "Is this digest specific to net lease properties?",
+        answer:
+          "We primarily track net lease, multifamily, industrial, and medical office comps since those are the categories San Diego, CA exchangers most often evaluate, though we can narrow or expand the digest to match your specific replacement property strategy.",
+      },
+      {
+        question: "How does this help with identification strategy?",
+        answer:
+          "Current comps help San Diego, CA investors judge whether a candidate property is priced fairly relative to the local market, which matters when you are deciding whether to use identification days on that property or keep searching before the forty five day deadline closes.",
       },
     ],
   },
@@ -464,26 +809,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/lender-preflight-coordination",
     category: "Financing",
     description:
-      "We collect documents, summarize cash flow, and introduce lenders who understand San Diego, CA exchange urgency so term sheets arrive quickly.",
+      "Financing that is not lined up before you identify a property is one of the most common reasons a San Diego, CA exchange misses the one hundred eighty day closing deadline, since underwriting, appraisal, and loan committee approval can take longer than the timeline allows if started late. We collect financial documents, summarize cash flow and debt service coverage, and introduce lenders who understand exchange urgency and the specific need to replace debt from the relinquished property, so term sheets arrive quickly once you have a shortlisted property in hand. Because avoiding boot generally requires a San Diego, CA investor to replace both the equity and the debt tied to the relinquished property, or add cash to cover any shortfall, we confirm loan sizing against that target before you commit identification days to a specific asset, rather than discovering a financing gap during due diligence.",
     heroImage: heroRetail,
-    tags: ["Financing", "Lender", "Preflight"],
-    workflows: ["Document vault", "Term sheet matrix", "Weekly lender sync"],
-    highlight: "Debt conversations that never slow your timeline.",
+    tags: ["Financing", "Lender", "Preflight", "Debt Replacement", "San Diego"],
+    workflows: [
+      "Collect financial statements and cash flow documentation upfront",
+      "Confirm the debt replacement target from the relinquished property",
+      "Introduce lenders experienced with exchange timing",
+      "Build a term sheet comparison matrix across lenders",
+      "Hold a weekly lender sync during the identification window",
+      "Coordinate rate lock timing around your closing calendar",
+    ],
+    highlight:
+      "Debt conversations that never slow your San Diego, CA timeline, with financing pre qualified before you write an offer.",
     faqs: [
       {
         question: "Do you work with local and national lenders?",
         answer:
-          "Yes, we maintain relationships with San Diego, CA banks plus national debt funds.",
+          "Yes, we maintain relationships with San Diego, CA community banks and regional lenders plus national debt funds and life insurance company lenders, so financing options can be compared across a wide range of loan sizes and property types.",
       },
       {
         question: "How do you keep everyone organized?",
         answer:
-          "We use a secure portal for uploads and track each request so San Diego, CA investors know status.",
+          "We use a secure document portal for uploads and track each lender request so San Diego, CA investors always know status, which avoids the common problem of duplicate document requests slowing the process near the deadline.",
       },
       {
         question: "Can you coordinate rate locks?",
         answer:
-          "We liaise with lenders to time rate locks around San Diego, CA closing calendars.",
+          "We liaise with lenders to time rate locks around San Diego, CA closing calendars so a rate lock does not expire before closing or get set too early and leave you exposed to a longer than expected due diligence period.",
+      },
+      {
+        question: "How much debt do I need to replace to avoid boot?",
+        answer:
+          "To fully defer gain, San Diego, CA investors generally need to replace the debt that was paid off at the relinquished property closing, or add cash to make up the difference, since taking on materially less debt without adding cash typically creates taxable boot even in an otherwise valid exchange.",
+      },
+      {
+        question: "When should I start the lender conversation?",
+        answer:
+          "We generally recommend starting lender preflight before your relinquished property even closes, since San Diego, CA investors who wait until after identification often lose valuable days to underwriting delays that could have run in parallel with the property search.",
+      },
+      {
+        question: "Do you help with bridge financing for a reverse or improvement exchange?",
+        answer:
+          "Yes, we coordinate with lenders who understand the added complexity of financing an Exchange Accommodation Titleholder in a reverse or improvement exchange, which is a different underwriting conversation than a standard purchase loan for San Diego, CA investors.",
       },
     ],
   },
@@ -494,86 +862,155 @@ export const servicesData: ServiceItem[] = [
     route: "/services/three-property-rule-strategy",
     category: "Rules",
     description:
-      "We outline replacement sequences, value ranges, and contingencies so San Diego, CA investors can balance backup options without confusion.",
+      "The three property rule is the most commonly used identification path because it removes any value limit: a San Diego, CA investor can identify up to three properties of any fair market value, regardless of how that value compares to the relinquished asset, as long as the acquisition ultimately closes on one, two, or all three within one hundred eighty days. We outline replacement sequences, realistic value ranges, and contingency planning so San Diego, CA investors can use all three identification slots strategically rather than filling them with weak backups. A common approach is to identify one primary target you intend to close on, plus two credible backups in case the primary falls out of contract during due diligence, since property identified within the forty five days can generally be revoked and replaced in writing before the deadline expires. We coordinate directly with your Qualified Intermediary so the written identification notice is unambiguous, typically citing street address or legal description, and delivered before the forty five day window closes.",
     heroImage: heroCoastal,
-    tags: ["Rules", "Identification", "Planning"],
-    workflows: ["Letter drafting", "Backup plan", "Reminder workflow"],
-    highlight: "Clear documentation that your QI will appreciate.",
+    tags: ["Rules", "Identification", "Planning", "Three Property Rule", "San Diego"],
+    workflows: [
+      "Select a primary replacement target and two credible backups",
+      "Confirm each candidate meets or exceeds required replacement value",
+      "Draft identification letter language with clear property descriptions",
+      "Coordinate signature and delivery timing with your Qualified Intermediary",
+      "Track backup readiness in case the primary falls out of contract",
+      "Send reminder checkpoints as day forty five approaches",
+    ],
+    highlight:
+      "Clear, well sequenced identification documentation that your Qualified Intermediary will appreciate and the Internal Revenue Service will recognize.",
     faqs: [
       {
         question: "Do you help draft the identification letter?",
         answer:
-          "Yes, we provide a template and coordinate signatures so your San Diego, CA QI receives it on time.",
+          "Yes, we provide draft language and coordinate signatures so your San Diego, CA Qualified Intermediary receives a written notice that unambiguously identifies each property, typically by street address or legal description, before the forty five day deadline.",
       },
       {
         question: "Can I swap assets after submitting?",
         answer:
-          "We explain IRS allowances and help San Diego, CA investors communicate updates to their QI quickly.",
+          "Generally yes, property identified within the forty five days can be revoked and replaced in writing before the deadline expires, and we help San Diego, CA investors communicate any updates to their Qualified Intermediary quickly so the change is properly documented.",
       },
       {
         question: "What if I want more than three assets?",
         answer:
-          "We evaluate whether the 200 percent rule offers a better fit for your San Diego, CA exchange.",
+          "We evaluate whether the two hundred percent rule offers a better fit for your San Diego, CA exchange, since identifying a fourth property under the three property rule can disqualify the entire identification list if the count limit is exceeded.",
+      },
+      {
+        question: "Is there a value limit under the three property rule?",
+        answer:
+          "No, the three property rule has no value ceiling, which is its main advantage; a San Diego, CA investor can identify up to three properties of any combined value as long as no more than three are named on the list.",
+      },
+      {
+        question: "Do I have to close on all three identified properties?",
+        answer:
+          "No, you only need to close on enough of the identified properties to satisfy your exchange goals, and many San Diego, CA investors close on just one primary target while the other two identified properties serve purely as backup in case the primary deal fails.",
+      },
+      {
+        question: "What happens if none of my three identified properties close?",
+        answer:
+          "If a San Diego, CA investor fails to close on any identified property within one hundred eighty days, the exchange generally fails and the transaction is treated as a taxable sale, which is why we build in realistic backups rather than aspirational ones.",
       },
     ],
   },
   {
     slug: "two-hundred-percent-rule-modeling",
     name: "Two Hundred Percent Rule Modeling",
-    short: "Model larger lists under the 200 percent identification path.",
+    short: "Model larger lists under the two hundred percent identification path.",
     route: "/services/two-hundred-percent-rule-modeling",
     category: "Rules",
     description:
-      "Investors chasing multiple assets need tight math. We track aggregate value, deposits, and readiness so San Diego, CA buyers stay within the 200 percent limit.",
+      "The two hundred percent rule lets a San Diego, CA investor identify more than three properties, as long as the combined fair market value of everything on the list does not exceed two hundred percent of the relinquished property's value, which opens the door to a broader, more diversified replacement strategy than the three property rule allows. Investors chasing multiple assets, whether to split proceeds across several net lease tenants or blend a DST allocation with a direct fee simple purchase, need tight, real time math, since exceeding the two hundred percent ceiling by even a small margin can disqualify the entire identification list rather than just the excess property. We track aggregate value, earnest money deposits, and closing readiness across every candidate so San Diego, CA buyers stay comfortably within the limit while keeping enough backup optionality to protect the exchange if one deal falls through during due diligence.",
     heroImage: heroNorth,
-    tags: ["Rules", "Identification", "Modeling"],
-    workflows: ["Value tracker", "Readiness scoring", "Deposit schedule"],
-    highlight: "Real time math that keeps large lists compliant.",
+    tags: ["Rules", "Identification", "Modeling", "Two Hundred Percent Rule", "San Diego"],
+    workflows: [
+      "Calculate two hundred percent of the relinquished property value",
+      "Build a running value tracker across every candidate property",
+      "Score each candidate on financing and closing readiness",
+      "Track deposit and earnest money schedules across the list",
+      "Adjust the list in real time as pricing or terms change",
+      "Confirm the final identification letter stays under the value ceiling",
+    ],
+    highlight:
+      "Real time math that keeps a large, diversified identification list compliant for San Diego, CA investors.",
     faqs: [
       {
         question: "How do you measure total value?",
         answer:
-          "We run a rolling tally and share it with your San Diego, CA QI and lender teams.",
+          "We run a rolling tally of combined fair market value across every identified property and share it with your San Diego, CA Qualified Intermediary and lender teams so everyone can confirm the list stays under the two hundred percent ceiling in real time.",
       },
       {
         question: "What happens if pricing changes?",
         answer:
-          "We adjust the tracker immediately so San Diego, CA investors can swap assets before the deadline.",
+          "We adjust the tracker immediately so San Diego, CA investors can swap or remove a property before the forty five day deadline if a price increase would push the combined list over the two hundred percent limit.",
       },
       {
         question: "Can you mix fee simple and DST interests?",
         answer:
-          "Yes, we include both so San Diego, CA investors can deploy capital wherever it performs best.",
+          "Yes, we include both fee simple properties and Delaware Statutory Trust interests in the same tracker so San Diego, CA investors can deploy capital wherever it performs best. A DST or TIC interest may be a security. We do not sell securities. We provide introductions to licensed providers only.",
+      },
+      {
+        question: "What happens if I exceed two hundred percent?",
+        answer:
+          "If the combined value of every identified property exceeds two hundred percent of the relinquished property's value, the entire identification list can be treated as invalid unless the investor satisfies the separate ninety five percent acquisition rule instead, which is why we model this closely for San Diego, CA clients rather than estimating.",
+      },
+      {
+        question: "Why choose this over the three property rule?",
+        answer:
+          "San Diego, CA investors typically use the two hundred percent rule when they want more than three backup or split allocation candidates, such as diversifying proceeds across several smaller net lease assets rather than concentrating in one or two larger properties.",
+      },
+      {
+        question: "Do I need to close on every identified property?",
+        answer:
+          "No, you only need to close on enough identified property to meet your exchange goals; the two hundred percent rule governs how much value can be on the identification list, not how much must ultimately be purchased by a San Diego, CA investor.",
       },
     ],
   },
   {
     slug: "ninety-five-percent-portfolio-path",
     name: "Ninety Five Percent Portfolio Path",
-    short: "Keep large identification lists compliant under the 95 percent rule.",
+    short: "Keep large identification lists compliant under the ninety five percent rule.",
     route: "/services/ninety-five-percent-portfolio-path",
     category: "Rules",
     description:
-      "Institutional and family office investors sometimes list many properties. We track closings and assignments so San Diego, CA exchanges satisfy the 95 percent completion requirement.",
+      "The ninety five percent rule removes both the count limit and the two hundred percent value ceiling entirely, but in exchange it demands that the investor actually acquire at least ninety five percent of the total fair market value of everything identified, a standard that is harder to satisfy and generally reserved for institutional and family office investors identifying a large, diversified portfolio. Institutional and family office San Diego, CA investors sometimes list far more properties than the three property or two hundred percent rules would allow, often to give brokers and lenders maximum flexibility across multiple closings happening in parallel. We track every closing, assignment, and fallout against the ninety five percent threshold in real time, because failing to hit that bar even narrowly can jeopardize the entire exchange rather than just the shortfall, and there is generally no partial credit for coming close.",
     heroImage: heroSouth,
-    tags: ["Rules", "Portfolio", "Execution"],
-    workflows: ["Portfolio tracker", "Status matrix", "Closing scoreboard"],
-    highlight: "Confidence for complex multi asset exchanges.",
+    tags: ["Rules", "Portfolio", "Execution", "Ninety Five Percent Rule", "San Diego"],
+    workflows: [
+      "Calculate ninety five percent of total identified portfolio value",
+      "Build a status matrix tracking every property toward closing",
+      "Coordinate parallel due diligence across multiple markets",
+      "Flag any property at risk of falling out before closing",
+      "Maintain a closing scoreboard against the acquisition threshold",
+      "Document final acquisitions for your Qualified Intermediary's file",
+    ],
+    highlight:
+      "Confidence for complex, multi asset San Diego, CA exchanges where the ninety five percent acquisition threshold has to be hit, not just approached.",
     faqs: [
       {
         question: "Do you serve larger investor groups?",
         answer:
-          "Yes, we coordinate calls with every decision maker so San Diego, CA portfolios move in sync.",
+          "Yes, we coordinate calls with every decision maker, including partners, family members, and institutional stakeholders, so San Diego, CA portfolios move in sync across all identified properties and closings.",
       },
       {
-        question: "How do you confirm the 95 percent threshold?",
+        question: "How do you confirm the ninety five percent threshold?",
         answer:
-          "We document executed closings and share the tracker with your San Diego, CA QI.",
+          "We document executed closings against the total identified portfolio value and share the running tracker with your San Diego, CA Qualified Intermediary so there is a clear, contemporaneous record if the exchange is ever reviewed.",
       },
       {
         question: "Can this support multistate acquisitions?",
         answer:
-          "Yes, we consolidate updates from brokers in every state and reflect them for your San Diego, CA team.",
+          "Yes, we consolidate updates from brokers, attorneys, and lenders in every state involved and reflect them in a single dashboard for your San Diego, CA team, since portfolio exchanges under this rule often close across several jurisdictions simultaneously.",
+      },
+      {
+        question: "Why is this rule considered harder to satisfy?",
+        answer:
+          "Because a San Diego, CA investor must actually acquire at least ninety five percent of the identified value, a single large property falling out of contract can put the entire threshold at risk, unlike the three property or two hundred percent rules where you can simply avoid closing on unwanted backups.",
+      },
+      {
+        question: "Who typically uses the ninety five percent rule?",
+        answer:
+          "We most often see this rule used by institutional investors, family offices, or San Diego, CA investors executing a large portfolio disposition who want to identify a wide net of properties without being constrained by the three property count or the two hundred percent value ceiling.",
+      },
+      {
+        question: "What happens if I fall short of ninety five percent?",
+        answer:
+          "If a San Diego, CA investor acquires less than ninety five percent of the total identified value, the exchange can fail entirely for the properties not acquired, which is why real time tracking and contingency planning matter more under this rule than any other identification path.",
       },
     ],
   },
@@ -584,26 +1021,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/sale-leaseback-occupier-advisory",
     category: "Occupier",
     description:
-      "We advise operators who want liquidity by selling their real estate while securing a long term lease. San Diego, CA investors gain predictable income with tenant controlled maintenance.",
+      "A sale leaseback lets an operating business sell the real estate it occupies while immediately signing a lease to stay in place, converting a fixed asset into working capital without disrupting operations. We advise San Diego, CA operators who want that liquidity, structuring rent, escalations, and lease term to be attractive to the pool of net lease and 1031 exchange buyers actively searching for exactly this kind of asset. On the buy side, San Diego, CA investors like sale leaseback properties because the seller becomes a highly motivated, in place tenant on day one, which typically means predictable rent and tenant controlled maintenance responsibilities rather than the vacancy risk of a speculative purchase. We work both sides of the transaction, since a well structured sale leaseback benefits the operator who needs cash and the exchanger who needs a qualifying, income producing replacement property before the forty five day identification deadline.",
     heroImage: heroRetail,
-    tags: ["Sale Leaseback", "Occupier", "Liquidity"],
-    workflows: ["Lease structuring", "Valuation", "Investor introductions"],
-    highlight: "Sale leaseback execution that benefits both sides.",
+    tags: ["Sale Leaseback", "Occupier", "Liquidity", "Net Lease", "San Diego"],
+    workflows: [
+      "Assess the operator's liquidity goals and target sale price",
+      "Structure lease term, rent, and escalation schedule for buyer appeal",
+      "Obtain an independent valuation of the real estate",
+      "Introduce the opportunity to qualified 1031 exchange buyers",
+      "Coordinate conflict free legal representation for both sides",
+      "Manage closing timeline to fit the buyer's exchange deadline",
+    ],
+    highlight:
+      "Sale leaseback execution that benefits both sides, giving San Diego, CA exchange buyers a motivated, in place tenant from day one.",
     faqs: [
       {
         question: "Do you represent buyers and sellers?",
         answer:
-          "We facilitate introductions and ensure San Diego, CA legal teams draft conflict free documents.",
+          "We facilitate introductions between the operator and prospective San Diego, CA buyers and ensure separate legal teams draft conflict free documents for each side, rather than acting as a single representative for both parties.",
       },
       {
         question: "Can you position the lease for 1031 buyers?",
         answer:
-          "Yes, we build rent schedules and escalations that align with San Diego, CA exchange expectations.",
+          "Yes, we build rent schedules and escalation structures that align with what San Diego, CA exchange buyers typically look for, including predictable annual or periodic bumps and clear landlord versus tenant maintenance responsibility.",
       },
       {
         question: "What sectors use this service?",
         answer:
-          "We see demand from medical, retail, industrial, and service companies located in or relocating from San Diego, CA.",
+          "We see demand from medical, retail, industrial, and service companies located in or relocating from San Diego, CA, all looking to unlock capital tied up in owned real estate while continuing operations without interruption.",
+      },
+      {
+        question: "How is the lease rent typically set?",
+        answer:
+          "Rent is generally set to reflect a market cap rate on the appraised value of the property, structured so the resulting yield is attractive to San Diego, CA 1031 exchange buyers while remaining affordable for the operator continuing as tenant.",
+      },
+      {
+        question: "Does a sale leaseback work on a compressed timeline?",
+        answer:
+          "Sale leasebacks can move faster than a typical open market listing once terms are agreed, which is useful for San Diego, CA exchange buyers working against the forty five day identification window, though the operator's own timeline needs also factor into how quickly the deal can close.",
+      },
+      {
+        question: "What should an operator watch for in the lease terms?",
+        answer:
+          "Operators should review renewal options, rent escalation pace, and maintenance obligations carefully before signing, since they are committing to those terms for the life of the lease; we recommend San Diego, CA operators retain their own counsel separate from the buyer's team.",
       },
     ],
   },
@@ -614,26 +1074,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/triple-net-ground-up-development",
     category: "Development",
     description:
-      "Some investors prefer to create yield. We guide San Diego, CA clients through site selection, tenant LOI, build budgets, and disposition planning for future 1031 placements.",
+      "Rather than buying an existing net lease asset, some San Diego, CA investors prefer to create yield by developing a new single tenant building from the ground up, securing a credit tenant's letter of intent before construction begins so the finished project already has a lease and a clear exit path. We guide clients through site selection, entitlement review, tenant letter of intent negotiation, and construction budgeting, with an eye toward disposition planning so the completed, stabilized asset is positioned as a future 1031 exchange replacement property for another investor. This strategy is not itself a 1031 exchange while the property is being built and leased, since ground up development is generally treated as an active development project rather than a like kind acquisition, but it gives San Diego, CA developers a defined runway toward a future exchange or outright sale once the tenant is in place and the property is stabilized.",
     heroImage: heroNorth,
-    tags: ["Development", "Ground Up", "NNN"],
-    workflows: ["Site vetting", "Tenant LOI", "Exit plan"],
-    highlight: "Ground up pathways with known exit strategies.",
+    tags: ["Development", "Ground Up", "NNN", "Build to Suit", "San Diego"],
+    workflows: [
+      "Vet candidate sites for zoning, access, and visibility",
+      "Negotiate a tenant letter of intent before breaking ground",
+      "Build a construction budget with contingency reserves",
+      "Track contractor draws against the approved budget",
+      "Coordinate lease execution ahead of certificate of occupancy",
+      "Plan disposition or long term hold once the asset stabilizes",
+    ],
+    highlight:
+      "Ground up development pathways for San Diego, CA clients with a known exit strategy built in from day one.",
     faqs: [
       {
         question: "Do you help locate tenants?",
         answer:
-          "Yes, we target credit tenants that expand in San Diego, CA and beyond, then secure LOIs before construction begins.",
+          "Yes, we target credit tenants actively expanding in San Diego, CA and beyond, then work to secure a signed letter of intent before construction begins, since a pre leased project is materially easier to finance and later sell or exchange.",
       },
       {
         question: "Can I hold or sell after completion?",
         answer:
-          "We outline both paths so San Diego, CA investors can recycle capital or keep the asset long term.",
+          "We outline both paths so San Diego, CA investors can recycle capital into a new development immediately or keep the completed, tenant occupied asset as a long term net lease holding.",
       },
       {
         question: "How do you control construction risk?",
         answer:
-          "We build contingency budgets and track draws so San Diego, CA projects stay on plan.",
+          "We build contingency budgets and track contractor draws closely so San Diego, CA projects stay on plan, since cost overruns or delays directly affect the return once the finished asset is sold or exchanged.",
+      },
+      {
+        question: "Is ground up construction itself part of a 1031 exchange?",
+        answer:
+          "Generally not on its own; a standard 1031 exchange requires acquiring existing like kind property within one hundred eighty days, so speculative ground up development undertaken outside that structure is typically treated as a separate active project rather than exchange property, distinct from an improvement exchange where construction happens inside the exchange itself.",
+      },
+      {
+        question: "Can the completed property later become someone else's exchange property?",
+        answer:
+          "Yes, a stabilized, tenant occupied building developed by a San Diego, CA developer is a common target for other investors running a standard 1031 exchange, since a newly built single tenant asset with a long lease term is attractive replacement property for buyers seeking predictable income.",
+      },
+      {
+        question: "What tenant categories work best for ground up single tenant builds?",
+        answer:
+          "We commonly see demand from quick service restaurants, pharmacy, medical, and essential service retail tenants for San Diego, CA ground up projects, since these categories tend to sign longer leases with contractual escalations that appeal to future net lease buyers.",
       },
     ],
   },
@@ -644,26 +1127,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/hospitality-and-mixed-use-identification",
     category: "Hospitality",
     description:
-      "We work with operators and private investors who want lifestyle or mixed use holdings. Each San Diego, CA centric list explains management needs, brand flags, and NOI trends.",
+      "Hospitality and mixed use real estate can qualify as like kind replacement property for a San Diego, CA exchanger, since the real property component, the land and building, is treated as like kind to any other real estate held for investment or business use, but hotels and mixed use projects carry an operating business layer that a simple net lease asset does not. We work with operators and private investors who want lifestyle, boutique hotel, or mixed use holdings, and each San Diego, CA centric list explains third party or brand affiliated management needs, franchise brand flag requirements, and net operating income trends so you understand the property before committing identification days to it. Because furniture, fixtures, equipment, and other personal property used in hotel operations generally do not qualify as like kind to real property under current law, we separate the real estate value from any operating business or personal property value on every candidate so San Diego, CA investors can see what portion of the purchase price actually counts toward the exchange.",
     heroImage: heroCoastal,
-    tags: ["Hospitality", "Mixed Use", "Lifestyle"],
-    workflows: ["Brand coordination", "Management review", "NOI modeling"],
-    highlight: "Experiential assets sized for exchange redeployment.",
+    tags: ["Hospitality", "Mixed Use", "Lifestyle", "Hotel", "San Diego"],
+    workflows: [
+      "Define target hospitality or mixed use concept and market",
+      "Coordinate brand flag or franchise requirements with the operator",
+      "Review current management structure and contract terms",
+      "Model net operating income, RevPAR, and ADR trends",
+      "Separate real property value from personal property and business value",
+      "Confirm zoning and licensing obligations tied to the asset",
+    ],
+    highlight:
+      "Experiential real estate sized for San Diego, CA exchange redeployment, with the real property and business value clearly separated.",
     faqs: [
       {
         question: "Do you include management contacts?",
         answer:
-          "Yes, we introduce San Diego, CA hospitality managers or third party operators who fit the concept.",
+          "Yes, we introduce San Diego, CA hospitality managers or third party operators who fit the property concept, since a hotel or mixed use asset without a management plan already in place can be difficult to operate passively after closing.",
       },
       {
         question: "Can these assets qualify for long term holds?",
         answer:
-          "We verify zoning, licensing, and brand covenants so San Diego, CA investors understand every obligation.",
+          "We verify zoning, hospitality licensing, and any franchise brand covenants so San Diego, CA investors understand every ongoing obligation before deciding whether the property fits a long term hold or a shorter term reposition strategy.",
       },
       {
         question: "How volatile are the returns?",
         answer:
-          "Each memo outlines RevPAR, ADR, and seasonal swings so San Diego, CA owners see the full picture.",
+          "Each memo outlines revenue per available room, average daily rate, and seasonal demand swings so San Diego, CA owners see the full picture, since hospitality income tends to fluctuate more than a fixed rent net lease asset.",
+      },
+      {
+        question: "Does the entire purchase price count as like kind property?",
+        answer:
+          "Not necessarily. The real property, meaning land and building, generally qualifies as like kind for a San Diego, CA investor's exchange, but furniture, fixtures, equipment, and any allocated business or brand value typically do not qualify as real property and may need to be handled separately from the exchange.",
+      },
+      {
+        question: "What is a mixed use property in this context?",
+        answer:
+          "We generally use this category to describe properties combining retail, office, residential, or hospitality uses in a single asset, and for San Diego, CA exchangers the entire real property component is typically treated as one like kind asset regardless of how many uses exist within it.",
+      },
+      {
+        question: "Are franchise brand fees a landlord or operator expense?",
+        answer:
+          "Franchise brand fees are generally an operating expense borne by whoever runs the hotel, not a real estate ownership cost, and we clarify that distinction on every San Diego, CA candidate so investors understand what they are actually acquiring as real property.",
       },
     ],
   },
@@ -674,26 +1180,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/flex-and-last-mile-logistics-pipeline",
     category: "Industrial",
     description:
-      "We source flex parks and last mile hubs that align with Southern California shipping patterns. San Diego, CA investors see dock packages, trailer parking, and power specs up front.",
+      "Flex buildings combine warehouse, showroom, and office space in one footprint, which lets a single tenant handle sales, light assembly, and distribution without leasing three separate properties, and last mile logistics hubs serve the final delivery leg of the supply chain closest to dense population centers. We source flex parks and last mile hubs nationwide that align with Southern California shipping patterns, and San Diego, CA investors see dock package details, trailer parking counts, and power specifications up front rather than discovering a power capacity shortfall after identification. Because San Diego, CA industrial and flex space remains supply constrained, occupier demand for well located last mile product tends to hold rent growth ahead of broader industrial averages, and we benchmark every candidate against that local trend so out of market opportunities can be judged on comparable footing.",
     heroImage: heroInland,
-    tags: ["Flex", "Logistics", "Industrial"],
-    workflows: ["Spec sheet", "Power audit", "Tenant review"],
-    highlight: "Flex assets that stay relevant as logistics evolves.",
+    tags: ["Flex", "Logistics", "Industrial", "Last Mile", "San Diego"],
+    workflows: [
+      "Define target office to warehouse ratio and tenant profile",
+      "Screen flex park and last mile inventory nationwide",
+      "Verify dock door count, clear height, and trailer parking",
+      "Audit power capacity and utility infrastructure",
+      "Review office component condition and HVAC status",
+      "Compare tenant mix against San Diego, CA logistics demand trends",
+    ],
+    highlight:
+      "Flex assets that stay relevant as logistics patterns evolve, benchmarked against San Diego, CA's supply constrained industrial market.",
     faqs: [
       {
         question: "Do you cover coastal and inland hubs?",
         answer:
-          "Yes, we marry San Diego, CA tenant demand with Phoenix, Vegas, and Bay Area routes.",
+          "Yes, we marry San Diego, CA tenant demand patterns with Phoenix, Las Vegas, and Bay Area logistics routes so investors can compare last mile opportunities across the broader Southwest corridor, not just within one metro.",
       },
       {
         question: "What about office components?",
         answer:
-          "We note office square footage, buildout age, and HVAC status so San Diego, CA buyers know refresh needs.",
+          "We note office square footage, buildout age, and HVAC condition so San Diego, CA buyers know what refresh or capital costs to expect if the office portion of a flex building needs updating for a new tenant.",
       },
       {
         question: "Can you mix credit tenants with local firms?",
         answer:
-          "We show both so San Diego, CA investors can choose between credit security and upside.",
+          "We show both so San Diego, CA investors can choose between the stability of a credit tenant lease and the upside potential of a growing local operator, since flex space often attracts smaller, faster growing businesses that a larger industrial building would not.",
+      },
+      {
+        question: "Why does power capacity matter so much for these assets?",
+        answer:
+          "Many logistics and light manufacturing tenants have specific electrical load requirements, and a San Diego, CA flex building without adequate power capacity can be difficult to re lease to a similar tenant, which is why we audit utility infrastructure before recommending a candidate for identification.",
+      },
+      {
+        question: "How does flex space qualify as like kind property?",
+        answer:
+          "Flex and last mile logistics buildings are real property held for investment or business use, which generally makes them like kind to any other qualifying commercial real estate a San Diego, CA investor is relinquishing, regardless of the specific asset class sold.",
+      },
+      {
+        question: "Is last mile logistics more resilient than traditional big box industrial?",
+        answer:
+          "We generally see strong, steady demand for last mile logistics space located close to dense population centers, since delivery time expectations continue to favor infill locations, though San Diego, CA investors should still evaluate each specific submarket rather than assuming uniform performance across the category.",
       },
     ],
   },
@@ -704,26 +1233,49 @@ export const servicesData: ServiceItem[] = [
     route: "/services/preferred-credit-tenant-list-san-diego",
     category: "Credit",
     description:
-      "We maintain a shortlist of AAA and investment grade tenants across retail, medical, logistics, and essential service verticals. Every alert cites the nearest San Diego, CA comp and explains rent coverage.",
+      "Investment grade and highly rated corporate tenants generally trade at tighter cap rates than local or regional operators because the rent stream is considered lower risk, and that pricing gap means the best credit tenant opportunities are often under contract within days of hitting the market. We maintain a shortlist of investment grade and other well rated tenants across retail, medical, logistics, and essential service verticals, and every alert cites the nearest San Diego, CA comp and explains rent coverage so you can move quickly once a matching property becomes available. Because a forty five day identification window leaves little room to research an unfamiliar tenant from scratch, we build the credit review into the alert itself, giving San Diego, CA investors a head start on evaluating whether a specific offering fits their exchange value and timing before a broader pool of buyers even sees it listed.",
     heroImage: heroRetail,
-    tags: ["Credit Tenant", "Alerts", "NNN"],
-    workflows: ["Alert setup", "Credit memo", "Offer coordination"],
-    highlight: "Be first in line when credit tenant inventory hits the market.",
+    tags: ["Credit Tenant", "Alerts", "NNN", "Investment Grade", "San Diego"],
+    workflows: [
+      "Document target tenant categories and minimum credit profile",
+      "Set up priority alerts across broker and off market channels",
+      "Prepare a credit memo on every matching opportunity",
+      "Benchmark rent coverage against the nearest San Diego, CA comp",
+      "Coordinate early access with listing brokers where possible",
+      "Support offer submission on a compressed timeline",
+    ],
+    highlight:
+      "Be first in line for San Diego, CA investors when credit tenant inventory hits the market, with the credit review already done.",
     faqs: [
       {
         question: "How do I join the alert list?",
         answer:
-          "Complete our intake and share your San Diego, CA exchange timing so we can align opportunities.",
+          "Complete our intake and share your San Diego, CA exchange timing, target value range, and preferred tenant categories so we can align alerts with opportunities that actually fit your identification window.",
       },
       {
         question: "Do you include corporate documentation?",
         answer:
-          "Yes, we attach financial statements or ratings so San Diego, CA investors can evaluate strength quickly.",
+          "Yes, we attach available financial statements or published credit ratings so San Diego, CA investors can evaluate tenant strength quickly rather than requesting documents from scratch once identification days are already running.",
       },
       {
         question: "Can you reserve deals?",
         answer:
-          "We coordinate with listing brokers to secure early looks for active San Diego, CA buyers whenever possible.",
+          "We coordinate with listing brokers to secure early looks for active San Diego, CA buyers whenever possible, though availability ultimately depends on the seller and listing broker, and we cannot guarantee exclusive access on every deal.",
+      },
+      {
+        question: "What counts as an investment grade tenant?",
+        answer:
+          "We generally use this term to describe tenants with a published credit rating from a recognized agency or a strong, verifiable corporate financial profile, and we clarify the specific rating or documentation behind each San Diego, CA alert so you are not relying on a broker's characterization alone.",
+      },
+      {
+        question: "Why do credit tenant deals move so fast?",
+        answer:
+          "Lower perceived risk on the rent stream draws a deeper buyer pool, so San Diego, CA investors relying on this category should have financing pre qualified and identification language ready in advance, since strong credit tenant offerings can go under contract within days of hitting the market.",
+      },
+      {
+        question: "Does a lower cap rate on credit tenant deals still work for my exchange?",
+        answer:
+          "It can, since fully deferring gain depends on replacement value and debt replacement rather than cap rate itself, and many San Diego, CA investors accept a lower yield on credit tenant product in exchange for reduced tenant default risk over the hold period.",
       },
     ],
   },
