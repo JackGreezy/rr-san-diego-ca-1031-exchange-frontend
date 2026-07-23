@@ -12,15 +12,10 @@ interface ContactFormProps {
 
 interface FormState {
   name: string;
-  company: string;
   email: string;
   phone: string;
-  propertyType: string;
-  propertyValue: string;
-  estimatedCloseDate: string;
-  city: string;
-  timeline: string;
-  details: string;
+  hasCompleted1031: boolean;
+  notes: string;
 }
 
 type FormErrors = Partial<Record<keyof FormState, string>>;
@@ -34,15 +29,10 @@ export function ContactForm({
 }: ContactFormProps) {
   const [formState, setFormState] = useState<FormState>({
     name: "",
-    company: "",
     email: "",
     phone: "",
-    propertyType: "",
-    propertyValue: "",
-    estimatedCloseDate: "",
-    city: "",
-    timeline: "",
-    details: "",
+    hasCompleted1031: false,
+    notes: "",
   });
   const [errors, setErrors] = useState<FormErrors>({});
   const [status, setStatus] = useState<
@@ -53,11 +43,15 @@ export function ContactForm({
   const [captchaMessage, setCaptchaMessage] = useState<string | null>(null);
   const [turnstileKey, setTurnstileKey] = useState(0);
 
-  const handleChange = (field: keyof FormState, value: string) => {
+  const handleChange = (field: "name" | "email" | "phone" | "notes", value: string) => {
     setFormState((prev) => ({ ...prev, [field]: value }));
     if (errors[field]) {
       setErrors((prev) => ({ ...prev, [field]: undefined }));
     }
+  };
+
+  const handleHasCompleted1031Change = (value: boolean) => {
+    setFormState((prev) => ({ ...prev, hasCompleted1031: value }));
   };
 
   const validateForm = (): FormErrors => {
@@ -75,9 +69,6 @@ export function ContactForm({
       fieldErrors.phone = "Phone is required";
     } else if (!/^\d{7,15}$/.test(formState.phone.trim())) {
       fieldErrors.phone = "Use digits only";
-    }
-    if (!formState.details.trim()) {
-      fieldErrors.details = "Message is required";
     }
 
     return fieldErrors;
@@ -108,10 +99,11 @@ export function ContactForm({
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          ...formState,
-          projectType: formState.propertyType,
-          property: `Type: ${formState.propertyType}, Value: ${formState.propertyValue}`,
+          name: formState.name,
+          email: formState.email,
           phone: formState.phone.replace(/\D/g, ""),
+          hasCompleted1031: formState.hasCompleted1031 ? "Yes" : "No",
+          notes: formState.notes,
           "cf-turnstile-response": turnstileToken,
         }),
       });
@@ -128,15 +120,10 @@ export function ContactForm({
       setTurnstileKey((prev) => prev + 1);
       setFormState({
         name: "",
-        company: "",
         email: "",
         phone: "",
-        propertyType: "",
-        propertyValue: "",
-        estimatedCloseDate: "",
-        city: "",
-        timeline: "",
-        details: "",
+        hasCompleted1031: false,
+        notes: "",
       });
       setErrors({});
     } catch (error) {
@@ -184,25 +171,15 @@ export function ContactForm({
         </div>
       </div>
       <form className="space-y-5" onSubmit={handleSubmit} noValidate>
-        <div className="grid gap-4 md:grid-cols-2">
-          <Field
-            label="Full Name *"
-            name="name"
-            type="text"
-            autoComplete="name"
-            value={formState.name}
-            onChange={(value) => handleChange("name", value)}
-            error={errors.name}
-          />
-          <Field
-            label="Company"
-            name="company"
-            type="text"
-            autoComplete="organization"
-            value={formState.company}
-            onChange={(value) => handleChange("company", value)}
-          />
-        </div>
+        <Field
+          label="Full Name *"
+          name="name"
+          type="text"
+          autoComplete="name"
+          value={formState.name}
+          onChange={(value) => handleChange("name", value)}
+          error={errors.name}
+        />
         <div className="grid gap-4 md:grid-cols-2">
           <Field
             label="Email *"
@@ -228,69 +205,34 @@ export function ContactForm({
             maxLength={15}
           />
         </div>
-        <div className="grid gap-4 md:grid-cols-2">
-          <Field
-            label="What type of property are you selling?"
-            name="propertyType"
-            type="text"
-            placeholder="e.g., Retail, Office, Multi-family, Industrial"
-            value={formState.propertyType}
-            onChange={(value) => handleChange("propertyType", value)}
+        <label className="flex cursor-pointer items-center gap-3 rounded-lg border border-gray-200 px-4 py-3 text-sm font-medium text-[#0F2A3D]">
+          <input type="hidden" name="hasCompleted1031" value="No" />
+          <input
+            type="checkbox"
+            name="hasCompleted1031"
+            value="Yes"
+            checked={formState.hasCompleted1031}
+            onChange={(event) => handleHasCompleted1031Change(event.target.checked)}
+            className="h-4 w-4 shrink-0 accent-[#0F2A3D]"
           />
-          <Field
-            label="Estimated property value"
-            name="propertyValue"
-            type="text"
-            placeholder="e.g., $500,000 - $1,000,000"
-            value={formState.propertyValue}
-            onChange={(value) => handleChange("propertyValue", value)}
-          />
-        </div>
-        <div className="grid gap-4 md:grid-cols-2">
-          <Field
-            label="Estimated Close Date"
-            name="estimatedCloseDate"
-            type="date"
-            value={formState.estimatedCloseDate}
-            onChange={(value) => handleChange("estimatedCloseDate", value)}
-          />
-          <Field
-            label="Target Location"
-            name="city"
-            type="text"
-            placeholder="City, state, or region for replacement property"
-            value={formState.city}
-            onChange={(value) => handleChange("city", value)}
-          />
-        </div>
-        <Field
-          label="Timeline"
-          name="timeline"
-          type="text"
-          placeholder="Example: Need to identify properties within 30 days"
-          value={formState.timeline}
-          onChange={(value) => handleChange("timeline", value)}
-        />
+          Have you completed a 1031 exchange before?
+        </label>
         <div>
           <label
             htmlFor={`${id}-details`}
             className="text-sm font-medium text-[#0F2A3D]"
           >
-            Message *
+            Notes
           </label>
           <textarea
             id={`${id}-details`}
-            name="details"
+            name="notes"
             rows={5}
             className="mt-1 w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-[#0F2A3D] placeholder:text-gray-400 focus:border-[#0F2A3D] focus:outline-none"
-            placeholder="Tell us about your goals, replacement property preferences, or any questions you have about the 1031 exchange process"
-            value={formState.details}
-            onChange={(event) => handleChange("details", event.target.value)}
-            required
+            placeholder="Share any exchange questions or context"
+            value={formState.notes}
+            onChange={(event) => handleChange("notes", event.target.value)}
           />
-          {errors.details ? (
-            <p className="mt-1 text-xs text-red-500">{errors.details}</p>
-          ) : null}
         </div>
 
         <div>

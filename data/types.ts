@@ -20,6 +20,11 @@ export interface ServiceItem {
   cityVariant?: string;
 }
 
+export interface LocationRichSection {
+  heading: string;
+  paragraphs: string[];
+}
+
 export interface LocationItem {
   slug: Slug;
   name: string;
@@ -30,6 +35,7 @@ export interface LocationItem {
   heroImage: string;
   description: string;
   highlights: string[];
+  richSections?: LocationRichSection[];
   faqs: FAQItem[];
 }
 

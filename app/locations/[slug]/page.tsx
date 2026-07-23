@@ -138,18 +138,40 @@ export default async function LocationPage({ params }: LocationPageProps) {
                 </div>
 
                 {/* Market Context */}
-                <div>
-                  <h2 className="text-2xl font-semibold text-[#0F2A3D] mb-6">
-                    Market Context
-                  </h2>
-                  <p className="text-[#0F2A3D]/70 leading-relaxed">
-                    {location.name} offers unique opportunities for 1031 exchange investors
-                    seeking quality replacement properties in the San Diego metro area.
-                    Our team monitors this market for single-tenant net lease assets,
-                    helping you identify properties that match your investment criteria
-                    and exchange timeline requirements.
-                  </p>
-                </div>
+                {location.richSections && location.richSections.length > 0 ? (
+                  <div className="space-y-10">
+                    {location.richSections.map((section, index) => (
+                      <div key={index}>
+                        <h2 className="text-2xl font-semibold text-[#0F2A3D] mb-4">
+                          {section.heading}
+                        </h2>
+                        <div className="space-y-4">
+                          {section.paragraphs.map((paragraph, pIndex) => (
+                            <p
+                              key={pIndex}
+                              className="text-[#0F2A3D]/70 leading-relaxed"
+                            >
+                              {paragraph}
+                            </p>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div>
+                    <h2 className="text-2xl font-semibold text-[#0F2A3D] mb-6">
+                      Market Context
+                    </h2>
+                    <p className="text-[#0F2A3D]/70 leading-relaxed">
+                      {location.name} offers unique opportunities for 1031 exchange investors
+                      seeking quality replacement properties in the San Diego metro area.
+                      Our team monitors this market for single-tenant net lease assets,
+                      helping you identify properties that match your investment criteria
+                      and exchange timeline requirements.
+                    </p>
+                  </div>
+                )}
               </div>
 
               {/* Sidebar */}
