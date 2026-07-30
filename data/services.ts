@@ -61,6 +61,559 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
+    slug: "capital-gains-on-rental-property",
+    name: "Capital Gains Tax on Rental Property",
+    short: "How capital gains tax applies when a San Diego rental property sells, and how a 1031 exchange can defer it.",
+    route: "/services/capital-gains-on-rental-property",
+    category: "Guides",
+    description:
+      "When a San Diego, CA rental property sells for more than its adjusted basis, the profit is generally subject to capital gains tax. Adjusted basis generally starts with the original purchase price plus qualifying capital improvements, and it is generally reduced dollar for dollar by depreciation claimed or allowable during the ownership period. Because most residential rental buildings are depreciated over twenty seven and one half years and commercial buildings over thirty nine years, an investor who has owned a San Diego rental for a decade or more often finds that depreciation has quietly shrunk the basis and enlarged the taxable gain well beyond the simple difference between purchase and sale price. If the property was held longer than one year, the gain is generally taxed at long term federal capital gains rates of zero, fifteen, or twenty percent depending on taxable income, though the portion of gain attributable to depreciation is generally taxed separately as unrecaptured Section 1250 gain at a federal rate of up to twenty five percent. High income sellers generally also owe the three and eight tenths percent net investment income tax on top of these federal rates. California does not offer a preferential rate for capital gains. Gain on a San Diego rental property is generally taxed as ordinary income under California's own bracket schedule, with a top marginal rate near thirteen point three percent, plus an additional one percent mental health services tax on taxable income above one million dollars. Combined, a high earning San Diego investor selling an appreciated rental can generally face a blended federal and state rate well above thirty percent on the gain. A Section 1031 exchange is generally the primary tool available to defer this tax when the rental property was held for investment or business use and the investor reinvests the net proceeds into other like kind investment real property, following the forty five day identification window and one hundred eighty day closing deadline. Deferral is not elimination, and the deferred gain is generally carried forward into the replacement property's basis, but it keeps the full sale proceeds working rather than sending a large share to the Internal Revenue Service and the California Franchise Tax Board in the year of sale. We coordinate with Qualified Intermediaries, lenders, and tax advisors to help San Diego, CA rental owners evaluate whether a like kind exchange fits their situation, and we are not a Qualified Intermediary ourselves. Educational content only. This is not tax, legal, or investment advice, and rental property owners should confirm their specific gain calculation and deferral options with a qualified tax advisor before selling.",
+    heroImage: heroRetail,
+    tags: ["Capital Gains", "Rental Property", "Tax Deferral"],
+    workflows: [
+      "Adjusted basis and depreciation recapture review",
+      "Federal and California tax exposure estimate",
+      "1031 exchange feasibility discussion with a Qualified Intermediary",
+    ],
+    highlight: "A plain language walkthrough of how depreciation recapture, federal rates, and California's ordinary income treatment combine on a San Diego rental sale, and how a 1031 exchange can defer that liability.",
+    faqs: [
+      {
+        question: "Does California tax rental property capital gains the same way as the federal government?",
+        answer:
+          "No. California generally taxes capital gains as ordinary income under its own bracket schedule rather than offering the reduced long term rates available at the federal level, so the state portion of the bill on a San Diego rental sale is often larger than sellers expect.",
+      },
+      {
+        question: "How does depreciation affect the taxable gain on a rental sale?",
+        answer:
+          "Depreciation claimed over the ownership period generally reduces the property's adjusted basis, which generally increases the taxable gain at sale. The portion of gain tied to depreciation is generally taxed separately as unrecaptured Section 1250 gain at a federal rate of up to twenty five percent.",
+      },
+      {
+        question: "Can I defer all of the capital gains tax with a 1031 exchange?",
+        answer:
+          "Generally yes, if all net proceeds and equity are reinvested into qualifying replacement property and the exchange rules are followed exactly. Taking any cash or reducing debt without replacing it generally creates boot, which is generally taxable in the year of the exchange.",
+      },
+      {
+        question: "What if I only want to sell part of my San Diego rental portfolio?",
+        answer:
+          "Investors can generally choose which properties to exchange and which to sell outright. We help San Diego, CA owners think through the trade offs property by property, and we always recommend confirming the plan with a tax advisor before closing.",
+      },
+      {
+        question: "Does selling multiple San Diego rentals in the same year change my tax bracket?",
+        answer:
+          "Generally yes. Stacking multiple rental sales in one tax year generally pushes total reported income higher, which can generally push a larger share of the combined gain into higher federal capital gains brackets and higher California ordinary income brackets, so some investors generally spread outright sales across years or use exchanges to defer some of the gain.",
+      },
+      {
+        question: "Can I deduct selling costs from the taxable gain on a rental property?",
+        answer:
+          "Generally yes, typical selling costs such as broker commissions, title and escrow fees, and certain closing costs generally reduce the amount realized on the sale, which generally lowers the taxable gain, and San Diego, CA sellers should generally keep the closing statement to document these costs for their tax preparer.",
+      },
+      {
+        question: "Should I sell my San Diego rental outright or discuss a 1031 exchange first?",
+        answer:
+          "Generally the answer depends on whether you intend to stay invested in real estate, since an outright sale generally settles the tax bill immediately while an exchange generally defers it, and we generally recommend running both scenarios with a tax advisor before listing the property.",
+      },
+    ],
+  },
+  {
+    slug: "inherited-property-capital-gains",
+    name: "Inherited Property Capital Gains Tax",
+    short: "How the step-up in basis works for inherited San Diego property, and California's community property step-up rules for surviving spouses.",
+    route: "/services/inherited-property-capital-gains",
+    category: "Guides",
+    description:
+      "Property inherited in San Diego, CA generally receives a step-up in basis under Internal Revenue Code Section 1014, meaning the heir's basis is generally reset to the property's fair market value as of the date of the original owner's death rather than carrying over the decedent's original purchase price and accumulated depreciation. This generally eliminates most or all of the capital gain that had built up during the decedent's ownership, so an heir who sells inherited property relatively soon after receiving it often owes little or no capital gains tax, since the taxable gain is generally measured only against the stepped-up value rather than decades of appreciation. California does not impose a separate state estate or inheritance tax, so heirs generally do not face an additional state-level tax simply for inheriting the property, though property tax reassessment under California's Proposition 19 is a separate consideration for heirs who intend to keep and occupy an inherited home. One detail that specifically matters in California and other community property states is how the step-up applies to property owned jointly by a married couple. Under Internal Revenue Code Section 1014(b)(6), community property generally receives a full step-up in basis on both halves of the property when the first spouse dies, not just the deceased spouse's fifty percent share, which is more generous than the treatment typically available in common law states where only the decedent's half generally steps up. This means a surviving spouse in San Diego, CA who inherits a jointly held community property asset can generally sell it with a fully reset basis equal to the property's value at the date of the first spouse's death, which can meaningfully reduce or eliminate gain compared to non-community-property states. Once the step-up is applied, any further appreciation between the date of death and a later sale is generally taxed as a normal capital gain, and if the heir held the inherited property for investment or business use, that later sale can generally still be structured as a 1031 exchange to defer tax on that post-inheritance appreciation. Heirs who plan to keep an inherited San Diego, CA property as a rental rather than selling it immediately should generally get a qualified appraisal near the date of death to document the stepped-up basis clearly, since that valuation generally becomes the foundation for all future depreciation and gain calculations. Educational content only. This is not tax, legal, or investment advice, and heirs should confirm basis, valuation, and any exchange planning with a qualified tax advisor and estate attorney.",
+    heroImage: heroInland,
+    tags: ["Inherited Property", "Step-Up in Basis", "Community Property"],
+    workflows: [
+      "Date-of-death fair market value documentation and appraisal",
+      "Community property step-up review for surviving spouses",
+      "Post-inheritance appreciation and 1031 eligibility screening",
+    ],
+    highlight: "How the Section 1014 step-up in basis resets an heir's taxable gain on inherited San Diego, CA property, and why California's community property rules can step up both halves of a jointly owned asset.",
+    faqs: [
+      {
+        question: "Do I owe capital gains tax just for inheriting a San Diego property?",
+        answer:
+          "Generally no. Inheriting property is generally not itself a taxable event, and the step-up in basis under Section 1014 generally resets the taxable basis to the property's fair market value at the date of death.",
+      },
+      {
+        question: "Does California charge an inheritance or estate tax on the property?",
+        answer:
+          "No, California generally does not impose a separate state inheritance or estate tax, though heirs who keep and occupy an inherited home should generally review Proposition 19 property tax reassessment rules separately from income tax planning.",
+      },
+      {
+        question: "What is different about the step-up for a married couple's community property?",
+        answer:
+          "Under Section 1014(b)(6), community property in California generally receives a full step-up on both halves of the asset when the first spouse dies, rather than only the deceased spouse's fifty percent share, which is generally more favorable than common law state treatment.",
+      },
+      {
+        question: "Can I still do a 1031 exchange on inherited property?",
+        answer:
+          "Generally yes, if the heir holds the inherited property for investment or business use rather than personal use, a later sale of that property can generally still be structured as a like-kind exchange to defer tax on appreciation after the date of death.",
+      },
+      {
+        question: "What if the inherited San Diego property had a mortgage at the time of death?",
+        answer:
+          "An existing mortgage generally does not change the stepped-up basis calculation, since basis is generally based on the property's fair market value rather than the decedent's equity, though heirs generally need to address the mortgage separately if they intend to keep or refinance the property.",
+      },
+      {
+        question: "What if multiple heirs inherit a San Diego property together?",
+        answer:
+          "Generally each heir receives a proportional stepped-up basis in their share of the inherited property, and if the heirs later sell, each generally reports their own portion of any post-inheritance gain based on their individual basis and ownership percentage.",
+      },
+      {
+        question: "Do I need a formal appraisal to establish the stepped-up basis?",
+        answer:
+          "A qualified appraisal near the date of death is generally the most reliable way to document fair market value for stepped-up basis purposes, and while other valuation methods exist, a documented appraisal generally provides stronger support if the basis is ever questioned.",
+      },
+    ],
+  },
+  {
+    slug: "passive-real-estate-income",
+    name: "Passive Real Estate Income",
+    short: "How net lease property, DSTs, TICs, REITs, and syndications compare as sources of passive income, and which fit a 1031 exchange.",
+    route: "/services/passive-real-estate-income",
+    category: "Guides",
+    description:
+      "Passive income generally means income that requires minimal ongoing time or active management from the investor, and real estate offers several structures that generally sit on a spectrum from lightly active to fully passive. A single tenant net leased property, where the tenant generally pays real estate taxes, insurance, and maintenance directly, generally requires less landlord involvement than a typical multifamily property, but the owner still generally holds legal title, arranges financing, and makes occasional decisions, so it is generally lightly active rather than fully passive. A Delaware Statutory Trust, or DST, generally offers a more fully passive structure, since a professional sponsor generally manages the underlying property, handles tenant relationships, and distributes income to investors who hold a beneficial interest without day to day decision making responsibility, and a properly structured DST interest generally still qualifies as like-kind real property for a 1031 exchange. A tenant in common, or TIC, structure sits between these, since TIC owners generally hold a direct co-ownership deed interest and may retain some voting rights on major decisions, even though day to day management is often still handled by a professional operator. Publicly traded real estate investment trusts, or REITs, generally offer the most liquid and passive access to real estate income, since shares can generally be bought and sold like stock and the REIT's management team generally runs all underlying operations, but REIT shares are generally securities in an entity rather than a direct interest in real property, so they generally do not qualify for 1031 exchange treatment. Syndications generally sit in a similar position for exchange purposes, since investors generally receive a passive membership or partnership interest managed entirely by the sponsor, but that interest generally does not qualify as like-kind property under Section 1031 because it is an interest in an entity rather than in the real estate itself. For San Diego, CA investors who are exchanging out of a management-intensive property, such as an older multifamily building requiring hands on landlord involvement, and who want the sale proceeds to generate passive income going forward while preserving 1031 deferral, a DST or a well structured TIC is generally the combination that satisfies both goals at once; because these interests may be securities, we do not sell securities and only provide introductions to licensed providers. We help investors evaluate how much active involvement they want to retain and match that preference against which structures actually preserve exchange eligibility. Educational content only. This is not tax, legal, or investment advice, and investors should confirm suitability with a licensed financial or tax professional before investing.",
+    heroImage: heroInland,
+    tags: ["Passive Income", "DST", "1031 Exchange"],
+    workflows: [
+      "Active versus passive management preference assessment",
+      "Structure comparison across net lease, DST, TIC, REIT, and syndication",
+      "Introduction to licensed DST or TIC providers for passive, exchange-eligible income",
+    ],
+    highlight: "A comparison of how net leased property, DSTs, TICs, REITs, and syndications differ in day-to-day management burden, and why DST and TIC structures generally remain the passive options that preserve 1031 eligibility.",
+    faqs: [
+      {
+        question: "What makes a DST more passive than owning rental property directly?",
+        answer:
+          "In a DST, a professional sponsor generally handles property management, tenant relationships, and major decisions, and investors generally hold a beneficial interest that receives distributions without day to day management responsibility.",
+      },
+      {
+        question: "Can I get passive income from a 1031 exchange without giving up tax deferral?",
+        answer:
+          "Generally yes, a properly structured DST or TIC replacement property can generally provide passive income while still qualifying as like-kind real property for 1031 purposes, though a DST or TIC interest may be a security and we do not sell securities.",
+      },
+      {
+        question: "Why do REIT shares not qualify as passive 1031 replacement property?",
+        answer:
+          "REIT shares are generally treated as securities representing an interest in a corporation or trust, not a direct interest in real property, so they generally fall outside the like-kind property requirement under Section 1031 even though they offer passive real estate income.",
+      },
+      {
+        question: "Is a TIC as hands off as a DST?",
+        answer:
+          "Generally not entirely. TIC owners generally hold a direct co-ownership deed interest and may retain limited voting rights on major property decisions, so a TIC is generally somewhat less passive than a typical DST, even though day to day management is often outsourced.",
+      },
+      {
+        question: "How quickly can I typically expect distributions from a passive real estate investment?",
+        answer:
+          "Distribution timing generally varies by structure and by the specific property's performance, and distributions are generally not guaranteed, so San Diego, CA investors should generally review a specific offering's projected distribution schedule and risk factors with a licensed provider before committing capital.",
+      },
+      {
+        question: "Are DST distributions guaranteed once I invest?",
+        answer:
+          "No, distributions from a DST are generally not guaranteed and generally depend on the underlying property's actual performance, so investors should generally review the offering's risk factors and projected distribution assumptions carefully with a licensed provider before committing capital.",
+      },
+      {
+        question: "Can I combine income from a DST with income from a directly owned property?",
+        answer:
+          "Generally yes, an investor can generally hold both directly owned property and DST or TIC interests at the same time, and some investors generally use a partial 1031 exchange into a DST specifically to diversify part of their portfolio toward more passive income.",
+      },
+    ],
+  },
+  {
+    slug: "the-qualified-intermediary-role",
+    name: "The Qualified Intermediary Role",
+    short: "Plain language explainer on why a qualified intermediary is required and how safe harbor and constructive receipt work.",
+    route: "/services/the-qualified-intermediary-role",
+    category: "Guides",
+    description:
+      "A Qualified Intermediary, generally referred to as a QI, is the independent party required under the safe harbor rules in Treasury Regulation 1.1031(k)-1(g)(4) to hold exchange proceeds and prevent the taxpayer from having actual or constructive receipt of the sale funds. Constructive receipt generally means the taxpayer had the ability to control or access the funds even if they did not physically take possession, and if constructive receipt occurs at any point, the exchange generally fails and the transaction is treated as a taxable sale rather than a deferred exchange. Because of this rule, San Diego, CA investors cannot generally hold their own sale proceeds, even briefly, and cannot generally have their attorney, accountant, real estate agent, or other party who has acted as their agent within the two years before the exchange serve as the QI, since that relationship is generally treated as disqualifying under the safe harbor. The QI's role generally begins before the relinquished property closes, with the preparation of an exchange agreement and an assignment of the taxpayer's rights in the sale contract to the QI. At closing, sale proceeds are generally wired directly to a qualified escrow or trust account controlled by the QI rather than to the taxpayer, and the QI generally holds those funds until they are needed to acquire replacement property. During the exchange period, the QI generally receives the taxpayer's written identification of replacement property, coordinates with escrow and title on each replacement closing, and generally releases funds directly to the replacement property escrow rather than to the taxpayer. San Diego, CA investors working with Qualified Intermediaries on properties located outside the state should confirm the QI has experience coordinating multistate closings, since timing, wire procedures, and state specific withholding requirements can vary. It is worth noting that a Qualified Intermediary is not the same as an Exchange Accommodation Titleholder, which is used in reverse and improvement exchanges, and a QI is also not permitted to give tax or legal advice, since that role belongs to the investor's own attorney or CPA. Choosing a QI with fidelity bond coverage, errors and omissions insurance, and segregated qualified escrow accounts is generally considered a prudent practice, since QI funds have occasionally been misappropriated in isolated industry incidents, and San Diego, CA investors should generally ask about these safeguards before funding an exchange. We coordinate introductions to Qualified Intermediaries and help gather the documentation they generally require to open an exchange file promptly once escrow is set to close. San Diego, CA investors should also generally ask a prospective QI how long they have operated, how many exchanges they generally close in a typical year, and whether they maintain a dedicated compliance or exchange operations team, since QI capacity can vary widely between a small regional shop and a larger national firm. For exchanges involving unusual structures, such as a reverse exchange, an improvement exchange, or a transaction with a related party, we generally recommend confirming the QI has direct, recent experience with that specific structure rather than assuming general exchange experience automatically transfers, since the documentation and safe harbor requirements can differ meaningfully between structures. San Diego, CA investors should generally also understand that the QI relationship is generally governed by a written exchange agreement that spells out fees, the scope of the QI's duties, and how interest earned on held funds is generally treated, and reviewing that agreement carefully before signing is generally worth the time it takes. Educational content only. This is not tax, legal, or investment advice, and investors should independently vet any Qualified Intermediary before entering into an exchange agreement.",
+    heroImage: heroInland,
+    tags: ["Qualified Intermediary", "Safe Harbor", "Guides"],
+    workflows: [
+      "Exchange agreement and assignment of rights prepared before closing",
+      "Qualified escrow funding confirmed at relinquished property closing",
+      "Coordinated release of funds to each replacement property escrow",
+    ],
+    highlight: "Why the safe harbor rules require an independent Qualified Intermediary, what disqualifies a candidate, and how San Diego, CA investors can vet fund safeguards before wiring proceeds.",
+    faqs: [
+      {
+        question: "Can I use my own attorney or accountant as my Qualified Intermediary?",
+        answer:
+          "Generally no, if that person has acted as your attorney, accountant, real estate agent, or other agent within the two years before the exchange, they are typically disqualified from serving as your QI under the safe harbor rules.",
+      },
+      {
+        question: "What happens if I briefly hold the sale proceeds myself?",
+        answer:
+          "Even brief access to the funds can generally trigger constructive receipt, which typically disqualifies the entire exchange and causes the transaction to be treated as a taxable sale rather than a deferred exchange.",
+      },
+      {
+        question: "Is a Qualified Intermediary the same as an escrow or title company?",
+        answer:
+          "No, escrow and title companies generally handle the closing and transfer of the property itself, while the Qualified Intermediary specifically holds the exchange proceeds and prepares exchange documentation. Many San Diego, CA closings use both simultaneously.",
+      },
+      {
+        question: "How do I know my exchange funds are safe with a Qualified Intermediary?",
+        answer:
+          "We generally recommend confirming the QI carries fidelity bond coverage and errors and omissions insurance, and that funds are held in a segregated qualified escrow or trust account rather than commingled with the QI's operating funds.",
+      },
+      {
+        question: "Can a Qualified Intermediary give me tax advice about my San Diego, CA exchange?",
+        answer:
+          "Generally no, a Qualified Intermediary's role is administrative and procedural. Tax and legal advice about your specific exchange should generally come from your own qualified tax advisor or attorney.",
+      },
+    ],
+  },
+  {
+    slug: "multifamily-dst-placement",
+    name: "Multifamily DST Placement",
+    short: "Match exchange proceeds to institutional multifamily Delaware Statutory Trust offerings.",
+    route: "/services/multifamily-dst-placement",
+    category: "DST",
+    description:
+      "A Delaware Statutory Trust, generally referred to as a DST, allows a San Diego, CA investor to hold a fractional, passive interest in institutional grade multifamily real estate while still qualifying as like kind replacement property under Revenue Ruling 2004 86 guidance. A DST or TIC interest may be a security. We do not sell securities. We provide introductions to licensed providers only, and any DST sponsor introduction is made through a properly licensed broker dealer or registered representative who handles suitability review. When a San Diego, CA investor prefers to step away from active property management, whether due to age, health, or simply wanting predictable distributions without landlord duties, we help introduce multifamily DST offerings sized to fit remaining exchange proceeds, and we walk through sponsor track record, leverage level, hold period, and fee structure in plain language before any suitability conversation with a licensed representative begins.",
+    heroImage: heroRetail,
+    tags: ["DST", "Multifamily", "Passive", "Securities", "San Diego"],
+    workflows: [
+      "Discuss passive ownership goals and remaining exchange proceeds",
+      "Introduce licensed representatives who handle DST suitability review",
+      "Compare sponsor track record, leverage, and target hold period",
+      "Review fee structure and distribution assumptions in plain language",
+      "Coordinate document delivery timelines against your forty five day window",
+      "Plan allocation between DST interests and any direct fee simple assets",
+    ],
+    highlight:
+      "DST pathways that complement direct fee simple holdings for San Diego, CA investors who want passive, professionally managed income.",
+    faqs: [
+      {
+        question: "Do you sell securities?",
+        answer:
+          "We do not sell securities. Instead we connect San Diego, CA investors with licensed representatives and registered broker dealers who handle suitability and offering documents, and we stay focused on education, timeline coordination, and sponsor comparison.",
+      },
+      {
+        question: "How do you vet DST sponsors?",
+        answer:
+          "We share third party research, sponsor track record on prior offerings, and available regulatory disclosures so San Diego, CA buyers can make informed decisions before speaking with a licensed representative. Final suitability determination is made by the licensed provider, not by our team.",
+      },
+      {
+        question: "What if I split funds between DST and fee simple?",
+        answer:
+          "We help San Diego, CA investors plan an allocation between DST tranches and direct net lease or multifamily deals while keeping the aggregate exchange identification compliant under the three property, two hundred percent, or ninety five percent rule, whichever applies to the full list.",
+      },
+      {
+        question: "Why would an investor choose a DST over direct ownership?",
+        answer:
+          "San Diego, CA investors often choose a DST to remove landlord duties, gain access to institutional grade multifamily assets below the minimum check size required for direct ownership, or simplify estate planning by holding a fractional interest instead of a whole property.",
+      },
+      {
+        question: "Are DST distributions guaranteed?",
+        answer:
+          "No distributions or investment outcomes are guaranteed, and DST offerings carry sponsor, leverage, and market risk like any other real estate investment. San Diego, CA investors should review offering documents and risk factors directly with a licensed representative before committing exchange proceeds.",
+      },
+      {
+        question: "Can a DST interest later exchange into another property?",
+        answer:
+          "In many cases a DST interest can later be exchanged into another qualifying replacement property or another DST offering, though timing and sponsor specific terms vary. San Diego, CA investors should confirm exit mechanics with the licensed representative and sponsor before investing.",
+      },
+    ],
+  },
+  {
+    slug: "what-is-an-nnn-lease",
+    name: "What Is an NNN Lease",
+    short: "A definitional guide to gross, modified gross, single net, double net, and triple net lease structures and how landlord obligations change across each.",
+    route: "/services/what-is-an-nnn-lease",
+    category: "Guides",
+    description:
+      "Commercial leases generally exist on a spectrum based on how much of a property's operating costs the landlord absorbs versus how much the tenant covers, and understanding where a given lease sits on that spectrum generally matters for evaluating any commercial property as a potential purchase or 1031 replacement. At one end, a full service gross lease generally has the landlord paying essentially all operating expenses, including real estate taxes, insurance, utilities, and maintenance, out of the base rent collected, which is common in traditional multi-tenant office buildings where tenants generally want one predictable monthly payment. A modified gross lease generally sits closer to the middle, where the landlord and tenant generally split responsibility for operating costs in whatever way the lease specifies, often with the tenant covering utilities and janitorial for their own space while the landlord covers taxes, insurance, and common area maintenance. Moving further toward tenant responsibility, a single net lease, sometimes written as an N lease, generally has the tenant paying base rent plus real estate taxes, while the landlord generally continues to cover insurance and maintenance. A double net lease, generally written as NN, generally adds insurance to the tenant's obligations, so the tenant pays base rent, real estate taxes, and building insurance, while the landlord generally retains responsibility for structural maintenance and repairs. A triple net lease, generally written as NNN, generally shifts the third major cost category, maintenance, to the tenant as well, meaning the tenant generally covers real estate taxes, insurance, and common area or property maintenance in addition to base rent, leaving the landlord with the most limited ongoing cost exposure of any structure on this spectrum. Some NNN leases go a step further and are marketed as absolute NNN, generally meaning the tenant also assumes responsibility for structural repairs and even roof and foundation obligations that a standard NNN lease might still leave with the landlord, which is common in build-to-suit single tenant properties constructed specifically for a long term corporate tenant. San Diego, CA investors evaluating a specific lease should generally read the actual lease document rather than relying on the NNN label alone, since the degree of net responsibility described in marketing materials does not always match every clause in the underlying lease, and the specific carve outs for roof, structure, and capital repairs generally vary property by property even among leases described the same way. Understanding exactly which costs a landlord retains under a given lease structure is generally essential before underwriting a commercial property as a 1031 replacement candidate. Educational content only. This is not tax, legal, or investment advice.",
+    heroImage: heroCoastal,
+    tags: ["NNN Lease", "Lease Structures", "Commercial Leasing"],
+    workflows: [
+      "Lease spectrum classification: gross, modified gross, single, double, and triple net",
+      "Line-by-line lease document review against marketed NNN status",
+      "Roof, structure, and capital repair carve-out identification",
+    ],
+    highlight: "A definitional tour of the commercial lease spectrum from full service gross to absolute NNN, and why San Diego, CA investors should read the actual lease document rather than relying on the net lease label alone.",
+    faqs: [
+      {
+        question: "What does the N in NNN actually stand for?",
+        answer:
+          "Each N generally represents one operating cost category the tenant covers in addition to base rent: real estate taxes, building insurance, and property maintenance, so NNN generally means the tenant covers all three.",
+      },
+      {
+        question: "How is a triple net lease different from a double net lease?",
+        answer:
+          "A double net, or NN, lease generally has the tenant covering real estate taxes and insurance while the landlord retains maintenance responsibility, whereas a triple net, or NNN, lease generally shifts maintenance to the tenant as well.",
+      },
+      {
+        question: "What does absolute NNN mean?",
+        answer:
+          "Absolute NNN generally goes beyond a standard triple net lease by also placing structural, roof, and sometimes foundation repair responsibility on the tenant, which is common in build-to-suit properties constructed for a specific long term corporate tenant.",
+      },
+      {
+        question: "Should I trust a listing's NNN label without reading the lease?",
+        answer:
+          "Generally no. The specific carve outs for roof, structure, and capital repairs can generally vary even among properties marketed with the same NNN label, so reviewing the actual lease document is generally essential before underwriting the property.",
+      },
+      {
+        question: "Which lease structure is most common in San Diego multi-tenant office buildings?",
+        answer:
+          "Multi-tenant office buildings generally use full service gross or modified gross leases more often than triple net structures, since tenants in shared buildings generally prefer one predictable payment while the landlord centrally manages building-wide operating costs across all tenants.",
+      },
+      {
+        question: "Can a single property have different lease structures for different tenants?",
+        answer:
+          "Generally yes, a multi-tenant property can generally have a mix of lease structures across different tenants, particularly in properties that combine retail pad sites under NNN leases with in-line shop space under modified gross leases, so investors should generally review each lease individually.",
+      },
+      {
+        question: "Does a longer lease term generally mean a more net lease structure?",
+        answer:
+          "Not necessarily, lease term length and net lease structure are generally independent variables, and a long term lease can generally be structured as gross, modified gross, or any level of net, so investors should generally evaluate both factors separately when comparing opportunities.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-reduce-capital-gains-tax",
+    name: "How to Reduce Capital Gains Tax",
+    short: "A roundup of the main strategies San Diego property owners generally use to defer or reduce capital gains tax on a sale.",
+    route: "/services/how-to-reduce-capital-gains-tax",
+    category: "Guides",
+    description:
+      "San Diego, CA property owners facing a large capital gain generally have several strategies to consider, and the right combination generally depends on the type of property, the owner's goals, and whether the owner wants to stay invested in real estate or move on entirely. The most widely used strategy for investment property is a Section 1031 like-kind exchange, which generally defers both capital gains tax and depreciation recapture by rolling sale proceeds into qualifying replacement real property within the forty five day identification and one hundred eighty day closing windows. For owners who want to reduce active management while still deferring tax, a Delaware Statutory Trust or tenant in common structure generally offers a passive, professionally managed replacement property option that can still qualify as like-kind real property for 1031 purposes; because a DST or TIC interest may be a security, we do not sell securities and only provide introductions to licensed providers. An installment sale under Section 453 is another option, generally allowing a seller to spread gain recognition over several years by receiving payments over time rather than a single lump sum, which can generally smooth out the tax impact across multiple lower tax brackets, though it does not work alongside a 1031 exchange on the same sale. Investors open to a longer term, illiquid commitment sometimes consider reinvesting gain into a Qualified Opportunity Zone fund under Section 1400Z, which generally allows deferral of the original gain and potential exclusion of appreciation on the new investment if held for the statutory period, though Opportunity Zone rules and eligible zones are specific and require careful review. For primary residences, the Section 121 exclusion generally shelters up to two hundred fifty thousand dollars of gain for single filers or five hundred thousand dollars for married joint filers, and owners of mixed-use property can sometimes combine that exclusion with a 1031 exchange on any rental portion. Charitable strategies, such as a charitable remainder trust, can generally allow a donor to contribute appreciated property, avoid immediate capital gains recognition on the contributed asset, and receive an income stream over time, though this generally requires giving up direct ownership of the asset. Finally, owners who are not selling immediately should remember that holding appreciated property until death generally allows heirs to receive a step-up in basis under Section 1014, which can generally eliminate the accumulated gain entirely for the next generation. Because these strategies generally interact with an owner's overall tax picture, income level, and timeline differently, San Diego, CA property owners should generally review their specific numbers with a tax advisor before choosing a path. Educational content only. This is not tax, legal, or investment advice.",
+    heroImage: heroCoastal,
+    tags: ["Tax Strategy", "Capital Gains", "1031 Exchange"],
+    workflows: [
+      "Property-by-property review of available deferral and exclusion strategies",
+      "1031 exchange, DST or TIC, and installment sale comparison",
+      "Referral to a qualified tax advisor for a personalized strategy",
+    ],
+    highlight: "A strategy-level overview of 1031 exchanges, DST and TIC passive replacement property, installment sales, Opportunity Zones, the Section 121 exclusion, and the step-up in basis at death.",
+    faqs: [
+      {
+        question: "What is generally the most common way San Diego investors reduce capital gains tax?",
+        answer:
+          "A Section 1031 like-kind exchange is generally the most widely used approach for investment property, since it generally defers both capital gains tax and depreciation recapture when the sale proceeds are fully reinvested into qualifying replacement real property.",
+      },
+      {
+        question: "Are DST and TIC investments a way to avoid taxes entirely?",
+        answer:
+          "No, a DST or TIC generally defers tax the same way a direct property exchange does, it does not eliminate it. A DST or TIC interest may be a security, and we do not sell securities. We provide introductions to licensed providers only.",
+      },
+      {
+        question: "Can I combine an installment sale with a 1031 exchange?",
+        answer:
+          "Generally not on the same transaction in a straightforward way, since an installment sale generally spreads gain recognition over time while a 1031 exchange generally requires reinvestment within the exchange windows, so these are generally treated as alternative rather than combined strategies.",
+      },
+      {
+        question: "Is holding property until death really a tax strategy?",
+        answer:
+          "Generally yes for investors who do not need to sell. Property held until death generally passes to heirs with a stepped-up basis under Section 1014, which can generally eliminate the accumulated gain built up during the original owner's lifetime.",
+      },
+      {
+        question: "Should I sell property in a lower income year to reduce the tax bill?",
+        answer:
+          "Timing a sale for a lower income year can generally help federal long term capital gains fall into a lower bracket, though California generally taxes the gain as ordinary income regardless of timing, so the state-level benefit of timing alone is generally more limited than the federal benefit.",
+      },
+      {
+        question: "Can tax-loss harvesting from other investments offset real estate capital gains?",
+        answer:
+          "Generally yes, capital losses realized on other investments, such as securities, can generally offset capital gains from real estate in the same tax year, subject to normal capital loss limitation rules, though this generally requires coordination with a tax advisor familiar with the investor's full portfolio.",
+      },
+      {
+        question: "Is a cost segregation study relevant to reducing capital gains tax?",
+        answer:
+          "A cost segregation study is generally more relevant to accelerating depreciation deductions during ownership than to reducing gain at sale, and in some cases it can generally increase depreciation recapture exposure later, so it should generally be evaluated together with an exit strategy rather than in isolation.",
+      },
+    ],
+  },
+  {
+    slug: "reverse-1031-exchange-explained",
+    name: "Reverse 1031 Exchange Explained",
+    short: "Plain language explainer on acquiring replacement property before the relinquished property sale through an exchange accommodation titleholder.",
+    route: "/services/reverse-1031-exchange-explained",
+    category: "Guides",
+    description:
+      "A reverse exchange generally allows an investor to acquire replacement property before selling the relinquished property, which is the opposite sequence of a standard forward exchange and is generally useful for San Diego, CA investors who find an ideal replacement property in a competitive market before their current property has sold. Because Section 1031 generally requires an exchange rather than a simple purchase followed by a sale, a reverse exchange generally relies on the safe harbor structure described in Revenue Procedure 2000-37, which uses an Exchange Accommodation Titleholder, generally called an EAT, to hold legal title to one of the two properties during the exchange period. In what is generally called exchange first or parking arrangement structures, the EAT generally takes and holds title to the replacement property using funds the investor provides, while the investor continues to market and sell the relinquished property. Once the relinquished property sells, sale proceeds generally flow through a Qualified Intermediary and are used to complete the investor's acquisition of the replacement property from the EAT. Alternatively, the EAT can generally hold the relinquished property while the investor acquires the replacement property directly, though the exchange first structure is more common in San Diego, CA transactions. The safe harbor generally imposes the same outer time limits as a forward exchange, meaning identification and completion generally must occur within a combined one hundred eighty day period from when the EAT takes title, and if the EAT holds the replacement property, the investor generally must identify the relinquished property in writing within forty five days. Reverse exchanges are generally more complex and more expensive than forward exchanges, since they require a separate EAT entity, often a single member LLC formed specifically to hold title, along with its own financing arrangement, additional legal documentation, and coordination between lenders willing to finance a parked property. San Diego, CA investors considering a reverse exchange should generally start the conversation with a Qualified Intermediary and their lender well before making an offer on the replacement property, since not every lender is generally willing to finance property held by an EAT, and financing terms can generally differ from a standard purchase loan. This structure is generally most useful when a San Diego, CA investor has high confidence the relinquished property will sell within the exchange period but does not want to risk losing the replacement property to another buyer while waiting. Because the parked property is generally titled in the EAT's name during the exchange, San Diego, CA investors should also generally review insurance, property tax, and lease assignment mechanics with their exchange team, since rents collected and expenses paid while the EAT holds title generally need to be tracked carefully and reconciled once title finally transfers. Some San Diego, CA investors also use a reverse exchange specifically to avoid a gap in ownership on an income producing property, since holding through the EAT generally allows rent collection to continue uninterrupted even while the relinquished property sale is still being finalized. Because the structure generally requires cash or a bridge loan to fund the EAT's acquisition of the replacement property up front, San Diego, CA investors should generally confirm their available liquidity or bridge financing options well before making an offer, since a reverse exchange that stalls for lack of funding at the EAT level can generally jeopardize the whole transaction. Educational content only. This is not tax, legal, or investment advice, and reverse exchange structuring should be confirmed with a qualified intermediary and tax advisor before any funds are committed.",
+    heroImage: heroRetail,
+    tags: ["Reverse Exchange", "EAT", "Guides"],
+    workflows: [
+      "Exchange Accommodation Titleholder entity formation and funding",
+      "Lender coordination for parked property financing",
+      "Forty five day identification of the relinquished property once title is parked",
+    ],
+    highlight: "How the Revenue Procedure 2000-37 safe harbor lets San Diego, CA investors acquire replacement property first through an Exchange Accommodation Titleholder while the relinquished property is still being marketed.",
+    faqs: [
+      {
+        question: "What is an Exchange Accommodation Titleholder?",
+        answer:
+          "An Exchange Accommodation Titleholder, generally called an EAT, is a separate entity that generally holds legal title to either the replacement or relinquished property during a reverse exchange, allowing the transaction to fit within the Revenue Procedure 2000-37 safe harbor.",
+      },
+      {
+        question: "How long can the EAT hold title in a reverse exchange?",
+        answer:
+          "The safe harbor generally allows a combined period of up to one hundred eighty days from when the EAT takes title for the relinquished property to sell and the exchange to complete, with a forty five day identification requirement inside that window.",
+      },
+      {
+        question: "Is a reverse exchange more expensive than a forward exchange?",
+        answer:
+          "Generally yes, reverse exchanges generally involve additional legal, accounting, and financing costs related to forming and funding the EAT entity, which San Diego, CA investors should generally budget for separately from standard exchange fees.",
+      },
+      {
+        question: "Will my lender finance a property held by an EAT?",
+        answer:
+          "Not all lenders are generally willing to finance a parked property, so San Diego, CA investors should generally confirm financing availability and terms with their lender before committing to a reverse exchange structure.",
+      },
+      {
+        question: "When does a reverse exchange generally make sense?",
+        answer:
+          "It generally makes sense when an investor has found a strong replacement property in a competitive San Diego, CA market and has high confidence the relinquished property will sell within the exchange period, making the added cost and complexity worthwhile.",
+      },
+    ],
+  },
+  {
+    slug: "the-180-day-exchange-deadline",
+    name: "The 180 Day Exchange Deadline",
+    short: "Plain language explainer on the one hundred eighty day exchange completion deadline and how it interacts with the identification period.",
+    route: "/services/the-180-day-exchange-deadline",
+    category: "Guides",
+    description:
+      "The one hundred eighty day exchange period is the outer deadline for completing a Section 1031 exchange, and it generally runs from the same start date as the forty five day identification period, meaning the two deadlines overlap rather than stack. In practice, this means a San Diego, CA investor typically has forty five days to identify replacement property and then only an additional one hundred thirty five days beyond that to close on the identified property or properties. The actual deadline is generally the earlier of one hundred eighty calendar days after the relinquished property transfers, or the due date, including extensions, of the taxpayer's federal income tax return for the year the relinquished property was sold. This second trigger surprises some investors who sell late in the calendar year, because a return due date of April fifteenth can fall before the full one hundred eighty days have run, effectively shortening the exchange period unless a tax return extension is filed. We generally recommend that San Diego, CA investors selling in the fourth quarter file for an extension on their federal return so the full one hundred eighty day window remains available. Within the one hundred eighty days, the Qualified Intermediary continues to hold exchange proceeds and coordinates the transfer of funds to escrow for each replacement property closing, and the exchange can generally involve multiple closings as long as they occur within the deadline and align with the identified property list. San Diego, CA investors acquiring replacement property outside the state, which is common when diversifying into markets with different price points, should build extra time into their closing schedule for out of state title, financing, and inspection processes, since those can take longer than a typical local San Diego escrow. Missing the one hundred eighty day deadline generally causes the exchange to fail for any property not yet closed, which typically triggers recognition of the deferred gain in the year of the original sale. Limited exceptions exist for taxpayers in federally declared disaster areas, where the IRS has periodically issued relief that extends both the forty five day and one hundred eighty day periods, but these extensions are announced case by case and should not generally be assumed. We track both deadlines from the moment escrow closes on the relinquished property, coordinate reminders with the Qualified Intermediary, lenders, and title companies, and flag any tax return due date conflict early so San Diego, CA investors have time to plan an extension if needed. California generally also requires taxpayers who exchange out of California property into replacement property located in another state to file California Franchise Tax Board Form 3840 annually until the deferred California source gain is eventually recognized, so San Diego, CA investors diversifying nationally should generally plan for this ongoing state filing obligation as part of their one hundred eighty day closing process rather than treating it as an afterthought. Investors who close on multiple replacement properties across different states within the one hundred eighty days should also generally confirm each state's own recording, transfer, and title procedures in advance, since closing calendars that work smoothly in San Diego escrow offices do not always translate directly to other jurisdictions. Educational content only. This is not tax, legal, or investment advice, and taxpayers should confirm exchange timing with their own qualified intermediary and tax preparer.",
+    heroImage: heroCoastal,
+    tags: ["Timelines", "Deadlines", "Guides"],
+    workflows: [
+      "Deadline calendar tied to the relinquished property closing date",
+      "Tax return due date and extension coordination",
+      "Multi closing tracking across identified replacement properties",
+    ],
+    highlight: "How the one hundred eighty day completion deadline overlaps with the forty five day identification period and why San Diego, CA sellers late in the year often need a tax return extension.",
+    faqs: [
+      {
+        question: "Do I get one hundred eighty days after the forty five day period ends?",
+        answer:
+          "No, the one hundred eighty days generally run concurrently with the forty five day identification period, not after it. San Diego, CA investors typically have one hundred thirty five days remaining after the identification deadline to close on identified replacement property.",
+      },
+      {
+        question: "Can my tax return due date shorten the one hundred eighty day period?",
+        answer:
+          "Yes, the exchange period generally ends on the earlier of one hundred eighty days or the due date, with extensions, of the tax return for the year of sale. San Diego, CA investors who sell late in the year should generally file a tax return extension to preserve the full one hundred eighty days.",
+      },
+      {
+        question: "Can I close on more than one replacement property?",
+        answer:
+          "Yes, an exchange can generally involve multiple replacement properties as long as each closing occurs within the one hundred eighty day period and the property was included on the forty five day identification list.",
+      },
+      {
+        question: "What happens if I miss the one hundred eighty day deadline?",
+        answer:
+          "Any identified property that has not closed by the deadline generally cannot be acquired as part of the exchange, and the exchange typically fails for that portion, which can trigger recognition of the deferred gain from the original San Diego, CA sale.",
+      },
+      {
+        question: "Are extensions ever available for the one hundred eighty day deadline?",
+        answer:
+          "Extensions are generally limited to taxpayers in areas covered by specific IRS disaster relief announcements. Outside of those declared situations, the one hundred eighty day period typically cannot be extended for market delays or financing issues.",
+      },
+    ],
+  },
+  {
+    slug: "capital-gains-on-investment-property",
+    name: "Capital Gains Tax on Investment Property",
+    short: "How capital gains tax works across land, commercial, and multifamily investment property in San Diego.",
+    route: "/services/capital-gains-on-investment-property",
+    category: "Guides",
+    description:
+      "Investment property covers a wider range of assets than a single family rental, including raw land, commercial buildings, multifamily communities, and net leased retail or industrial assets, and the capital gains calculation generally works the same way across all of them. Adjusted basis generally equals the original purchase price plus capital improvements, minus depreciation claimed on any depreciable component of the asset, since raw land itself is generally not depreciable while the buildings on it generally are. Gain on the sale is the difference between the net sale price and this adjusted basis, and if the investment property was held longer than one year, the gain generally qualifies for long term federal capital gains rates of zero, fifteen, or twenty percent, with any depreciation recapture on improved property generally taxed separately at a federal rate of up to twenty five percent. The net investment income tax of three and eight tenths percent generally applies on top of these rates for higher income sellers. California generally taxes the entire gain, including any recapture portion, as ordinary income under its own progressive bracket structure that tops out near thirteen point three percent, with an additional one percent surcharge on taxable income above one million dollars, so San Diego, CA investors selling a large commercial or multifamily asset should model the state liability carefully rather than assuming federal capital gains treatment applies at the state level. Since the Tax Cuts and Jobs Act took effect in 2018, Section 1031 like kind exchange treatment has generally been limited to real property held for investment or use in a trade or business, and personal property exchanges no longer qualify. This means land, commercial buildings, multifamily property, and most other classes of investment real estate are generally eligible to exchange into one another, regardless of asset type, as long as both the relinquished and replacement property are held for investment or business purposes rather than personal use. A San Diego, CA investor selling raw land can generally exchange into an income producing net leased building, and an investor selling an aging multifamily property can generally exchange into industrial or medical office real estate, since the like kind standard for real property is broad. We help investors map out how a sale of any qualifying investment property type could be structured as a deferred exchange, coordinating with the Qualified Intermediary, lender, and tax advisor throughout the identification and closing windows. Educational content only. This is not tax, legal, or investment advice, and investment property owners should work with a qualified tax professional to confirm their specific basis and gain calculation before any sale.",
+    heroImage: heroCoastal,
+    tags: ["Investment Property", "Capital Gains", "1031 Exchange"],
+    workflows: [
+      "Asset-by-asset basis and gain review across property types",
+      "Federal recapture and California ordinary income exposure estimate",
+      "Like-kind exchange structuring across asset classes",
+    ],
+    highlight: "A cross-asset explainer covering how capital gains tax applies to land, commercial, multifamily, and net leased investment property, and how broad like-kind treatment lets San Diego, CA investors exchange across categories.",
+    faqs: [
+      {
+        question: "Do land and buildings get taxed the same way at sale?",
+        answer:
+          "Not exactly. Raw land is generally not depreciable, so there is generally no depreciation recapture on the land portion of a sale, while improvements on the property generally do carry depreciation recapture exposure at the federal level.",
+      },
+      {
+        question: "Can I exchange a commercial property into a completely different asset type?",
+        answer:
+          "Generally yes. Since 2018, the like-kind standard under Section 1031 generally applies broadly to real property held for investment or business use, so a San Diego, CA investor can generally exchange retail for industrial, land for multifamily, or similar cross-category combinations.",
+      },
+      {
+        question: "How does California treat gain on out-of-state investment property?",
+        answer:
+          "California generally continues to tax California-source deferred gain even after an investor exchanges into replacement property located in another state, and generally requires an annual informational filing, Form 3840, until that deferred gain is eventually recognized.",
+      },
+      {
+        question: "What records should I keep for an investment property sale?",
+        answer:
+          "We generally recommend keeping purchase documents, capital improvement receipts, and depreciation schedules for the full ownership period, since a tax advisor generally needs all three to calculate adjusted basis accurately at the time of sale.",
+      },
+      {
+        question: "Does the type of investment property change how the gain is reported on my tax return?",
+        answer:
+          "The reporting mechanics are generally similar across property types, typically using Form 4797 and Schedule D, though the specific depreciation schedule and recapture calculation generally differs based on whether the improvements were residential or nonresidential and how they were classified when placed in service.",
+      },
+      {
+        question: "How does refinancing an investment property before a sale affect the gain calculation?",
+        answer:
+          "Refinancing generally does not change the adjusted basis or taxable gain calculation, since the gain is generally based on the sale price relative to basis rather than the outstanding loan balance, though a larger loan balance can generally affect how much net cash the seller actually receives at closing.",
+      },
+      {
+        question: "Does the holding period matter for whether gain is long term or short term?",
+        answer:
+          "Generally yes, property held for more than one year generally qualifies for long term capital gains treatment, while property held one year or less is generally taxed at higher short term rates equal to ordinary income rates, which is a meaningful distinction for recently acquired investment property.",
+      },
+    ],
+  },
+  {
+    slug: "the-45-day-identification-period",
+    name: "The 45 Day Identification Period",
+    short: "Plain language explainer on how the forty five day identification window works under Section 1031.",
+    route: "/services/the-45-day-identification-period",
+    category: "Guides",
+    description:
+      "The forty five day identification period is the first deadline in a Section 1031 exchange, and it generally begins the day after your relinquished property closes escrow. Within that window you must identify, in writing, the replacement property or properties you intend to acquire, and that notice must go to your Qualified Intermediary or another party involved in the exchange who is not treated as your agent. The identification generally must describe the property unambiguously, typically by street address or a legal description, and the forty five days run on calendar days, including weekends and holidays, with no extensions for market conditions. San Diego, CA investors selling in a competitive coastal or inland submarket sometimes underestimate how quickly this window closes once escrow records, especially when they are still touring net lease or multifamily replacement candidates. Because the timeline is unforgiving, we generally recommend investors begin building a replacement property shortlist before the relinquished property even closes, so the forty five day window is used to confirm and refine rather than to start from zero. Three identification paths are commonly used. The three property rule allows identification of up to three properties of any value. The two hundred percent rule allows more than three properties as long as their combined fair market value does not exceed two hundred percent of the relinquished property value. The ninety five percent rule removes the count and value limits entirely, but only if the investor ultimately acquires at least ninety five percent of the value of everything identified, a standard that is harder to satisfy and generally reserved for larger portfolios. An incidental property rule can also let minor personal property transferred with real estate, such as a small amount of furniture in a leased space, be disregarded for identification purposes in limited circumstances. Property identified within the forty five days can generally be revoked or replaced in writing before the deadline expires, which gives San Diego, CA investors some flexibility if a preferred replacement falls out of contract. Once the forty five days lapse, however, the list is generally locked, and any property not on it typically cannot be acquired as part of that exchange. We coordinate with Qualified Intermediaries and brokers to keep a running, dated identification record so there is a clear paper trail if the exchange is ever reviewed. Investors relinquishing property in San Diego, CA and identifying replacement property nationwide should also build in time zone and closing coordination buffers, since a property that looks available on day forty four can move quickly in an active market. A San Diego, CA investor rolling equity out of a coastal asset and into industrial or multifamily property in a lower cost metro should generally start broker outreach in multiple markets simultaneously, since waiting to hear back from a single region can quietly consume much of the forty five days. We also generally suggest keeping a written log of every property considered and rejected during the search, even before formal identification, because that log can generally help demonstrate a good faith, documented process if the exchange is ever questioned. Some San Diego, CA investors also generally use the identification period to negotiate multiple purchase and sale agreements in parallel, contingent on the exchange, which can generally provide a backup path if a primary replacement candidate falls through during due diligence. Educational content only. This is not tax, legal, or investment advice, and investors should confirm identification strategy with their own qualified intermediary, attorney, or tax advisor before relying on any identification path.",
+    heroImage: heroRetail,
+    tags: ["Identification", "Deadlines", "Guides"],
+    workflows: [
+      "Pre-close shortlist of candidate replacement properties",
+      "Written identification delivered to the Qualified Intermediary",
+      "Dated tracking of the three property, 200 percent, or 95 percent path",
+    ],
+    highlight: "A plain language walkthrough of the forty five day identification clock, the three identification paths, and how San Diego, CA investors typically avoid missing it.",
+    faqs: [
+      {
+        question: "When does the forty five day identification period actually start?",
+        answer:
+          "It generally begins the day after the relinquished property transfers, not the day the exchange agreement is signed and not the day funds arrive with the Qualified Intermediary. San Diego, CA investors should confirm the recorded closing date with escrow, since that date typically sets the clock for both the forty five day and one hundred eighty day periods.",
+      },
+      {
+        question: "Can I change my identified properties after submitting the list?",
+        answer:
+          "Generally yes, as long as the change is made in writing before the forty five day deadline expires. After the deadline, the identification is typically locked and only the properties on that list can generally be acquired within the exchange.",
+      },
+      {
+        question: "What happens if I identify more properties than the rules allow?",
+        answer:
+          "If the identification exceeds the three property rule and also fails the two hundred percent value limit, the exchange can generally lose the ninety five percent rule as its only remaining path, which requires acquiring nearly everything identified. We help San Diego, CA investors structure identification lists so this situation does not arise.",
+      },
+      {
+        question: "Does the forty five day period pause for weekends or holidays?",
+        answer:
+          "No, the forty five days generally run on consecutive calendar days with no extensions for weekends, holidays, or typical market delays. Limited disaster relief extensions have been granted by the IRS in specific declared disaster areas, but these are exceptions rather than the general rule.",
+      },
+      {
+        question: "Do I need a physical address to identify a property in San Diego, CA?",
+        answer:
+          "A street address or a legal description is generally sufficient for real property. For property still under construction or without a finished address, a legal description of the land along with a description of the planned improvements is typically used instead.",
+      },
+    ],
+  },
+  {
     slug: "stnl-retail-list-san-diego",
     name: "San Diego CA STNL Retail List",
     short: "Local and national retail single tenant lists that mirror San Diego timing.",
@@ -269,59 +822,6 @@ export const servicesData: ServiceItem[] = [
         question: "What if I want to add storage to a larger identification list?",
         answer:
           "Self storage pairs well with other candidates under the two hundred percent rule, and we can model a blended list for San Diego, CA investors who want both a stabilized net lease asset and a higher yield storage facility inside the same exchange.",
-      },
-    ],
-  },
-  {
-    slug: "multifamily-dst-placement",
-    name: "Multifamily DST Placement",
-    short: "Match exchange proceeds to institutional multifamily Delaware Statutory Trust offerings.",
-    route: "/services/multifamily-dst-placement",
-    category: "DST",
-    description:
-      "A Delaware Statutory Trust, generally referred to as a DST, allows a San Diego, CA investor to hold a fractional, passive interest in institutional grade multifamily real estate while still qualifying as like kind replacement property under Revenue Ruling 2004 86 guidance. A DST or TIC interest may be a security. We do not sell securities. We provide introductions to licensed providers only, and any DST sponsor introduction is made through a properly licensed broker dealer or registered representative who handles suitability review. When a San Diego, CA investor prefers to step away from active property management, whether due to age, health, or simply wanting predictable distributions without landlord duties, we help introduce multifamily DST offerings sized to fit remaining exchange proceeds, and we walk through sponsor track record, leverage level, hold period, and fee structure in plain language before any suitability conversation with a licensed representative begins.",
-    heroImage: heroRetail,
-    tags: ["DST", "Multifamily", "Passive", "Securities", "San Diego"],
-    workflows: [
-      "Discuss passive ownership goals and remaining exchange proceeds",
-      "Introduce licensed representatives who handle DST suitability review",
-      "Compare sponsor track record, leverage, and target hold period",
-      "Review fee structure and distribution assumptions in plain language",
-      "Coordinate document delivery timelines against your forty five day window",
-      "Plan allocation between DST interests and any direct fee simple assets",
-    ],
-    highlight:
-      "DST pathways that complement direct fee simple holdings for San Diego, CA investors who want passive, professionally managed income.",
-    faqs: [
-      {
-        question: "Do you sell securities?",
-        answer:
-          "We do not sell securities. Instead we connect San Diego, CA investors with licensed representatives and registered broker dealers who handle suitability and offering documents, and we stay focused on education, timeline coordination, and sponsor comparison.",
-      },
-      {
-        question: "How do you vet DST sponsors?",
-        answer:
-          "We share third party research, sponsor track record on prior offerings, and available regulatory disclosures so San Diego, CA buyers can make informed decisions before speaking with a licensed representative. Final suitability determination is made by the licensed provider, not by our team.",
-      },
-      {
-        question: "What if I split funds between DST and fee simple?",
-        answer:
-          "We help San Diego, CA investors plan an allocation between DST tranches and direct net lease or multifamily deals while keeping the aggregate exchange identification compliant under the three property, two hundred percent, or ninety five percent rule, whichever applies to the full list.",
-      },
-      {
-        question: "Why would an investor choose a DST over direct ownership?",
-        answer:
-          "San Diego, CA investors often choose a DST to remove landlord duties, gain access to institutional grade multifamily assets below the minimum check size required for direct ownership, or simplify estate planning by holding a fractional interest instead of a whole property.",
-      },
-      {
-        question: "Are DST distributions guaranteed?",
-        answer:
-          "No distributions or investment outcomes are guaranteed, and DST offerings carry sponsor, leverage, and market risk like any other real estate investment. San Diego, CA investors should review offering documents and risk factors directly with a licensed representative before committing exchange proceeds.",
-      },
-      {
-        question: "Can a DST interest later exchange into another property?",
-        answer:
-          "In many cases a DST interest can later be exchanged into another qualifying replacement property or another DST offering, though timing and sponsor specific terms vary. San Diego, CA investors should confirm exit mechanics with the licensed representative and sponsor before investing.",
       },
     ],
   },
@@ -856,59 +1356,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "three-property-rule-strategy",
-    name: "Three Property Rule Strategy",
-    short: "Structure identification letters that maximize the three property rule.",
-    route: "/services/three-property-rule-strategy",
-    category: "Rules",
-    description:
-      "The three property rule is the most commonly used identification path because it removes any value limit: a San Diego, CA investor can identify up to three properties of any fair market value, regardless of how that value compares to the relinquished asset, as long as the acquisition ultimately closes on one, two, or all three within one hundred eighty days. We outline replacement sequences, realistic value ranges, and contingency planning so San Diego, CA investors can use all three identification slots strategically rather than filling them with weak backups. A common approach is to identify one primary target you intend to close on, plus two credible backups in case the primary falls out of contract during due diligence, since property identified within the forty five days can generally be revoked and replaced in writing before the deadline expires. We coordinate directly with your Qualified Intermediary so the written identification notice is unambiguous, typically citing street address or legal description, and delivered before the forty five day window closes.",
-    heroImage: heroCoastal,
-    tags: ["Rules", "Identification", "Planning", "Three Property Rule", "San Diego"],
-    workflows: [
-      "Select a primary replacement target and two credible backups",
-      "Confirm each candidate meets or exceeds required replacement value",
-      "Draft identification letter language with clear property descriptions",
-      "Coordinate signature and delivery timing with your Qualified Intermediary",
-      "Track backup readiness in case the primary falls out of contract",
-      "Send reminder checkpoints as day forty five approaches",
-    ],
-    highlight:
-      "Clear, well sequenced identification documentation that your Qualified Intermediary will appreciate and the Internal Revenue Service will recognize.",
-    faqs: [
-      {
-        question: "Do you help draft the identification letter?",
-        answer:
-          "Yes, we provide draft language and coordinate signatures so your San Diego, CA Qualified Intermediary receives a written notice that unambiguously identifies each property, typically by street address or legal description, before the forty five day deadline.",
-      },
-      {
-        question: "Can I swap assets after submitting?",
-        answer:
-          "Generally yes, property identified within the forty five days can be revoked and replaced in writing before the deadline expires, and we help San Diego, CA investors communicate any updates to their Qualified Intermediary quickly so the change is properly documented.",
-      },
-      {
-        question: "What if I want more than three assets?",
-        answer:
-          "We evaluate whether the two hundred percent rule offers a better fit for your San Diego, CA exchange, since identifying a fourth property under the three property rule can disqualify the entire identification list if the count limit is exceeded.",
-      },
-      {
-        question: "Is there a value limit under the three property rule?",
-        answer:
-          "No, the three property rule has no value ceiling, which is its main advantage; a San Diego, CA investor can identify up to three properties of any combined value as long as no more than three are named on the list.",
-      },
-      {
-        question: "Do I have to close on all three identified properties?",
-        answer:
-          "No, you only need to close on enough of the identified properties to satisfy your exchange goals, and many San Diego, CA investors close on just one primary target while the other two identified properties serve purely as backup in case the primary deal fails.",
-      },
-      {
-        question: "What happens if none of my three identified properties close?",
-        answer:
-          "If a San Diego, CA investor fails to close on any identified property within one hundred eighty days, the exchange generally fails and the transaction is treated as a taxable sale, which is why we build in realistic backups rather than aspirational ones.",
-      },
-    ],
-  },
-  {
     slug: "two-hundred-percent-rule-modeling",
     name: "Two Hundred Percent Rule Modeling",
     short: "Model larger lists under the two hundred percent identification path.",
@@ -1280,94 +1727,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "the-45-day-identification-period",
-    name: "The 45 Day Identification Period",
-    short: "Plain language explainer on how the forty five day identification window works under Section 1031.",
-    route: "/services/the-45-day-identification-period",
-    category: "Guides",
-    description:
-      "The forty five day identification period is the first deadline in a Section 1031 exchange, and it generally begins the day after your relinquished property closes escrow. Within that window you must identify, in writing, the replacement property or properties you intend to acquire, and that notice must go to your Qualified Intermediary or another party involved in the exchange who is not treated as your agent. The identification generally must describe the property unambiguously, typically by street address or a legal description, and the forty five days run on calendar days, including weekends and holidays, with no extensions for market conditions. San Diego, CA investors selling in a competitive coastal or inland submarket sometimes underestimate how quickly this window closes once escrow records, especially when they are still touring net lease or multifamily replacement candidates. Because the timeline is unforgiving, we generally recommend investors begin building a replacement property shortlist before the relinquished property even closes, so the forty five day window is used to confirm and refine rather than to start from zero. Three identification paths are commonly used. The three property rule allows identification of up to three properties of any value. The two hundred percent rule allows more than three properties as long as their combined fair market value does not exceed two hundred percent of the relinquished property value. The ninety five percent rule removes the count and value limits entirely, but only if the investor ultimately acquires at least ninety five percent of the value of everything identified, a standard that is harder to satisfy and generally reserved for larger portfolios. An incidental property rule can also let minor personal property transferred with real estate, such as a small amount of furniture in a leased space, be disregarded for identification purposes in limited circumstances. Property identified within the forty five days can generally be revoked or replaced in writing before the deadline expires, which gives San Diego, CA investors some flexibility if a preferred replacement falls out of contract. Once the forty five days lapse, however, the list is generally locked, and any property not on it typically cannot be acquired as part of that exchange. We coordinate with Qualified Intermediaries and brokers to keep a running, dated identification record so there is a clear paper trail if the exchange is ever reviewed. Investors relinquishing property in San Diego, CA and identifying replacement property nationwide should also build in time zone and closing coordination buffers, since a property that looks available on day forty four can move quickly in an active market. A San Diego, CA investor rolling equity out of a coastal asset and into industrial or multifamily property in a lower cost metro should generally start broker outreach in multiple markets simultaneously, since waiting to hear back from a single region can quietly consume much of the forty five days. We also generally suggest keeping a written log of every property considered and rejected during the search, even before formal identification, because that log can generally help demonstrate a good faith, documented process if the exchange is ever questioned. Some San Diego, CA investors also generally use the identification period to negotiate multiple purchase and sale agreements in parallel, contingent on the exchange, which can generally provide a backup path if a primary replacement candidate falls through during due diligence. Educational content only. This is not tax, legal, or investment advice, and investors should confirm identification strategy with their own qualified intermediary, attorney, or tax advisor before relying on any identification path.",
-    heroImage: heroRetail,
-    tags: ["Identification", "Deadlines", "Guides"],
-    workflows: [
-      "Pre-close shortlist of candidate replacement properties",
-      "Written identification delivered to the Qualified Intermediary",
-      "Dated tracking of the three property, 200 percent, or 95 percent path",
-    ],
-    highlight: "A plain language walkthrough of the forty five day identification clock, the three identification paths, and how San Diego, CA investors typically avoid missing it.",
-    faqs: [
-      {
-        question: "When does the forty five day identification period actually start?",
-        answer:
-          "It generally begins the day after the relinquished property transfers, not the day the exchange agreement is signed and not the day funds arrive with the Qualified Intermediary. San Diego, CA investors should confirm the recorded closing date with escrow, since that date typically sets the clock for both the forty five day and one hundred eighty day periods.",
-      },
-      {
-        question: "Can I change my identified properties after submitting the list?",
-        answer:
-          "Generally yes, as long as the change is made in writing before the forty five day deadline expires. After the deadline, the identification is typically locked and only the properties on that list can generally be acquired within the exchange.",
-      },
-      {
-        question: "What happens if I identify more properties than the rules allow?",
-        answer:
-          "If the identification exceeds the three property rule and also fails the two hundred percent value limit, the exchange can generally lose the ninety five percent rule as its only remaining path, which requires acquiring nearly everything identified. We help San Diego, CA investors structure identification lists so this situation does not arise.",
-      },
-      {
-        question: "Does the forty five day period pause for weekends or holidays?",
-        answer:
-          "No, the forty five days generally run on consecutive calendar days with no extensions for weekends, holidays, or typical market delays. Limited disaster relief extensions have been granted by the IRS in specific declared disaster areas, but these are exceptions rather than the general rule.",
-      },
-      {
-        question: "Do I need a physical address to identify a property in San Diego, CA?",
-        answer:
-          "A street address or a legal description is generally sufficient for real property. For property still under construction or without a finished address, a legal description of the land along with a description of the planned improvements is typically used instead.",
-      },
-    ],
-  },
-  {
-    slug: "the-180-day-exchange-deadline",
-    name: "The 180 Day Exchange Deadline",
-    short: "Plain language explainer on the one hundred eighty day exchange completion deadline and how it interacts with the identification period.",
-    route: "/services/the-180-day-exchange-deadline",
-    category: "Guides",
-    description:
-      "The one hundred eighty day exchange period is the outer deadline for completing a Section 1031 exchange, and it generally runs from the same start date as the forty five day identification period, meaning the two deadlines overlap rather than stack. In practice, this means a San Diego, CA investor typically has forty five days to identify replacement property and then only an additional one hundred thirty five days beyond that to close on the identified property or properties. The actual deadline is generally the earlier of one hundred eighty calendar days after the relinquished property transfers, or the due date, including extensions, of the taxpayer's federal income tax return for the year the relinquished property was sold. This second trigger surprises some investors who sell late in the calendar year, because a return due date of April fifteenth can fall before the full one hundred eighty days have run, effectively shortening the exchange period unless a tax return extension is filed. We generally recommend that San Diego, CA investors selling in the fourth quarter file for an extension on their federal return so the full one hundred eighty day window remains available. Within the one hundred eighty days, the Qualified Intermediary continues to hold exchange proceeds and coordinates the transfer of funds to escrow for each replacement property closing, and the exchange can generally involve multiple closings as long as they occur within the deadline and align with the identified property list. San Diego, CA investors acquiring replacement property outside the state, which is common when diversifying into markets with different price points, should build extra time into their closing schedule for out of state title, financing, and inspection processes, since those can take longer than a typical local San Diego escrow. Missing the one hundred eighty day deadline generally causes the exchange to fail for any property not yet closed, which typically triggers recognition of the deferred gain in the year of the original sale. Limited exceptions exist for taxpayers in federally declared disaster areas, where the IRS has periodically issued relief that extends both the forty five day and one hundred eighty day periods, but these extensions are announced case by case and should not generally be assumed. We track both deadlines from the moment escrow closes on the relinquished property, coordinate reminders with the Qualified Intermediary, lenders, and title companies, and flag any tax return due date conflict early so San Diego, CA investors have time to plan an extension if needed. California generally also requires taxpayers who exchange out of California property into replacement property located in another state to file California Franchise Tax Board Form 3840 annually until the deferred California source gain is eventually recognized, so San Diego, CA investors diversifying nationally should generally plan for this ongoing state filing obligation as part of their one hundred eighty day closing process rather than treating it as an afterthought. Investors who close on multiple replacement properties across different states within the one hundred eighty days should also generally confirm each state's own recording, transfer, and title procedures in advance, since closing calendars that work smoothly in San Diego escrow offices do not always translate directly to other jurisdictions. Educational content only. This is not tax, legal, or investment advice, and taxpayers should confirm exchange timing with their own qualified intermediary and tax preparer.",
-    heroImage: heroCoastal,
-    tags: ["Timelines", "Deadlines", "Guides"],
-    workflows: [
-      "Deadline calendar tied to the relinquished property closing date",
-      "Tax return due date and extension coordination",
-      "Multi closing tracking across identified replacement properties",
-    ],
-    highlight: "How the one hundred eighty day completion deadline overlaps with the forty five day identification period and why San Diego, CA sellers late in the year often need a tax return extension.",
-    faqs: [
-      {
-        question: "Do I get one hundred eighty days after the forty five day period ends?",
-        answer:
-          "No, the one hundred eighty days generally run concurrently with the forty five day identification period, not after it. San Diego, CA investors typically have one hundred thirty five days remaining after the identification deadline to close on identified replacement property.",
-      },
-      {
-        question: "Can my tax return due date shorten the one hundred eighty day period?",
-        answer:
-          "Yes, the exchange period generally ends on the earlier of one hundred eighty days or the due date, with extensions, of the tax return for the year of sale. San Diego, CA investors who sell late in the year should generally file a tax return extension to preserve the full one hundred eighty days.",
-      },
-      {
-        question: "Can I close on more than one replacement property?",
-        answer:
-          "Yes, an exchange can generally involve multiple replacement properties as long as each closing occurs within the one hundred eighty day period and the property was included on the forty five day identification list.",
-      },
-      {
-        question: "What happens if I miss the one hundred eighty day deadline?",
-        answer:
-          "Any identified property that has not closed by the deadline generally cannot be acquired as part of the exchange, and the exchange typically fails for that portion, which can trigger recognition of the deferred gain from the original San Diego, CA sale.",
-      },
-      {
-        question: "Are extensions ever available for the one hundred eighty day deadline?",
-        answer:
-          "Extensions are generally limited to taxpayers in areas covered by specific IRS disaster relief announcements. Outside of those declared situations, the one hundred eighty day period typically cannot be extended for market delays or financing issues.",
-      },
-    ],
-  },
-  {
     slug: "what-is-boot-in-a-1031-exchange",
     name: "What Is Boot in a 1031 Exchange",
     short: "Plain language explainer on cash boot, mortgage boot, and how unlike kind value becomes taxable.",
@@ -1412,50 +1771,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "the-qualified-intermediary-role",
-    name: "The Qualified Intermediary Role",
-    short: "Plain language explainer on why a qualified intermediary is required and how safe harbor and constructive receipt work.",
-    route: "/services/the-qualified-intermediary-role",
-    category: "Guides",
-    description:
-      "A Qualified Intermediary, generally referred to as a QI, is the independent party required under the safe harbor rules in Treasury Regulation 1.1031(k)-1(g)(4) to hold exchange proceeds and prevent the taxpayer from having actual or constructive receipt of the sale funds. Constructive receipt generally means the taxpayer had the ability to control or access the funds even if they did not physically take possession, and if constructive receipt occurs at any point, the exchange generally fails and the transaction is treated as a taxable sale rather than a deferred exchange. Because of this rule, San Diego, CA investors cannot generally hold their own sale proceeds, even briefly, and cannot generally have their attorney, accountant, real estate agent, or other party who has acted as their agent within the two years before the exchange serve as the QI, since that relationship is generally treated as disqualifying under the safe harbor. The QI's role generally begins before the relinquished property closes, with the preparation of an exchange agreement and an assignment of the taxpayer's rights in the sale contract to the QI. At closing, sale proceeds are generally wired directly to a qualified escrow or trust account controlled by the QI rather than to the taxpayer, and the QI generally holds those funds until they are needed to acquire replacement property. During the exchange period, the QI generally receives the taxpayer's written identification of replacement property, coordinates with escrow and title on each replacement closing, and generally releases funds directly to the replacement property escrow rather than to the taxpayer. San Diego, CA investors working with Qualified Intermediaries on properties located outside the state should confirm the QI has experience coordinating multistate closings, since timing, wire procedures, and state specific withholding requirements can vary. It is worth noting that a Qualified Intermediary is not the same as an Exchange Accommodation Titleholder, which is used in reverse and improvement exchanges, and a QI is also not permitted to give tax or legal advice, since that role belongs to the investor's own attorney or CPA. Choosing a QI with fidelity bond coverage, errors and omissions insurance, and segregated qualified escrow accounts is generally considered a prudent practice, since QI funds have occasionally been misappropriated in isolated industry incidents, and San Diego, CA investors should generally ask about these safeguards before funding an exchange. We coordinate introductions to Qualified Intermediaries and help gather the documentation they generally require to open an exchange file promptly once escrow is set to close. San Diego, CA investors should also generally ask a prospective QI how long they have operated, how many exchanges they generally close in a typical year, and whether they maintain a dedicated compliance or exchange operations team, since QI capacity can vary widely between a small regional shop and a larger national firm. For exchanges involving unusual structures, such as a reverse exchange, an improvement exchange, or a transaction with a related party, we generally recommend confirming the QI has direct, recent experience with that specific structure rather than assuming general exchange experience automatically transfers, since the documentation and safe harbor requirements can differ meaningfully between structures. San Diego, CA investors should generally also understand that the QI relationship is generally governed by a written exchange agreement that spells out fees, the scope of the QI's duties, and how interest earned on held funds is generally treated, and reviewing that agreement carefully before signing is generally worth the time it takes. Educational content only. This is not tax, legal, or investment advice, and investors should independently vet any Qualified Intermediary before entering into an exchange agreement.",
-    heroImage: heroInland,
-    tags: ["Qualified Intermediary", "Safe Harbor", "Guides"],
-    workflows: [
-      "Exchange agreement and assignment of rights prepared before closing",
-      "Qualified escrow funding confirmed at relinquished property closing",
-      "Coordinated release of funds to each replacement property escrow",
-    ],
-    highlight: "Why the safe harbor rules require an independent Qualified Intermediary, what disqualifies a candidate, and how San Diego, CA investors can vet fund safeguards before wiring proceeds.",
-    faqs: [
-      {
-        question: "Can I use my own attorney or accountant as my Qualified Intermediary?",
-        answer:
-          "Generally no, if that person has acted as your attorney, accountant, real estate agent, or other agent within the two years before the exchange, they are typically disqualified from serving as your QI under the safe harbor rules.",
-      },
-      {
-        question: "What happens if I briefly hold the sale proceeds myself?",
-        answer:
-          "Even brief access to the funds can generally trigger constructive receipt, which typically disqualifies the entire exchange and causes the transaction to be treated as a taxable sale rather than a deferred exchange.",
-      },
-      {
-        question: "Is a Qualified Intermediary the same as an escrow or title company?",
-        answer:
-          "No, escrow and title companies generally handle the closing and transfer of the property itself, while the Qualified Intermediary specifically holds the exchange proceeds and prepares exchange documentation. Many San Diego, CA closings use both simultaneously.",
-      },
-      {
-        question: "How do I know my exchange funds are safe with a Qualified Intermediary?",
-        answer:
-          "We generally recommend confirming the QI carries fidelity bond coverage and errors and omissions insurance, and that funds are held in a segregated qualified escrow or trust account rather than commingled with the QI's operating funds.",
-      },
-      {
-        question: "Can a Qualified Intermediary give me tax advice about my San Diego, CA exchange?",
-        answer:
-          "Generally no, a Qualified Intermediary's role is administrative and procedural. Tax and legal advice about your specific exchange should generally come from your own qualified tax advisor or attorney.",
-      },
-    ],
-  },
-  {
     slug: "like-kind-property-explained",
     name: "Like Kind Property Explained",
     short: "Plain language explainer on what qualifies as like kind real property for investment or business use after the Tax Cuts and Jobs Act.",
@@ -1496,50 +1811,6 @@ export const servicesData: ServiceItem[] = [
         question: "Do long term leasehold interests count as like kind property?",
         answer:
           "Generally yes, a leasehold interest with thirty years or more remaining, including renewal options, is generally treated as like kind to a fee interest in real estate for San Diego, CA exchange purposes.",
-      },
-    ],
-  },
-  {
-    slug: "reverse-1031-exchange-explained",
-    name: "Reverse 1031 Exchange Explained",
-    short: "Plain language explainer on acquiring replacement property before the relinquished property sale through an exchange accommodation titleholder.",
-    route: "/services/reverse-1031-exchange-explained",
-    category: "Guides",
-    description:
-      "A reverse exchange generally allows an investor to acquire replacement property before selling the relinquished property, which is the opposite sequence of a standard forward exchange and is generally useful for San Diego, CA investors who find an ideal replacement property in a competitive market before their current property has sold. Because Section 1031 generally requires an exchange rather than a simple purchase followed by a sale, a reverse exchange generally relies on the safe harbor structure described in Revenue Procedure 2000-37, which uses an Exchange Accommodation Titleholder, generally called an EAT, to hold legal title to one of the two properties during the exchange period. In what is generally called exchange first or parking arrangement structures, the EAT generally takes and holds title to the replacement property using funds the investor provides, while the investor continues to market and sell the relinquished property. Once the relinquished property sells, sale proceeds generally flow through a Qualified Intermediary and are used to complete the investor's acquisition of the replacement property from the EAT. Alternatively, the EAT can generally hold the relinquished property while the investor acquires the replacement property directly, though the exchange first structure is more common in San Diego, CA transactions. The safe harbor generally imposes the same outer time limits as a forward exchange, meaning identification and completion generally must occur within a combined one hundred eighty day period from when the EAT takes title, and if the EAT holds the replacement property, the investor generally must identify the relinquished property in writing within forty five days. Reverse exchanges are generally more complex and more expensive than forward exchanges, since they require a separate EAT entity, often a single member LLC formed specifically to hold title, along with its own financing arrangement, additional legal documentation, and coordination between lenders willing to finance a parked property. San Diego, CA investors considering a reverse exchange should generally start the conversation with a Qualified Intermediary and their lender well before making an offer on the replacement property, since not every lender is generally willing to finance property held by an EAT, and financing terms can generally differ from a standard purchase loan. This structure is generally most useful when a San Diego, CA investor has high confidence the relinquished property will sell within the exchange period but does not want to risk losing the replacement property to another buyer while waiting. Because the parked property is generally titled in the EAT's name during the exchange, San Diego, CA investors should also generally review insurance, property tax, and lease assignment mechanics with their exchange team, since rents collected and expenses paid while the EAT holds title generally need to be tracked carefully and reconciled once title finally transfers. Some San Diego, CA investors also use a reverse exchange specifically to avoid a gap in ownership on an income producing property, since holding through the EAT generally allows rent collection to continue uninterrupted even while the relinquished property sale is still being finalized. Because the structure generally requires cash or a bridge loan to fund the EAT's acquisition of the replacement property up front, San Diego, CA investors should generally confirm their available liquidity or bridge financing options well before making an offer, since a reverse exchange that stalls for lack of funding at the EAT level can generally jeopardize the whole transaction. Educational content only. This is not tax, legal, or investment advice, and reverse exchange structuring should be confirmed with a qualified intermediary and tax advisor before any funds are committed.",
-    heroImage: heroRetail,
-    tags: ["Reverse Exchange", "EAT", "Guides"],
-    workflows: [
-      "Exchange Accommodation Titleholder entity formation and funding",
-      "Lender coordination for parked property financing",
-      "Forty five day identification of the relinquished property once title is parked",
-    ],
-    highlight: "How the Revenue Procedure 2000-37 safe harbor lets San Diego, CA investors acquire replacement property first through an Exchange Accommodation Titleholder while the relinquished property is still being marketed.",
-    faqs: [
-      {
-        question: "What is an Exchange Accommodation Titleholder?",
-        answer:
-          "An Exchange Accommodation Titleholder, generally called an EAT, is a separate entity that generally holds legal title to either the replacement or relinquished property during a reverse exchange, allowing the transaction to fit within the Revenue Procedure 2000-37 safe harbor.",
-      },
-      {
-        question: "How long can the EAT hold title in a reverse exchange?",
-        answer:
-          "The safe harbor generally allows a combined period of up to one hundred eighty days from when the EAT takes title for the relinquished property to sell and the exchange to complete, with a forty five day identification requirement inside that window.",
-      },
-      {
-        question: "Is a reverse exchange more expensive than a forward exchange?",
-        answer:
-          "Generally yes, reverse exchanges generally involve additional legal, accounting, and financing costs related to forming and funding the EAT entity, which San Diego, CA investors should generally budget for separately from standard exchange fees.",
-      },
-      {
-        question: "Will my lender finance a property held by an EAT?",
-        answer:
-          "Not all lenders are generally willing to finance a parked property, so San Diego, CA investors should generally confirm financing availability and terms with their lender before committing to a reverse exchange structure.",
-      },
-      {
-        question: "When does a reverse exchange generally make sense?",
-        answer:
-          "It generally makes sense when an investor has found a strong replacement property in a competitive San Diego, CA market and has high confidence the relinquished property will sell within the exchange period, making the added cost and complexity worthwhile.",
       },
     ],
   },
@@ -1628,114 +1899,6 @@ export const servicesData: ServiceItem[] = [
         question: "Should I tell my Qualified Intermediary if the other party is related to me?",
         answer:
           "Generally yes, San Diego, CA investors should generally disclose any related party relationship early so the exchange can be documented and structured with the two year rule and its exceptions in mind from the start.",
-      },
-    ],
-  },
-  {
-    slug: "capital-gains-on-rental-property",
-    name: "Capital Gains Tax on Rental Property",
-    short: "How capital gains tax applies when a San Diego rental property sells, and how a 1031 exchange can defer it.",
-    route: "/services/capital-gains-on-rental-property",
-    category: "Guides",
-    description:
-      "When a San Diego, CA rental property sells for more than its adjusted basis, the profit is generally subject to capital gains tax. Adjusted basis generally starts with the original purchase price plus qualifying capital improvements, and it is generally reduced dollar for dollar by depreciation claimed or allowable during the ownership period. Because most residential rental buildings are depreciated over twenty seven and one half years and commercial buildings over thirty nine years, an investor who has owned a San Diego rental for a decade or more often finds that depreciation has quietly shrunk the basis and enlarged the taxable gain well beyond the simple difference between purchase and sale price. If the property was held longer than one year, the gain is generally taxed at long term federal capital gains rates of zero, fifteen, or twenty percent depending on taxable income, though the portion of gain attributable to depreciation is generally taxed separately as unrecaptured Section 1250 gain at a federal rate of up to twenty five percent. High income sellers generally also owe the three and eight tenths percent net investment income tax on top of these federal rates. California does not offer a preferential rate for capital gains. Gain on a San Diego rental property is generally taxed as ordinary income under California's own bracket schedule, with a top marginal rate near thirteen point three percent, plus an additional one percent mental health services tax on taxable income above one million dollars. Combined, a high earning San Diego investor selling an appreciated rental can generally face a blended federal and state rate well above thirty percent on the gain. A Section 1031 exchange is generally the primary tool available to defer this tax when the rental property was held for investment or business use and the investor reinvests the net proceeds into other like kind investment real property, following the forty five day identification window and one hundred eighty day closing deadline. Deferral is not elimination, and the deferred gain is generally carried forward into the replacement property's basis, but it keeps the full sale proceeds working rather than sending a large share to the Internal Revenue Service and the California Franchise Tax Board in the year of sale. We coordinate with Qualified Intermediaries, lenders, and tax advisors to help San Diego, CA rental owners evaluate whether a like kind exchange fits their situation, and we are not a Qualified Intermediary ourselves. Educational content only. This is not tax, legal, or investment advice, and rental property owners should confirm their specific gain calculation and deferral options with a qualified tax advisor before selling.",
-    heroImage: heroRetail,
-    tags: ["Capital Gains", "Rental Property", "Tax Deferral"],
-    workflows: [
-      "Adjusted basis and depreciation recapture review",
-      "Federal and California tax exposure estimate",
-      "1031 exchange feasibility discussion with a Qualified Intermediary",
-    ],
-    highlight: "A plain language walkthrough of how depreciation recapture, federal rates, and California's ordinary income treatment combine on a San Diego rental sale, and how a 1031 exchange can defer that liability.",
-    faqs: [
-      {
-        question: "Does California tax rental property capital gains the same way as the federal government?",
-        answer:
-          "No. California generally taxes capital gains as ordinary income under its own bracket schedule rather than offering the reduced long term rates available at the federal level, so the state portion of the bill on a San Diego rental sale is often larger than sellers expect.",
-      },
-      {
-        question: "How does depreciation affect the taxable gain on a rental sale?",
-        answer:
-          "Depreciation claimed over the ownership period generally reduces the property's adjusted basis, which generally increases the taxable gain at sale. The portion of gain tied to depreciation is generally taxed separately as unrecaptured Section 1250 gain at a federal rate of up to twenty five percent.",
-      },
-      {
-        question: "Can I defer all of the capital gains tax with a 1031 exchange?",
-        answer:
-          "Generally yes, if all net proceeds and equity are reinvested into qualifying replacement property and the exchange rules are followed exactly. Taking any cash or reducing debt without replacing it generally creates boot, which is generally taxable in the year of the exchange.",
-      },
-      {
-        question: "What if I only want to sell part of my San Diego rental portfolio?",
-        answer:
-          "Investors can generally choose which properties to exchange and which to sell outright. We help San Diego, CA owners think through the trade offs property by property, and we always recommend confirming the plan with a tax advisor before closing.",
-      },
-      {
-        question: "Does selling multiple San Diego rentals in the same year change my tax bracket?",
-        answer:
-          "Generally yes. Stacking multiple rental sales in one tax year generally pushes total reported income higher, which can generally push a larger share of the combined gain into higher federal capital gains brackets and higher California ordinary income brackets, so some investors generally spread outright sales across years or use exchanges to defer some of the gain.",
-      },
-      {
-        question: "Can I deduct selling costs from the taxable gain on a rental property?",
-        answer:
-          "Generally yes, typical selling costs such as broker commissions, title and escrow fees, and certain closing costs generally reduce the amount realized on the sale, which generally lowers the taxable gain, and San Diego, CA sellers should generally keep the closing statement to document these costs for their tax preparer.",
-      },
-      {
-        question: "Should I sell my San Diego rental outright or discuss a 1031 exchange first?",
-        answer:
-          "Generally the answer depends on whether you intend to stay invested in real estate, since an outright sale generally settles the tax bill immediately while an exchange generally defers it, and we generally recommend running both scenarios with a tax advisor before listing the property.",
-      },
-    ],
-  },
-  {
-    slug: "capital-gains-on-investment-property",
-    name: "Capital Gains Tax on Investment Property",
-    short: "How capital gains tax works across land, commercial, and multifamily investment property in San Diego.",
-    route: "/services/capital-gains-on-investment-property",
-    category: "Guides",
-    description:
-      "Investment property covers a wider range of assets than a single family rental, including raw land, commercial buildings, multifamily communities, and net leased retail or industrial assets, and the capital gains calculation generally works the same way across all of them. Adjusted basis generally equals the original purchase price plus capital improvements, minus depreciation claimed on any depreciable component of the asset, since raw land itself is generally not depreciable while the buildings on it generally are. Gain on the sale is the difference between the net sale price and this adjusted basis, and if the investment property was held longer than one year, the gain generally qualifies for long term federal capital gains rates of zero, fifteen, or twenty percent, with any depreciation recapture on improved property generally taxed separately at a federal rate of up to twenty five percent. The net investment income tax of three and eight tenths percent generally applies on top of these rates for higher income sellers. California generally taxes the entire gain, including any recapture portion, as ordinary income under its own progressive bracket structure that tops out near thirteen point three percent, with an additional one percent surcharge on taxable income above one million dollars, so San Diego, CA investors selling a large commercial or multifamily asset should model the state liability carefully rather than assuming federal capital gains treatment applies at the state level. Since the Tax Cuts and Jobs Act took effect in 2018, Section 1031 like kind exchange treatment has generally been limited to real property held for investment or use in a trade or business, and personal property exchanges no longer qualify. This means land, commercial buildings, multifamily property, and most other classes of investment real estate are generally eligible to exchange into one another, regardless of asset type, as long as both the relinquished and replacement property are held for investment or business purposes rather than personal use. A San Diego, CA investor selling raw land can generally exchange into an income producing net leased building, and an investor selling an aging multifamily property can generally exchange into industrial or medical office real estate, since the like kind standard for real property is broad. We help investors map out how a sale of any qualifying investment property type could be structured as a deferred exchange, coordinating with the Qualified Intermediary, lender, and tax advisor throughout the identification and closing windows. Educational content only. This is not tax, legal, or investment advice, and investment property owners should work with a qualified tax professional to confirm their specific basis and gain calculation before any sale.",
-    heroImage: heroCoastal,
-    tags: ["Investment Property", "Capital Gains", "1031 Exchange"],
-    workflows: [
-      "Asset-by-asset basis and gain review across property types",
-      "Federal recapture and California ordinary income exposure estimate",
-      "Like-kind exchange structuring across asset classes",
-    ],
-    highlight: "A cross-asset explainer covering how capital gains tax applies to land, commercial, multifamily, and net leased investment property, and how broad like-kind treatment lets San Diego, CA investors exchange across categories.",
-    faqs: [
-      {
-        question: "Do land and buildings get taxed the same way at sale?",
-        answer:
-          "Not exactly. Raw land is generally not depreciable, so there is generally no depreciation recapture on the land portion of a sale, while improvements on the property generally do carry depreciation recapture exposure at the federal level.",
-      },
-      {
-        question: "Can I exchange a commercial property into a completely different asset type?",
-        answer:
-          "Generally yes. Since 2018, the like-kind standard under Section 1031 generally applies broadly to real property held for investment or business use, so a San Diego, CA investor can generally exchange retail for industrial, land for multifamily, or similar cross-category combinations.",
-      },
-      {
-        question: "How does California treat gain on out-of-state investment property?",
-        answer:
-          "California generally continues to tax California-source deferred gain even after an investor exchanges into replacement property located in another state, and generally requires an annual informational filing, Form 3840, until that deferred gain is eventually recognized.",
-      },
-      {
-        question: "What records should I keep for an investment property sale?",
-        answer:
-          "We generally recommend keeping purchase documents, capital improvement receipts, and depreciation schedules for the full ownership period, since a tax advisor generally needs all three to calculate adjusted basis accurately at the time of sale.",
-      },
-      {
-        question: "Does the type of investment property change how the gain is reported on my tax return?",
-        answer:
-          "The reporting mechanics are generally similar across property types, typically using Form 4797 and Schedule D, though the specific depreciation schedule and recapture calculation generally differs based on whether the improvements were residential or nonresidential and how they were classified when placed in service.",
-      },
-      {
-        question: "How does refinancing an investment property before a sale affect the gain calculation?",
-        answer:
-          "Refinancing generally does not change the adjusted basis or taxable gain calculation, since the gain is generally based on the sale price relative to basis rather than the outstanding loan balance, though a larger loan balance can generally affect how much net cash the seller actually receives at closing.",
-      },
-      {
-        question: "Does the holding period matter for whether gain is long term or short term?",
-        answer:
-          "Generally yes, property held for more than one year generally qualifies for long term capital gains treatment, while property held one year or less is generally taxed at higher short term rates equal to ordinary income rates, which is a meaningful distinction for recently acquired investment property.",
       },
     ],
   },
@@ -1848,60 +2011,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "inherited-property-capital-gains",
-    name: "Inherited Property Capital Gains Tax",
-    short: "How the step-up in basis works for inherited San Diego property, and California's community property step-up rules for surviving spouses.",
-    route: "/services/inherited-property-capital-gains",
-    category: "Guides",
-    description:
-      "Property inherited in San Diego, CA generally receives a step-up in basis under Internal Revenue Code Section 1014, meaning the heir's basis is generally reset to the property's fair market value as of the date of the original owner's death rather than carrying over the decedent's original purchase price and accumulated depreciation. This generally eliminates most or all of the capital gain that had built up during the decedent's ownership, so an heir who sells inherited property relatively soon after receiving it often owes little or no capital gains tax, since the taxable gain is generally measured only against the stepped-up value rather than decades of appreciation. California does not impose a separate state estate or inheritance tax, so heirs generally do not face an additional state-level tax simply for inheriting the property, though property tax reassessment under California's Proposition 19 is a separate consideration for heirs who intend to keep and occupy an inherited home. One detail that specifically matters in California and other community property states is how the step-up applies to property owned jointly by a married couple. Under Internal Revenue Code Section 1014(b)(6), community property generally receives a full step-up in basis on both halves of the property when the first spouse dies, not just the deceased spouse's fifty percent share, which is more generous than the treatment typically available in common law states where only the decedent's half generally steps up. This means a surviving spouse in San Diego, CA who inherits a jointly held community property asset can generally sell it with a fully reset basis equal to the property's value at the date of the first spouse's death, which can meaningfully reduce or eliminate gain compared to non-community-property states. Once the step-up is applied, any further appreciation between the date of death and a later sale is generally taxed as a normal capital gain, and if the heir held the inherited property for investment or business use, that later sale can generally still be structured as a 1031 exchange to defer tax on that post-inheritance appreciation. Heirs who plan to keep an inherited San Diego, CA property as a rental rather than selling it immediately should generally get a qualified appraisal near the date of death to document the stepped-up basis clearly, since that valuation generally becomes the foundation for all future depreciation and gain calculations. Educational content only. This is not tax, legal, or investment advice, and heirs should confirm basis, valuation, and any exchange planning with a qualified tax advisor and estate attorney.",
-    heroImage: heroInland,
-    tags: ["Inherited Property", "Step-Up in Basis", "Community Property"],
-    workflows: [
-      "Date-of-death fair market value documentation and appraisal",
-      "Community property step-up review for surviving spouses",
-      "Post-inheritance appreciation and 1031 eligibility screening",
-    ],
-    highlight: "How the Section 1014 step-up in basis resets an heir's taxable gain on inherited San Diego, CA property, and why California's community property rules can step up both halves of a jointly owned asset.",
-    faqs: [
-      {
-        question: "Do I owe capital gains tax just for inheriting a San Diego property?",
-        answer:
-          "Generally no. Inheriting property is generally not itself a taxable event, and the step-up in basis under Section 1014 generally resets the taxable basis to the property's fair market value at the date of death.",
-      },
-      {
-        question: "Does California charge an inheritance or estate tax on the property?",
-        answer:
-          "No, California generally does not impose a separate state inheritance or estate tax, though heirs who keep and occupy an inherited home should generally review Proposition 19 property tax reassessment rules separately from income tax planning.",
-      },
-      {
-        question: "What is different about the step-up for a married couple's community property?",
-        answer:
-          "Under Section 1014(b)(6), community property in California generally receives a full step-up on both halves of the asset when the first spouse dies, rather than only the deceased spouse's fifty percent share, which is generally more favorable than common law state treatment.",
-      },
-      {
-        question: "Can I still do a 1031 exchange on inherited property?",
-        answer:
-          "Generally yes, if the heir holds the inherited property for investment or business use rather than personal use, a later sale of that property can generally still be structured as a like-kind exchange to defer tax on appreciation after the date of death.",
-      },
-      {
-        question: "What if the inherited San Diego property had a mortgage at the time of death?",
-        answer:
-          "An existing mortgage generally does not change the stepped-up basis calculation, since basis is generally based on the property's fair market value rather than the decedent's equity, though heirs generally need to address the mortgage separately if they intend to keep or refinance the property.",
-      },
-      {
-        question: "What if multiple heirs inherit a San Diego property together?",
-        answer:
-          "Generally each heir receives a proportional stepped-up basis in their share of the inherited property, and if the heirs later sell, each generally reports their own portion of any post-inheritance gain based on their individual basis and ownership percentage.",
-      },
-      {
-        question: "Do I need a formal appraisal to establish the stepped-up basis?",
-        answer:
-          "A qualified appraisal near the date of death is generally the most reliable way to document fair market value for stepped-up basis purposes, and while other valuation methods exist, a documented appraisal generally provides stronger support if the basis is ever questioned.",
-      },
-    ],
-  },
-  {
     slug: "depreciation-recapture-explained",
     name: "Depreciation Recapture Explained",
     short: "How Section 1250 depreciation recapture works on San Diego investment property, and why a 1031 exchange defers it too.",
@@ -2010,60 +2119,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "how-to-reduce-capital-gains-tax",
-    name: "How to Reduce Capital Gains Tax",
-    short: "A roundup of the main strategies San Diego property owners generally use to defer or reduce capital gains tax on a sale.",
-    route: "/services/how-to-reduce-capital-gains-tax",
-    category: "Guides",
-    description:
-      "San Diego, CA property owners facing a large capital gain generally have several strategies to consider, and the right combination generally depends on the type of property, the owner's goals, and whether the owner wants to stay invested in real estate or move on entirely. The most widely used strategy for investment property is a Section 1031 like-kind exchange, which generally defers both capital gains tax and depreciation recapture by rolling sale proceeds into qualifying replacement real property within the forty five day identification and one hundred eighty day closing windows. For owners who want to reduce active management while still deferring tax, a Delaware Statutory Trust or tenant in common structure generally offers a passive, professionally managed replacement property option that can still qualify as like-kind real property for 1031 purposes; because a DST or TIC interest may be a security, we do not sell securities and only provide introductions to licensed providers. An installment sale under Section 453 is another option, generally allowing a seller to spread gain recognition over several years by receiving payments over time rather than a single lump sum, which can generally smooth out the tax impact across multiple lower tax brackets, though it does not work alongside a 1031 exchange on the same sale. Investors open to a longer term, illiquid commitment sometimes consider reinvesting gain into a Qualified Opportunity Zone fund under Section 1400Z, which generally allows deferral of the original gain and potential exclusion of appreciation on the new investment if held for the statutory period, though Opportunity Zone rules and eligible zones are specific and require careful review. For primary residences, the Section 121 exclusion generally shelters up to two hundred fifty thousand dollars of gain for single filers or five hundred thousand dollars for married joint filers, and owners of mixed-use property can sometimes combine that exclusion with a 1031 exchange on any rental portion. Charitable strategies, such as a charitable remainder trust, can generally allow a donor to contribute appreciated property, avoid immediate capital gains recognition on the contributed asset, and receive an income stream over time, though this generally requires giving up direct ownership of the asset. Finally, owners who are not selling immediately should remember that holding appreciated property until death generally allows heirs to receive a step-up in basis under Section 1014, which can generally eliminate the accumulated gain entirely for the next generation. Because these strategies generally interact with an owner's overall tax picture, income level, and timeline differently, San Diego, CA property owners should generally review their specific numbers with a tax advisor before choosing a path. Educational content only. This is not tax, legal, or investment advice.",
-    heroImage: heroCoastal,
-    tags: ["Tax Strategy", "Capital Gains", "1031 Exchange"],
-    workflows: [
-      "Property-by-property review of available deferral and exclusion strategies",
-      "1031 exchange, DST or TIC, and installment sale comparison",
-      "Referral to a qualified tax advisor for a personalized strategy",
-    ],
-    highlight: "A strategy-level overview of 1031 exchanges, DST and TIC passive replacement property, installment sales, Opportunity Zones, the Section 121 exclusion, and the step-up in basis at death.",
-    faqs: [
-      {
-        question: "What is generally the most common way San Diego investors reduce capital gains tax?",
-        answer:
-          "A Section 1031 like-kind exchange is generally the most widely used approach for investment property, since it generally defers both capital gains tax and depreciation recapture when the sale proceeds are fully reinvested into qualifying replacement real property.",
-      },
-      {
-        question: "Are DST and TIC investments a way to avoid taxes entirely?",
-        answer:
-          "No, a DST or TIC generally defers tax the same way a direct property exchange does, it does not eliminate it. A DST or TIC interest may be a security, and we do not sell securities. We provide introductions to licensed providers only.",
-      },
-      {
-        question: "Can I combine an installment sale with a 1031 exchange?",
-        answer:
-          "Generally not on the same transaction in a straightforward way, since an installment sale generally spreads gain recognition over time while a 1031 exchange generally requires reinvestment within the exchange windows, so these are generally treated as alternative rather than combined strategies.",
-      },
-      {
-        question: "Is holding property until death really a tax strategy?",
-        answer:
-          "Generally yes for investors who do not need to sell. Property held until death generally passes to heirs with a stepped-up basis under Section 1014, which can generally eliminate the accumulated gain built up during the original owner's lifetime.",
-      },
-      {
-        question: "Should I sell property in a lower income year to reduce the tax bill?",
-        answer:
-          "Timing a sale for a lower income year can generally help federal long term capital gains fall into a lower bracket, though California generally taxes the gain as ordinary income regardless of timing, so the state-level benefit of timing alone is generally more limited than the federal benefit.",
-      },
-      {
-        question: "Can tax-loss harvesting from other investments offset real estate capital gains?",
-        answer:
-          "Generally yes, capital losses realized on other investments, such as securities, can generally offset capital gains from real estate in the same tax year, subject to normal capital loss limitation rules, though this generally requires coordination with a tax advisor familiar with the investor's full portfolio.",
-      },
-      {
-        question: "Is a cost segregation study relevant to reducing capital gains tax?",
-        answer:
-          "A cost segregation study is generally more relevant to accelerating depreciation deductions during ownership than to reducing gain at sale, and in some cases it can generally increase depreciation recapture exposure later, so it should generally be evaluated together with an exit strategy rather than in isolation.",
-      },
-    ],
-  },
-  {
     slug: "how-to-invest-in-real-estate",
     name: "How to Invest in Real Estate",
     short: "An overview of direct ownership, REITs, DSTs, TICs, syndications, and crowdfunding, and which are 1031 eligible.",
@@ -2114,60 +2169,6 @@ export const servicesData: ServiceItem[] = [
         question: "How do management fees generally compare between direct ownership and DST investing?",
         answer:
           "Direct ownership generally avoids a separate asset management fee but generally requires the owner's own time or a property manager's fee, while DST investments generally build sponsor and asset management fees into the structure in exchange for fully passive ownership.",
-      },
-    ],
-  },
-  {
-    slug: "passive-real-estate-income",
-    name: "Passive Real Estate Income",
-    short: "How net lease property, DSTs, TICs, REITs, and syndications compare as sources of passive income, and which fit a 1031 exchange.",
-    route: "/services/passive-real-estate-income",
-    category: "Guides",
-    description:
-      "Passive income generally means income that requires minimal ongoing time or active management from the investor, and real estate offers several structures that generally sit on a spectrum from lightly active to fully passive. A single tenant net leased property, where the tenant generally pays real estate taxes, insurance, and maintenance directly, generally requires less landlord involvement than a typical multifamily property, but the owner still generally holds legal title, arranges financing, and makes occasional decisions, so it is generally lightly active rather than fully passive. A Delaware Statutory Trust, or DST, generally offers a more fully passive structure, since a professional sponsor generally manages the underlying property, handles tenant relationships, and distributes income to investors who hold a beneficial interest without day to day decision making responsibility, and a properly structured DST interest generally still qualifies as like-kind real property for a 1031 exchange. A tenant in common, or TIC, structure sits between these, since TIC owners generally hold a direct co-ownership deed interest and may retain some voting rights on major decisions, even though day to day management is often still handled by a professional operator. Publicly traded real estate investment trusts, or REITs, generally offer the most liquid and passive access to real estate income, since shares can generally be bought and sold like stock and the REIT's management team generally runs all underlying operations, but REIT shares are generally securities in an entity rather than a direct interest in real property, so they generally do not qualify for 1031 exchange treatment. Syndications generally sit in a similar position for exchange purposes, since investors generally receive a passive membership or partnership interest managed entirely by the sponsor, but that interest generally does not qualify as like-kind property under Section 1031 because it is an interest in an entity rather than in the real estate itself. For San Diego, CA investors who are exchanging out of a management-intensive property, such as an older multifamily building requiring hands on landlord involvement, and who want the sale proceeds to generate passive income going forward while preserving 1031 deferral, a DST or a well structured TIC is generally the combination that satisfies both goals at once; because these interests may be securities, we do not sell securities and only provide introductions to licensed providers. We help investors evaluate how much active involvement they want to retain and match that preference against which structures actually preserve exchange eligibility. Educational content only. This is not tax, legal, or investment advice, and investors should confirm suitability with a licensed financial or tax professional before investing.",
-    heroImage: heroInland,
-    tags: ["Passive Income", "DST", "1031 Exchange"],
-    workflows: [
-      "Active versus passive management preference assessment",
-      "Structure comparison across net lease, DST, TIC, REIT, and syndication",
-      "Introduction to licensed DST or TIC providers for passive, exchange-eligible income",
-    ],
-    highlight: "A comparison of how net leased property, DSTs, TICs, REITs, and syndications differ in day-to-day management burden, and why DST and TIC structures generally remain the passive options that preserve 1031 eligibility.",
-    faqs: [
-      {
-        question: "What makes a DST more passive than owning rental property directly?",
-        answer:
-          "In a DST, a professional sponsor generally handles property management, tenant relationships, and major decisions, and investors generally hold a beneficial interest that receives distributions without day to day management responsibility.",
-      },
-      {
-        question: "Can I get passive income from a 1031 exchange without giving up tax deferral?",
-        answer:
-          "Generally yes, a properly structured DST or TIC replacement property can generally provide passive income while still qualifying as like-kind real property for 1031 purposes, though a DST or TIC interest may be a security and we do not sell securities.",
-      },
-      {
-        question: "Why do REIT shares not qualify as passive 1031 replacement property?",
-        answer:
-          "REIT shares are generally treated as securities representing an interest in a corporation or trust, not a direct interest in real property, so they generally fall outside the like-kind property requirement under Section 1031 even though they offer passive real estate income.",
-      },
-      {
-        question: "Is a TIC as hands off as a DST?",
-        answer:
-          "Generally not entirely. TIC owners generally hold a direct co-ownership deed interest and may retain limited voting rights on major property decisions, so a TIC is generally somewhat less passive than a typical DST, even though day to day management is often outsourced.",
-      },
-      {
-        question: "How quickly can I typically expect distributions from a passive real estate investment?",
-        answer:
-          "Distribution timing generally varies by structure and by the specific property's performance, and distributions are generally not guaranteed, so San Diego, CA investors should generally review a specific offering's projected distribution schedule and risk factors with a licensed provider before committing capital.",
-      },
-      {
-        question: "Are DST distributions guaranteed once I invest?",
-        answer:
-          "No, distributions from a DST are generally not guaranteed and generally depend on the underlying property's actual performance, so investors should generally review the offering's risk factors and projected distribution assumptions carefully with a licensed provider before committing capital.",
-      },
-      {
-        question: "Can I combine income from a DST with income from a directly owned property?",
-        answer:
-          "Generally yes, an investor can generally hold both directly owned property and DST or TIC interests at the same time, and some investors generally use a partial 1031 exchange into a DST specifically to diversify part of their portfolio toward more passive income.",
       },
     ],
   },
@@ -2550,60 +2551,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "what-is-an-nnn-lease",
-    name: "What Is an NNN Lease",
-    short: "A definitional guide to gross, modified gross, single net, double net, and triple net lease structures and how landlord obligations change across each.",
-    route: "/services/what-is-an-nnn-lease",
-    category: "Guides",
-    description:
-      "Commercial leases generally exist on a spectrum based on how much of a property's operating costs the landlord absorbs versus how much the tenant covers, and understanding where a given lease sits on that spectrum generally matters for evaluating any commercial property as a potential purchase or 1031 replacement. At one end, a full service gross lease generally has the landlord paying essentially all operating expenses, including real estate taxes, insurance, utilities, and maintenance, out of the base rent collected, which is common in traditional multi-tenant office buildings where tenants generally want one predictable monthly payment. A modified gross lease generally sits closer to the middle, where the landlord and tenant generally split responsibility for operating costs in whatever way the lease specifies, often with the tenant covering utilities and janitorial for their own space while the landlord covers taxes, insurance, and common area maintenance. Moving further toward tenant responsibility, a single net lease, sometimes written as an N lease, generally has the tenant paying base rent plus real estate taxes, while the landlord generally continues to cover insurance and maintenance. A double net lease, generally written as NN, generally adds insurance to the tenant's obligations, so the tenant pays base rent, real estate taxes, and building insurance, while the landlord generally retains responsibility for structural maintenance and repairs. A triple net lease, generally written as NNN, generally shifts the third major cost category, maintenance, to the tenant as well, meaning the tenant generally covers real estate taxes, insurance, and common area or property maintenance in addition to base rent, leaving the landlord with the most limited ongoing cost exposure of any structure on this spectrum. Some NNN leases go a step further and are marketed as absolute NNN, generally meaning the tenant also assumes responsibility for structural repairs and even roof and foundation obligations that a standard NNN lease might still leave with the landlord, which is common in build-to-suit single tenant properties constructed specifically for a long term corporate tenant. San Diego, CA investors evaluating a specific lease should generally read the actual lease document rather than relying on the NNN label alone, since the degree of net responsibility described in marketing materials does not always match every clause in the underlying lease, and the specific carve outs for roof, structure, and capital repairs generally vary property by property even among leases described the same way. Understanding exactly which costs a landlord retains under a given lease structure is generally essential before underwriting a commercial property as a 1031 replacement candidate. Educational content only. This is not tax, legal, or investment advice.",
-    heroImage: heroCoastal,
-    tags: ["NNN Lease", "Lease Structures", "Commercial Leasing"],
-    workflows: [
-      "Lease spectrum classification: gross, modified gross, single, double, and triple net",
-      "Line-by-line lease document review against marketed NNN status",
-      "Roof, structure, and capital repair carve-out identification",
-    ],
-    highlight: "A definitional tour of the commercial lease spectrum from full service gross to absolute NNN, and why San Diego, CA investors should read the actual lease document rather than relying on the net lease label alone.",
-    faqs: [
-      {
-        question: "What does the N in NNN actually stand for?",
-        answer:
-          "Each N generally represents one operating cost category the tenant covers in addition to base rent: real estate taxes, building insurance, and property maintenance, so NNN generally means the tenant covers all three.",
-      },
-      {
-        question: "How is a triple net lease different from a double net lease?",
-        answer:
-          "A double net, or NN, lease generally has the tenant covering real estate taxes and insurance while the landlord retains maintenance responsibility, whereas a triple net, or NNN, lease generally shifts maintenance to the tenant as well.",
-      },
-      {
-        question: "What does absolute NNN mean?",
-        answer:
-          "Absolute NNN generally goes beyond a standard triple net lease by also placing structural, roof, and sometimes foundation repair responsibility on the tenant, which is common in build-to-suit properties constructed for a specific long term corporate tenant.",
-      },
-      {
-        question: "Should I trust a listing's NNN label without reading the lease?",
-        answer:
-          "Generally no. The specific carve outs for roof, structure, and capital repairs can generally vary even among properties marketed with the same NNN label, so reviewing the actual lease document is generally essential before underwriting the property.",
-      },
-      {
-        question: "Which lease structure is most common in San Diego multi-tenant office buildings?",
-        answer:
-          "Multi-tenant office buildings generally use full service gross or modified gross leases more often than triple net structures, since tenants in shared buildings generally prefer one predictable payment while the landlord centrally manages building-wide operating costs across all tenants.",
-      },
-      {
-        question: "Can a single property have different lease structures for different tenants?",
-        answer:
-          "Generally yes, a multi-tenant property can generally have a mix of lease structures across different tenants, particularly in properties that combine retail pad sites under NNN leases with in-line shop space under modified gross leases, so investors should generally review each lease individually.",
-      },
-      {
-        question: "Does a longer lease term generally mean a more net lease structure?",
-        answer:
-          "Not necessarily, lease term length and net lease structure are generally independent variables, and a long term lease can generally be structured as gross, modified gross, or any level of net, so investors should generally evaluate both factors separately when comparing opportunities.",
-      },
-    ],
-  },
-  {
     slug: "self-storage-investing",
     name: "Self Storage Investing",
     short: "Why self storage offers lighter management than multifamily, how California lien sale rules work, and how DST portfolios offer passive access.",
@@ -2927,4 +2874,56 @@ export const servicesData: ServiceItem[] = [
       },
     ],
   },
-];
+  {
+    slug: "three-property-rule-strategy",
+    name: "Three Property Rule Strategy",
+    short: "Structure identification letters that maximize the three property rule.",
+    route: "/services/three-property-rule-strategy",
+    category: "Rules",
+    description:
+      "The three property rule is the most commonly used identification path because it removes any value limit: a San Diego, CA investor can identify up to three properties of any fair market value, regardless of how that value compares to the relinquished asset, as long as the acquisition ultimately closes on one, two, or all three within one hundred eighty days. We outline replacement sequences, realistic value ranges, and contingency planning so San Diego, CA investors can use all three identification slots strategically rather than filling them with weak backups. A common approach is to identify one primary target you intend to close on, plus two credible backups in case the primary falls out of contract during due diligence, since property identified within the forty five days can generally be revoked and replaced in writing before the deadline expires. We coordinate directly with your Qualified Intermediary so the written identification notice is unambiguous, typically citing street address or legal description, and delivered before the forty five day window closes.",
+    heroImage: heroCoastal,
+    tags: ["Rules", "Identification", "Planning", "Three Property Rule", "San Diego"],
+    workflows: [
+      "Select a primary replacement target and two credible backups",
+      "Confirm each candidate meets or exceeds required replacement value",
+      "Draft identification letter language with clear property descriptions",
+      "Coordinate signature and delivery timing with your Qualified Intermediary",
+      "Track backup readiness in case the primary falls out of contract",
+      "Send reminder checkpoints as day forty five approaches",
+    ],
+    highlight:
+      "Clear, well sequenced identification documentation that your Qualified Intermediary will appreciate and the Internal Revenue Service will recognize.",
+    faqs: [
+      {
+        question: "Do you help draft the identification letter?",
+        answer:
+          "Yes, we provide draft language and coordinate signatures so your San Diego, CA Qualified Intermediary receives a written notice that unambiguously identifies each property, typically by street address or legal description, before the forty five day deadline.",
+      },
+      {
+        question: "Can I swap assets after submitting?",
+        answer:
+          "Generally yes, property identified within the forty five days can be revoked and replaced in writing before the deadline expires, and we help San Diego, CA investors communicate any updates to their Qualified Intermediary quickly so the change is properly documented.",
+      },
+      {
+        question: "What if I want more than three assets?",
+        answer:
+          "We evaluate whether the two hundred percent rule offers a better fit for your San Diego, CA exchange, since identifying a fourth property under the three property rule can disqualify the entire identification list if the count limit is exceeded.",
+      },
+      {
+        question: "Is there a value limit under the three property rule?",
+        answer:
+          "No, the three property rule has no value ceiling, which is its main advantage; a San Diego, CA investor can identify up to three properties of any combined value as long as no more than three are named on the list.",
+      },
+      {
+        question: "Do I have to close on all three identified properties?",
+        answer:
+          "No, you only need to close on enough of the identified properties to satisfy your exchange goals, and many San Diego, CA investors close on just one primary target while the other two identified properties serve purely as backup in case the primary deal fails.",
+      },
+      {
+        question: "What happens if none of my three identified properties close?",
+        answer:
+          "If a San Diego, CA investor fails to close on any identified property within one hundred eighty days, the exchange generally fails and the transaction is treated as a taxable sale, which is why we build in realistic backups rather than aspirational ones.",
+      },
+    ],
+  },];

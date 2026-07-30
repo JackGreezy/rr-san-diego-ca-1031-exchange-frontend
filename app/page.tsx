@@ -1,3 +1,4 @@
+import ExchangeIntentSection from "../components/ExchangeIntentSection";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
@@ -53,12 +54,12 @@ const faqEntries = [
       "Our headquarters is in San Diego, but our team sources and underwrites net lease property listings across every major metro, secondary market, and rural corridor in the United States. Local knowledge plus national coverage means you can match credit, lease term, and price point anywhere.",
   },
   {
-    question: "What if I need zero cash flow or sale leaseback options?",
+    question: "What if you need zero cash flow or sale leaseback options?",
     answer:
       "We routinely work with investors who need to solve for debt replacement or estate planning. Expect curated zero cash flow, ground lease, and corporate sale leaseback inventory with clear explanations of structure, tax impact, and exit planning.",
   },
   {
-    question: "Can you coordinate with my qualified intermediary or attorney?",
+    question: "Can you coordinate with your qualified intermediary or attorney?",
     answer:
       "Yes. We plug directly into your existing advisory team or can introduce vetted QI, legal, tax, and lending partners so the exchange paperwork, 8824 filing, and escrow timelines stay synchronized.",
   },
@@ -499,7 +500,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-        </main>
+        <ExchangeIntentSection /></main>
 
         <BottomCTA />
       </div>
