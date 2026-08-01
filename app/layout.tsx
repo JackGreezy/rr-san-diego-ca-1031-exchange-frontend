@@ -26,10 +26,10 @@ const description =
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: defaultTitle,
+    default: "1031 Exchange San Diego | Replacement Property Help",
     template: "%s | 1031 Exchange of San Diego",
   },
-  description,
+  description: "Start a San Diego 1031 exchange before the sale closes. Organize the QI, deadlines, property criteria, and direct or passive alternatives.",
   keywords: [
     "single tenant retail for sale",
     "NNN investment property for sale",
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     "zero cash flow 1031 options",
   ],
   openGraph: {
-    title: defaultTitle,
-    description,
+    title: "1031 Exchange San Diego | Replacement Property Help",
+    description: "Start a San Diego 1031 exchange before the sale closes. Organize the QI, deadlines, property criteria, and direct or passive alternatives.",
     url: SITE_URL,
     siteName: site.company,
     locale: "en_US",
@@ -57,8 +57,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: defaultTitle,
-    description,
+    title: "1031 Exchange San Diego | Replacement Property Help",
+    description: "Start a San Diego 1031 exchange before the sale closes. Organize the QI, deadlines, property criteria, and direct or passive alternatives.",
     images: [`${SITE_URL}/locations/san-diego-ca/hero.jpg`],
   },
   alternates: {
