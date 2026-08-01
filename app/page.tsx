@@ -191,7 +191,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Exclusive Property Types Section - More scrolling cards */}
+          {/* Exclusive No Day-to-Day Management Section - More scrolling cards */}
           <section className="bg-[#F8F9FA] py-20">
             <div className="max-w-7xl mx-auto px-4">
               <div className="grid lg:grid-cols-[350px_1fr] gap-12 items-start">
@@ -201,15 +201,11 @@ export default function Home() {
                     <span className="block text-5xl md:text-6xl font-light italic font-serif">Exclusive</span>
                     <span className="block text-xl md:text-2xl font-normal mt-2 ml-4">Property Types</span>
                   </h2>
-                  <p className="mt-8 text-gray-600 leading-relaxed">
-                    Discover our premium selection of investment properties tailored for 1031 exchange investors. From single tenant NNN to DST investments, these properties offer passive income and tax-deferred growth.
-                  </p>
+                  <p className="mt-8 text-gray-600 leading-relaxed">A San Diego owner may be selling a rental, multifamily asset, commercial property, or inherited real estate to reduce management, diversify, or reset income. We translate that goal into a replacement-property solution covering equity, debt, control, geography, diligence, and credible backups.</p>
                   <Link
-                    href="/property-types"
+                    href="/contact?request=guide"
                     className="inline-block mt-8 bg-[#0F2A3D] text-white px-8 py-4 rounded-lg text-sm font-medium hover:bg-[#1a3d54] transition"
-                  >
-                    Explore All Properties
-                  </Link>
+                  >Get Free San Diego 1031 Information</Link>
                 </div>
 
                 {/* Right Side - Scrolling Property Cards - No text overlay on photos */}
@@ -253,7 +249,7 @@ export default function Home() {
           <section className="bg-white py-20">
             <div className="max-w-7xl mx-auto px-4">
               <div className="text-center mb-14">
-                <h2 className="text-4xl md:text-5xl font-light text-[#0F2A3D]">Our Services</h2>
+                <h2 className="text-4xl md:text-5xl font-light text-[#0F2A3D]">San Diego 1031 Exchange Solutions</h2>
                 <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
                   Comprehensive 1031 exchange support from identification to closing
                 </p>
@@ -282,11 +278,9 @@ export default function Home() {
               </div>
               <div className="text-center mt-12">
                 <Link
-                  href="/services"
+                  href="/contact?request=properties"
                   className="inline-block bg-[#0F2A3D] text-white px-10 py-4 rounded-lg text-sm font-medium hover:bg-[#1a3d54] transition"
-                >
-                  Explore All Services
-                </Link>
+                >Request the San Diego Property List</Link>
               </div>
             </div>
           </section>
@@ -370,9 +364,7 @@ export default function Home() {
             <div className="max-w-4xl mx-auto px-4 text-center">
               <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-6">About Us</p>
               <h2 className="text-4xl md:text-5xl font-light text-white mb-10">Our Story</h2>
-              <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-8">
-                1031 Exchange of San Diego was founded to help real estate investors navigate the complexities of tax-deferred exchanges. Our team brings deep experience in commercial real estate and 1031 transactions, with a focus on identifying quality replacement properties that meet your investment criteria.
-              </p>
+              <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-8">A DST can provide San Diego investors professionally managed fractional ownership in institutional-quality real estate without tenants, toilets, trash, or capital-project oversight. Some offerings may accept around $100,000, while inventory, projected income, fees, financing, risk, illiquidity, eligibility, and suitability are offering-specific.</p>
               <p className="text-lg text-white/70 leading-relaxed">
                 We specialize in identifying high-quality replacement properties across all 50 states, coordinating with qualified intermediaries, and ensuring your exchange meets all IRS requirements. Our mission is to protect your 45-day identification deadline while finding properties that match your investment goals.
               </p>
