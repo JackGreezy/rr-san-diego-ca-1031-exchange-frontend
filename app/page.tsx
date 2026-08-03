@@ -1,78 +1,128 @@
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
-import BottomCTA from "@/components/BottomCTA";
+import { ContactFormWrapper } from "@/app/contact/contact-form";
 import site from "@/content/site.json";
-import {
-  inventorySpotlight01,
-  locationsData,
-  propertyTypesData,
-  resources,
-  servicesData,
-} from "@/data";
-import { ContactForm } from "@/components/contact-form";
-import { exchangeTools } from "@/data/tools";
+import { locationsData, propertyTypesData } from "@/data";
 import { SITE_URL } from "@/lib/constants";
 
-const processSteps = [
+const phoneHref = `tel:+1${site.phoneDigits}`;
+
+const ownerSituations = [
   {
-    number: "01",
-    title: "Discovery Call",
-    detail:
-      "We map net lease goals, credit preferences, yield targets, and DST vs. fee-simple tolerance within the first call.",
+    title: "Planning a Property Sale",
+    copy: "Start before the sale closes so the exchange structure, qualified intermediary, replacement criteria, and advisor questions can be handled in the right order.",
+    href: "/services/capital-gains-on-rental-property",
   },
   {
-    number: "02",
-    title: "Curated Inventory",
-    detail:
-      "Daily NNN property alerts covering single tenant retail, sale leasebacks, ground leases, and zero cash flow plays in all 50 states.",
+    title: "Already Under Contract",
+    copy: "There may still be time to protect the exchange. Call now so the closing date, intermediary setup, identification window, and next decisions can be reviewed quickly.",
+    href: "/services/45-day-identification-strategy",
   },
   {
-    number: "03",
-    title: "Due Diligence",
-    detail:
-      "Underwrite rent coverage, tenant strength, assignment clauses, and escalations so you collect without day-to-day management.",
+    title: "Selling Inherited Property",
+    copy: "Organize ownership, basis questions, intended use, co-owner goals, and sale timing before a contract narrows the available choices.",
+    href: "/services/inherited-property-capital-gains",
   },
   {
-    number: "04",
-    title: "Closing & Handoff",
-    detail:
-      "Coordinate QI, escrow, and vendor stack to keep funds qualified and the 180-day completion airtight.",
+    title: "Done Managing Property",
+    copy: "Compare another direct property with net-lease and passive DST alternatives when tenants, repairs, leasing, and capital projects no longer fit your life.",
+    href: "/services/passive-real-estate-income",
+  },
+  {
+    title: "Need Replacement Property",
+    copy: "Build a practical search around your exchange equity, debt, income goals, desired control, management tolerance, location, and credible backup choices.",
+    href: "/services/nnn-replacement-property-identification",
+  },
+  {
+    title: "Want to Buy First",
+    copy: "Explore reverse-exchange timing and financing questions when the right replacement opportunity appears before the current property is sold.",
+    href: "/services/reverse-exchange-readiness-san-diego",
+  },
+];
+
+const solutionCards = [
+  {
+    title: "Clarify the Sale",
+    copy: "Bring the property, ownership, expected equity, debt, closing date, and reason for selling into one useful starting conversation.",
+  },
+  {
+    title: "Assemble the Right Team",
+    copy: "Connect the moving parts with the independent qualified intermediary, CPA, attorney, broker, lender, and other licensed professionals the transaction requires.",
+  },
+  {
+    title: "Define the Replacement",
+    copy: "Turn income, control, geography, financing, management burden, and closing probability into a written property brief.",
+  },
+  {
+    title: "Find Primary and Backup Options",
+    copy: "Review direct property, net-lease opportunities, passive alternatives, and realistic backups before the identification period becomes a crisis.",
+  },
+  {
+    title: "Compare Ownership Paths",
+    copy: "See how control, management, financing, liquidity, fees, and property-level risk differ before choosing a direction.",
+  },
+  {
+    title: "Keep the Closing Moving",
+    copy: "Make open items visible across title, diligence, financing, exchange documents, funding instructions, and the replacement closing.",
+  },
+];
+
+const ownershipPaths = [
+  {
+    title: "Direct Real Estate",
+    copy: "Keep control over the property, leasing, financing, improvements, and eventual sale while accepting the operating responsibility that comes with ownership.",
+  },
+  {
+    title: "Net-Lease Property",
+    copy: "Pursue income from a leased asset with responsibilities allocated by the lease. Tenant credit, lease language, building condition, and residual value still matter.",
+  },
+  {
+    title: "DST Interests",
+    copy: "Consider professionally managed, institutional-grade real estate when day-to-day landlord work is the problem. Sponsor, fees, leverage, liquidity, risks, eligibility, and suitability require careful review.",
+  },
+];
+
+const exchangeStages = [
+  {
+    title: "Before the Property Sells",
+    copy: "Review the planned sale, introduce the independent qualified intermediary, outline replacement goals, and identify questions for your tax and legal advisors.",
+  },
+  {
+    title: "While Replacement Options Are Evaluated",
+    copy: "Compare primary and backup candidates against the same criteria: income, debt, control, workload, diligence, risk, and probability of closing.",
+  },
+  {
+    title: "Through Replacement Closing",
+    copy: "Keep the exchange team aligned on title, financing, inspections, insurance, entity documents, funding directions, and unresolved advisor questions.",
   },
 ];
 
 const faqEntries = [
   {
-    question: "How fast can you surface replacement properties?",
-    answer:
-      "Most exchange buyers receive an initial drop of vetted single tenant retail and NNN investment property listings within 24 hours. Because we track inventory in all 50 states we can usually produce at least 15 viable matches before day five.",
+    question: "Can you help if this is my first 1031 exchange?",
+    answer: "Yes. The first conversation can begin with the property you are selling, the likely closing date, what you want next, and which professionals are already involved. The goal is to make the process understandable and give each regulated professional the facts needed for their part of the transaction.",
   },
   {
-    question: "Do you only focus on San Diego properties?",
-    answer:
-      "Our headquarters is in San Diego, but our team sources and underwrites net lease property listings across every major metro, secondary market, and rural corridor in the United States. Local knowledge plus national coverage means you can match credit, lease term, and price point anywhere.",
+    question: "What if my San Diego property is already under contract?",
+    answer: "Call as soon as possible. A qualified intermediary generally needs to be in place before the relinquished-property sale closes. The contract, closing date, ownership, exchange documents, and replacement search should be reviewed immediately with the appropriate independent professionals.",
   },
   {
-    question: "What if you need zero cash flow or sale leaseback options?",
-    answer:
-      "We routinely work with investors who need to solve for debt replacement or estate planning. Expect curated zero cash flow, ground lease, and corporate sale leaseback inventory with clear explanations of structure, tax impact, and exit planning.",
+    question: "Can I exchange into property outside San Diego or California?",
+    answer: "Replacement property can be evaluated in San Diego and nationwide. The right search depends on your equity, debt, desired income, management tolerance, market preferences, diligence requirements, and ability to close within the exchange timeline.",
   },
   {
-    question: "Can you coordinate with your qualified intermediary or attorney?",
-    answer:
-      "Yes. We plug directly into your existing advisory team or can introduce vetted QI, legal, tax, and lending partners so the exchange paperwork, 8824 filing, and escrow timelines stay synchronized.",
+    question: "Can a 1031 exchange help me leave active property management?",
+    answer: "It can create an opportunity to compare another directly owned property with net-lease assets and professionally managed DST interests. Each path has different tradeoffs involving control, liquidity, financing, fees, tenant or sponsor risk, and ongoing responsibility.",
   },
-];
-
-// Show more spotlights for scrolling
-const featuredSpotlights = inventorySpotlight01;
-
-// Stats data - only truthful metrics
-const statsData = [
-  { number: "50", label: "States Covered" },
-  { number: "45", label: "Day Identification Period" },
-  { number: "180", label: "Day Exchange Window" },
-  { number: "24/7", label: "Property Monitoring" },
+  {
+    question: "How do I request a list of available properties?",
+    answer: "Use the short contact form or call 619-480-0216. Share the property being sold, expected timing, approximate exchange equity, debt needs, location preferences, and whether direct ownership, net lease, passive alternatives, or a combination should be considered.",
+  },
+  {
+    question: "Is the initial 1031 exchange consultation free?",
+    answer: "Yes. The initial exchange conversation and educational guidance are free. Tax, legal, qualified-intermediary, brokerage, lending, and securities work must be handled by the appropriate independent professionals.",
+  },
 ];
 
 const organizationSchema = {
@@ -84,15 +134,6 @@ const organizationSchema = {
   email: site.email,
   logo: `${SITE_URL}/1031-exchange-of-san-diego-ca-logo.png`,
   image: `${SITE_URL}/locations/san-diego-ca/hero.jpg`,
-  contactPoint: [
-    {
-      "@type": "ContactPoint",
-      telephone: site.phone,
-      contactType: "customer support",
-      email: site.email,
-      areaServed: "US",
-    },
-  ],
   address: {
     "@type": "PostalAddress",
     streetAddress: site.address,
@@ -103,11 +144,11 @@ const organizationSchema = {
   },
   areaServed: "United States",
   serviceType: [
-    "Single tenant NNN property sourcing",
-    "1031 exchange consultation",
-    "Sale leaseback advisory",
-    "Ground lease acquisition",
-    "Zero cash flow strategy",
+    "1031 exchange solutions",
+    "Replacement property planning",
+    "Passive real estate education",
+    "DST property information",
+    "Net lease property search",
   ],
 };
 
@@ -117,391 +158,295 @@ const faqSchema = {
   mainEntity: faqEntries.map((faq) => ({
     "@type": "Question",
     name: faq.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: faq.answer,
-    },
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
   })),
 };
 
 export default function Home() {
+  const featuredProperties = propertyTypesData.slice(0, 6);
+  const featuredLocations = locationsData.slice(0, 6);
+
   return (
     <>
-      <div className="bg-white text-gray-700">
-        <main>
-          {/* Hero Section with Video Background - Fancy centered logo */}
-          <section className="relative h-[100vh] min-h-[700px]" id="hero">
-            {/* Video Background */}
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="absolute inset-0 w-full h-full object-cover"
-            >
-              <source src="/san-diego-1031-hero.mp4" type="video/mp4" />
-            </video>
-
-            {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black/30" />
-
-            {/* Centered Custom Fancy Logo */}
-            <div className="relative z-10 flex items-center justify-center h-full">
-              <div className="text-center">
-                {/* Fancy stylized logo like Unique Properties */}
-                <div className="mb-6">
-                  <span className="text-white text-8xl md:text-9xl font-thin tracking-[0.3em] uppercase">
-                    1031
-                  </span>
-                </div>
-                <div className="flex items-center justify-center gap-4 mb-4">
-                  <div className="h-[1px] w-16 md:w-24 bg-white/60" />
-                  <span className="text-white text-xl md:text-2xl font-light tracking-[0.5em] uppercase">
-                    Exchange
-                  </span>
-                  <div className="h-[1px] w-16 md:w-24 bg-white/60" />
-                </div>
-                <p className="text-white/80 text-sm md:text-base tracking-[0.4em] uppercase">
-                  San Diego
-                </p>
-              </div>
-            </div>
-
-            {/* Scroll indicator */}
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-              <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center pt-2">
-                <div className="w-1 h-3 bg-white/70 rounded-full animate-bounce" />
-              </div>
-            </div>
-          </section>
-
-          {/* Stats Bar */}
-          <section className="bg-white py-12 border-b border-gray-100">
-            <div className="max-w-7xl mx-auto px-4">
-              <div className="flex flex-wrap justify-between items-center">
-                {statsData.map((stat) => (
-                  <div key={stat.label} className="text-center px-4 py-4 flex-1 min-w-[150px]">
-                    <p className="text-4xl md:text-5xl font-light text-[#0F2A3D] tracking-tight">
-                      {stat.number}
-                    </p>
-                    <p className="text-sm text-gray-500 mt-2">{stat.label}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          {/* Exclusive No Day-to-Day Management Section - More scrolling cards */}
-          <section className="bg-[#F8F9FA] py-20">
-            <div className="max-w-7xl mx-auto px-4">
-              <div className="grid lg:grid-cols-[350px_1fr] gap-12 items-start">
-                {/* Left Side - Title */}
-                <div className="lg:sticky lg:top-32">
-                  <h2 className="text-[#0F2A3D]">
-                    <span className="block text-5xl md:text-6xl font-light italic font-serif">Exclusive</span>
-                    <span className="block text-xl md:text-2xl font-normal mt-2 ml-4">Property Types</span>
-                  </h2>
-                  <p className="mt-8 text-gray-600 leading-relaxed">A San Diego owner may be selling a rental, multifamily asset, commercial property, or inherited real estate to reduce management, diversify, or reset income. We translate that goal into a replacement-property solution covering equity, debt, control, geography, diligence, and credible backups.</p>
-                  <Link
-                    href="/contact?request=guide"
-                    className="inline-block mt-8 bg-[#0F2A3D] text-white px-8 py-4 rounded-lg text-sm font-medium hover:bg-[#1a3d54] transition"
-                  >Get Free San Diego 1031 Information</Link>
-                </div>
-
-                {/* Right Side - Scrolling Property Cards - No text overlay on photos */}
-                <div className="flex gap-5 overflow-x-auto pb-4 -mr-4 pr-4 scroll-smooth">
-                  {propertyTypesData.map((property) => (
-                    <Link
-                      key={property.slug}
-                      href={property.route}
-                      className="flex-shrink-0 w-[280px] bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition group"
-                    >
-                      <div className="relative h-[200px]">
-                        <Image
-                          src={property.heroImage}
-                          alt={property.name}
-                          fill
-                          className="object-cover group-hover:scale-105 transition-transform duration-500"
-                        />
-                      </div>
-                      <div className="p-5">
-                        <p className="text-lg font-semibold text-[#0F2A3D]">
-                          {property.name}
-                        </p>
-                        <p className="text-sm text-gray-500 mt-2 line-clamp-2">
-                          {property.summary || `Explore ${property.name} investment opportunities for your 1031 exchange.`}
-                        </p>
-                        <span className="inline-flex items-center gap-2 mt-4 text-xs font-medium text-[#0F2A3D] group-hover:gap-3 transition-all">
-                          Learn more
-                          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                          </svg>
-                        </span>
-                      </div>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Services Section - Text only, 2 rows of 3 */}
-          <section className="bg-white py-20">
-            <div className="max-w-7xl mx-auto px-4">
-              <div className="text-center mb-14">
-                <h2 className="text-4xl md:text-5xl font-light text-[#0F2A3D]">San Diego 1031 Exchange Solutions</h2>
-                <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
-                  Comprehensive 1031 exchange support from identification to closing
-                </p>
-              </div>
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {servicesData.slice(0, 6).map((service) => (
-                  <Link
-                    key={service.slug}
-                    href={service.route}
-                    className="group bg-[#F8F9FA] hover:bg-[#0F2A3D] rounded-xl p-8 transition-all duration-300"
-                  >
-                    <h3 className="text-xl font-semibold text-[#0F2A3D] group-hover:text-white transition-colors">
-                      {service.name}
-                    </h3>
-                    <p className="mt-3 text-sm text-gray-600 group-hover:text-white/80 transition-colors line-clamp-3">
-                      {service.description || `Expert guidance for ${service.name.toLowerCase()} transactions and strategies.`}
-                    </p>
-                    <div className="mt-6 flex items-center gap-2 text-sm font-medium text-[#0F2A3D] group-hover:text-white transition-colors">
-                      Learn more
-                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-              <div className="text-center mt-12">
-                <Link
-                  href="/contact?request=properties"
-                  className="inline-block bg-[#0F2A3D] text-white px-10 py-4 rounded-lg text-sm font-medium hover:bg-[#1a3d54] transition"
-                >Request the San Diego Property List</Link>
-              </div>
-            </div>
-          </section>
-
-          {/* Communities Section - Names under photos, auto-scroll to right */}
-          <section className="bg-[#F8F9FA] py-20 overflow-hidden">
-            <div className="px-4">
-              <h2 className="text-4xl md:text-5xl font-light text-[#0F2A3D] text-center mb-14 max-w-7xl mx-auto">
-                Discover San Diego&apos;s Best Communities
-              </h2>
-              {/* Auto-scrolling marquee container */}
-              <div className="relative w-full overflow-hidden">
-                <div className="flex gap-6 animate-marquee">
-                  {/* First set of locations */}
-                  {locationsData.map((location) => (
-                    <Link
-                      key={location.slug}
-                      href={location.route}
-                      className="group flex-shrink-0 w-[300px]"
-                    >
-                      <div className="relative h-[250px] rounded-xl overflow-hidden">
-                        <Image
-                          src={`/locations/${location.slug}/hero.jpg`}
-                          alt={location.name}
-                          fill
-                          className="object-cover group-hover:scale-105 transition-transform duration-500"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                        <div className="absolute bottom-4 right-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
-                          <svg className="w-5 h-5 text-[#0F2A3D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                          </svg>
-                        </div>
-                      </div>
-                      <p className="mt-4 text-center text-lg font-medium text-[#0F2A3D]">
-                        {location.name}
-                      </p>
-                    </Link>
-                  ))}
-                  {/* Duplicate set for seamless infinite loop */}
-                  {locationsData.map((location) => (
-                    <Link
-                      key={`${location.slug}-dup`}
-                      href={location.route}
-                      className="group flex-shrink-0 w-[300px]"
-                    >
-                      <div className="relative h-[250px] rounded-xl overflow-hidden">
-                        <Image
-                          src={`/locations/${location.slug}/hero.jpg`}
-                          alt={location.name}
-                          fill
-                          className="object-cover group-hover:scale-105 transition-transform duration-500"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                        <div className="absolute bottom-4 right-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
-                          <svg className="w-5 h-5 text-[#0F2A3D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                          </svg>
-                        </div>
-                      </div>
-                      <p className="mt-4 text-center text-lg font-medium text-[#0F2A3D]">
-                        {location.name}
-                      </p>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-              <div className="text-center mt-12">
-                <Link
-                  href="/service-areas"
-                  className="inline-block bg-[#0F2A3D] text-white px-10 py-4 rounded-lg text-sm font-medium hover:bg-[#1a3d54] transition"
+      <main className="overflow-hidden bg-white text-gray-700">
+        <section className="relative flex min-h-[720px] items-end overflow-hidden bg-[#0F2A3D] pt-28 md:min-h-[820px] md:items-center" id="hero">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster="/locations/san-diego-ca/hero.jpg"
+            className="absolute inset-0 hidden h-full w-full object-cover md:block"
+          >
+            <source src="/san-diego-1031-hero.mp4" type="video/mp4" />
+          </video>
+          <Image
+            src="/locations/san-diego-ca/hero.jpg"
+            alt="San Diego coastline"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover md:hidden"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#071924]/95 via-[#0F2A3D]/78 to-[#0F2A3D]/25" />
+          <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 sm:px-6 md:px-8 md:pb-0">
+            <div className="max-w-4xl">
+              <p className="mb-5 text-xs font-semibold uppercase tracking-[0.24em] text-white/75 sm:text-sm">
+                Selling investment property in San Diego?
+              </p>
+              <h1 className="max-w-4xl text-5xl font-light leading-[0.98] tracking-[-0.04em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
+                Turnkey 1031 Exchange Solutions in San Diego
+              </h1>
+              <p className="mt-7 max-w-2xl text-base leading-7 text-white/88 sm:text-lg sm:leading-8">
+                Whether the sale is still being planned, already under contract, inherited, or driven by landlord fatigue, one call can help organize the exchange, replacement search, passive options, and the independent professionals needed to move forward.
+              </p>
+              <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a
+                  href={phoneHref}
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-[#0F2A3D] shadow-lg transition hover:bg-gray-100 sm:w-auto"
                 >
-                  Explore All Areas
+                  Free Consultation: {site.phone}
+                </a>
+                <Link
+                  href="/contact#contact-form"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-lg border border-white/65 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white hover:text-[#0F2A3D] sm:w-auto"
+                >
+                  Start My Exchange
+                </Link>
+                <Link
+                  href="/contact?request=properties#contact-form"
+                  className="inline-flex min-h-12 w-full items-center justify-center px-3 py-3 text-sm font-semibold text-white underline decoration-white/40 underline-offset-8 transition hover:decoration-white sm:w-auto"
+                >
+                  Get a Free Property List
                 </Link>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Our Story Section - Fixed for 1031 San Diego */}
-          <section className="bg-[#0F2A3D] py-24">
-            <div className="max-w-4xl mx-auto px-4 text-center">
-              <p className="text-sm uppercase tracking-[0.3em] text-white/50 mb-6">About Us</p>
-              <h2 className="text-4xl md:text-5xl font-light text-white mb-10">Our Story</h2>
-              <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-8">A DST can provide San Diego investors professionally managed fractional ownership in institutional-quality real estate without tenants, toilets, trash, or capital-project oversight. Some offerings may accept around $100,000, while inventory, projected income, fees, financing, risk, illiquidity, eligibility, and suitability are offering-specific.</p>
-              <p className="text-lg text-white/70 leading-relaxed">
-                We specialize in identifying high-quality replacement properties across all 50 states, coordinating with qualified intermediaries, and ensuring your exchange meets all IRS requirements. Our mission is to protect your 45-day identification deadline while finding properties that match your investment goals.
-              </p>
-              <Link
-                href="/about"
-                className="inline-block mt-12 bg-white text-[#0F2A3D] px-10 py-4 rounded-lg text-sm font-medium hover:bg-gray-100 transition"
-              >
-                Read More About Us
-              </Link>
+        <section className="border-b border-gray-200 bg-white">
+          <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-7 sm:px-6 md:flex-row md:items-center md:justify-between md:px-8">
+            <p className="max-w-3xl text-base leading-7 text-[#0F2A3D]">
+              <strong>You do not need to know every 1031 rule before calling.</strong> Start with the property, the timing, and what you want life after the sale to look like.
+            </p>
+            <a href={phoneHref} className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-lg bg-[#0F2A3D] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#1A3D54]">
+              Talk Through the Sale
+            </a>
+          </div>
+        </section>
+
+        <section className="bg-[#F6F8F9] py-20 sm:py-24">
+          <div className="mx-auto max-w-7xl px-5 sm:px-6 md:px-8">
+            <div className="max-w-3xl">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gray-500">Start with your situation</p>
+              <h2 className="mt-4 text-4xl font-light tracking-tight text-[#0F2A3D] sm:text-5xl">Whatever is driving the sale, the exchange should solve the real problem.</h2>
             </div>
-          </section>
+            <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {ownerSituations.map((item) => (
+                <Link key={item.title} href={item.href} className="group rounded-2xl border border-gray-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-[#0F2A3D]/30 hover:shadow-lg">
+                  <h3 className="text-xl font-semibold text-[#0F2A3D]">{item.title}</h3>
+                  <p className="mt-4 text-sm leading-6 text-gray-600">{item.copy}</p>
+                  <span className="mt-6 inline-flex text-sm font-semibold text-[#0F2A3D]">See how we can help <span className="ml-2 transition-transform group-hover:translate-x-1">→</span></span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
 
-          {/* How We Work Section - Clean styling with large numbers only */}
-          <section className="bg-white py-24">
-            <div className="max-w-7xl mx-auto px-4">
-              <div className="text-center mb-16">
-                <p className="text-sm uppercase tracking-[0.3em] text-gray-400 mb-4">Process</p>
-                <h2 className="text-4xl md:text-5xl font-light text-[#0F2A3D]">How We Work</h2>
-                <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
-                  A streamlined approach built for serious exchange buyers who need speed, clarity, and fully-baked recommendations.
-                </p>
+        <section className="bg-white py-20 sm:py-28">
+          <div className="mx-auto grid max-w-7xl gap-12 px-5 sm:px-6 md:px-8 lg:grid-cols-[1.05fr_.95fr] lg:items-center">
+            <div className="relative min-h-[420px] overflow-hidden rounded-3xl sm:min-h-[560px]">
+              <Image src="/locations/la-jolla-ca/hero.jpg" alt="Coastal San Diego investment property market" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0F2A3D]/55 to-transparent" />
+            </div>
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gray-500">A better outcome after the sale</p>
+              <h2 className="mt-4 text-4xl font-light tracking-tight text-[#0F2A3D] sm:text-5xl">A San Diego property sale should solve something.</h2>
+              <div className="mt-7 space-y-5 text-base leading-7 text-gray-600">
+                <p>Some owners want another hands-on property. Others want steadier income, broader diversification, fewer tenant calls, or a clean exit from renovations and capital projects.</p>
+                <p>The replacement search should begin with that objective—not a generic list of listings. We help turn the sale facts and owner priorities into a practical brief that can be used across direct real estate, net-lease property, and passive DST alternatives.</p>
+                <p>That gives the owner, qualified intermediary, tax advisor, attorney, brokers, lenders, and licensed securities professionals a clearer transaction to evaluate.</p>
               </div>
-              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                {processSteps.map((step) => (
-                  <article
-                    key={step.title}
-                    className="relative bg-[#F8F9FA] rounded-2xl p-8 hover:shadow-lg transition-shadow group"
-                  >
-                    {/* Large step number only - no blue button */}
-                    <span className="text-8xl font-thin text-[#0F2A3D]/15 absolute top-2 right-4 group-hover:text-[#0F2A3D]/25 transition-colors">
-                      {step.number}
-                    </span>
-                    <div className="relative z-10 pt-8">
-                      <h3 className="text-xl font-semibold text-[#0F2A3D] mb-4">{step.title}</h3>
-                      <p className="text-sm text-gray-600 leading-relaxed">{step.detail}</p>
-                    </div>
+              <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+                <Link href="/contact?request=guide#contact-form" className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#0F2A3D] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#1A3D54]">Get Free 1031 Information</Link>
+                <a href={phoneHref} className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#0F2A3D] px-6 py-3 text-sm font-semibold text-[#0F2A3D] transition hover:bg-[#0F2A3D] hover:text-white">Call {site.phone}</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#0F2A3D] py-20 text-white sm:py-28">
+          <div className="mx-auto max-w-7xl px-5 sm:px-6 md:px-8">
+            <div className="max-w-3xl">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">One call. One organized plan.</p>
+              <h2 className="mt-4 text-4xl font-light tracking-tight text-white sm:text-5xl">Turnkey help from the planned sale through replacement closing.</h2>
+            </div>
+            <div className="mt-12 grid gap-px overflow-hidden rounded-2xl bg-white/15 md:grid-cols-2 lg:grid-cols-3">
+              {solutionCards.map((item) => (
+                <div key={item.title} className="bg-[#0F2A3D] p-7 sm:p-8">
+                  <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                  <p className="mt-4 text-sm leading-6 text-white/70">{item.copy}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+              <a href={phoneHref} className="inline-flex min-h-12 items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-[#0F2A3D] transition hover:bg-gray-100">Talk to a 1031 Exchange Specialist</a>
+              <Link href="/contact#contact-form" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-[#0F2A3D]">Send the Sale Details</Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#EDF2F4] py-20 sm:py-28">
+          <div className="mx-auto grid max-w-7xl gap-12 px-5 sm:px-6 md:px-8 lg:grid-cols-[.9fr_1.1fr] lg:items-center">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gray-500">Move beyond tenants, toilets, and trash</p>
+              <h2 className="mt-4 text-4xl font-light tracking-tight text-[#0F2A3D] sm:text-5xl">Find income-focused real estate without day-to-day property management.</h2>
+              <p className="mt-6 text-base leading-7 text-gray-600">For eligible investors, a DST may provide access to professionally managed, institutional-grade property without personally handling tenants, maintenance, leasing, or renovations.</p>
+              <ul className="mt-7 space-y-4 text-sm leading-6 text-[#0F2A3D]">
+                <li className="flex gap-3"><span aria-hidden="true">—</span><span>No day-to-day landlord management</span></li>
+                <li className="flex gap-3"><span aria-hidden="true">—</span><span>Institutional-quality real estate across property types and markets</span></li>
+                <li className="flex gap-3"><span aria-hidden="true">—</span><span>Some current offerings may begin around a $100,000 investment</span></li>
+                <li className="flex gap-3"><span aria-hidden="true">—</span><span>Options that can be compared alongside direct and net-lease ownership</span></li>
+              </ul>
+              <p className="mt-6 text-xs leading-5 text-gray-500">Availability, projected income, minimum investment, sponsor, fees, leverage, liquidity, risks, investor eligibility, and suitability vary by offering.</p>
+              <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+                <Link href="/contact?request=properties#contact-form" className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#0F2A3D] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#1A3D54]">See a Free Property List</Link>
+                <a href={phoneHref} className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#0F2A3D] px-6 py-3 text-sm font-semibold text-[#0F2A3D] transition hover:bg-[#0F2A3D] hover:text-white">Call for Free Guidance</a>
+              </div>
+            </div>
+            <div className="relative min-h-[420px] overflow-hidden rounded-3xl sm:min-h-[580px]">
+              <Image src="/property-types/urgent-care-medical/urgent-care-medicine.jpg" alt="Professionally managed institutional real estate" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white py-20 sm:py-24">
+          <div className="mx-auto max-w-7xl px-5 sm:px-6 md:px-8">
+            <div className="max-w-3xl">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gray-500">Compare the paths</p>
+              <h2 className="mt-4 text-4xl font-light tracking-tight text-[#0F2A3D] sm:text-5xl">The right replacement property depends on how you want to own.</h2>
+            </div>
+            <div className="mt-12 grid gap-6 lg:grid-cols-3">
+              {ownershipPaths.map((item) => (
+                <article key={item.title} className="rounded-2xl border border-gray-200 p-7 sm:p-8">
+                  <h3 className="text-2xl font-semibold text-[#0F2A3D]">{item.title}</h3>
+                  <p className="mt-4 text-sm leading-6 text-gray-600">{item.copy}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#F6F8F9] py-20 sm:py-24">
+          <div className="mx-auto max-w-7xl px-5 sm:px-6 md:px-8">
+            <div className="grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gray-500">How the exchange moves</p>
+                <h2 className="mt-4 text-4xl font-light tracking-tight text-[#0F2A3D] sm:text-5xl">A clear path through a time-sensitive transaction.</h2>
+                <p className="mt-6 text-base leading-7 text-gray-600">Every transaction is different. The work is easier when the next decisions are visible and the right people are involved before a deadline forces the issue.</p>
+                <a href={phoneHref} className="mt-8 inline-flex min-h-12 items-center justify-center rounded-lg bg-[#0F2A3D] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#1A3D54]">First Exchange? Call {site.phone}</a>
+              </div>
+              <div className="space-y-5">
+                {exchangeStages.map((item) => (
+                  <article key={item.title} className="rounded-2xl bg-white p-7 shadow-sm sm:p-8">
+                    <h3 className="text-xl font-semibold text-[#0F2A3D]">{item.title}</h3>
+                    <p className="mt-3 text-sm leading-6 text-gray-600">{item.copy}</p>
                   </article>
                 ))}
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Tools Section */}
-          <section className="bg-[#F8F9FA] py-20">
-            <div className="max-w-7xl mx-auto px-4">
-              <div className="text-center mb-12">
-                <h2 className="text-4xl font-light text-[#0F2A3D]">Interactive Tools</h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-                  Run real-time calculations for boot exposure, transaction costs, and identification rule compliance.
-                </p>
+        <section className="bg-white py-20 sm:py-24">
+          <div className="mx-auto max-w-7xl px-5 sm:px-6 md:px-8">
+            <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+              <div className="max-w-3xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gray-500">Explore direct real estate</p>
+                <h2 className="mt-4 text-4xl font-light tracking-tight text-[#0F2A3D] sm:text-5xl">Property types that may fit a replacement search.</h2>
               </div>
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {exchangeTools.map((tool) => (
-                  <Link
-                    key={tool.slug}
-                    href={tool.href}
-                    className="group bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition"
-                  >
-                    <tool.icon className="mb-4 h-12 w-12 text-[#0F2A3D]" />
-                    <h3 className="text-xl font-semibold text-[#0F2A3D] group-hover:text-[#1a3d54] transition">{tool.name}</h3>
-                    <p className="mt-2 text-sm text-gray-600">{tool.shortDescription}</p>
-                    <p className="mt-4 text-sm font-semibold text-[#0F2A3D]">Launch tool →</p>
-                  </Link>
-                ))}
+              <Link href="/property-types" className="text-sm font-semibold text-[#0F2A3D] underline underline-offset-8">View all property types</Link>
+            </div>
+            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {featuredProperties.map((property) => (
+                <Link key={property.slug} href={property.route} className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                  <div className="relative h-56 overflow-hidden">
+                    <Image src={property.heroImage} alt={property.name} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover transition duration-500 group-hover:scale-105" />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-lg font-semibold text-[#0F2A3D]">{property.name}</h3>
+                    <p className="mt-3 line-clamp-3 text-sm leading-6 text-gray-600">{property.summary}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#0F2A3D] py-20 text-white sm:py-24">
+          <div className="mx-auto max-w-7xl px-5 sm:px-6 md:px-8">
+            <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+              <div className="max-w-3xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">Local conversation. Nationwide options.</p>
+                <h2 className="mt-4 text-4xl font-light tracking-tight text-white sm:text-5xl">Serving San Diego County owners wherever the replacement property leads.</h2>
+              </div>
+              <div className="flex flex-col gap-3 sm:flex-row">
+                <Link href="/service-areas" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-white/35 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-[#0F2A3D]">View All Areas</Link>
+                <Link href="/contact?request=properties#contact-form" className="inline-flex min-h-12 items-center justify-center rounded-lg bg-white px-5 py-3 text-sm font-semibold text-[#0F2A3D] transition hover:bg-gray-100">Get a Free Property List</Link>
               </div>
             </div>
-          </section>
-
-          {/* Contact Form Section */}
-          <section className="bg-white py-20">
-            <div className="max-w-4xl mx-auto px-4">
-              <ContactForm
-                subheading="We focus on identifying 1031 exchange properties, coordinating secure intake, and syncing with Qualified Intermediaries and lenders. We are not a Qualified Intermediary."
-              />
+            <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {featuredLocations.map((location) => (
+                <Link key={location.slug} href={location.route} className="group relative min-h-72 overflow-hidden rounded-2xl">
+                  <Image src={location.heroImage} alt={location.name} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover transition duration-500 group-hover:scale-105" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#071924] via-[#071924]/30 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 p-6">
+                    <h3 className="text-2xl font-semibold text-white">{location.name}</h3>
+                    <p className="mt-2 line-clamp-2 text-sm leading-6 text-white/75">{location.description}</p>
+                  </div>
+                </Link>
+              ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Resources Section */}
-          <section className="bg-[#F8F9FA] py-20">
-            <div className="max-w-7xl mx-auto px-4">
-              <div className="text-center mb-12">
-                <h2 className="text-4xl font-light text-[#0F2A3D]">Resources</h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-                  Bookmark these official resources for ongoing diligence.
-                </p>
-              </div>
-              <div className="grid gap-4 md:grid-cols-2">
-                {resources.map((resource) => (
-                  <a
-                    key={resource.key}
-                    href={resource.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-white rounded-xl p-6 hover:shadow-md transition"
-                  >
-                    <p className="text-lg font-semibold text-[#0F2A3D]">{resource.label}</p>
-                    <p className="mt-2 text-sm text-gray-400 truncate">{resource.href}</p>
-                  </a>
-                ))}
-              </div>
+        <section className="bg-white py-20 sm:py-24">
+          <div className="mx-auto grid max-w-7xl gap-12 px-5 sm:px-6 md:px-8 lg:grid-cols-[.75fr_1.25fr]">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gray-500">Questions owners ask first</p>
+              <h2 className="mt-4 text-4xl font-light tracking-tight text-[#0F2A3D] sm:text-5xl">1031 exchange questions, answered plainly.</h2>
+              <p className="mt-6 text-base leading-7 text-gray-600">If your question is specific to a planned sale, call for free exchange guidance.</p>
+              <a href={phoneHref} className="mt-8 inline-flex min-h-12 items-center justify-center rounded-lg bg-[#0F2A3D] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#1A3D54]">Call {site.phone}</a>
             </div>
-          </section>
-
-          {/* FAQ Section */}
-          <section className="bg-white py-20">
-            <div className="max-w-3xl mx-auto px-4">
-              <div className="text-center mb-12">
-                <h2 className="text-4xl font-light text-[#0F2A3D]">FAQ</h2>
-                <p className="mt-4 text-gray-600">Investor questions we answer daily</p>
-              </div>
-              <div className="space-y-4">
-                {faqEntries.map((faq) => (
-                  <details
-                    key={faq.question}
-                    className="group bg-[#F8F9FA] rounded-xl p-6"
-                  >
-                    <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-[#0F2A3D]">
-                      {faq.question}
-                      <span className="text-[#0F2A3D] transition group-open:rotate-45 text-2xl font-light">+</span>
-                    </summary>
-                    <p className="mt-4 text-gray-600">{faq.answer}</p>
-                  </details>
-                ))}
-              </div>
+            <div className="divide-y divide-gray-200 border-y border-gray-200">
+              {faqEntries.map((faq) => (
+                <details key={faq.question} className="group py-6">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-5 text-lg font-semibold text-[#0F2A3D]">
+                    {faq.question}
+                    <span className="text-2xl font-light transition group-open:rotate-45">+</span>
+                  </summary>
+                  <p className="max-w-3xl pt-4 text-sm leading-6 text-gray-600">{faq.answer}</p>
+                </details>
+              ))}
             </div>
-          </section>
-        </main>
+          </div>
+        </section>
 
-        <BottomCTA />
-      </div>
+        <section className="bg-[#0F2A3D] py-20 text-white sm:py-24">
+          <div className="mx-auto grid max-w-7xl gap-12 px-5 sm:px-6 md:px-8 lg:grid-cols-[.8fr_1.2fr] lg:items-start">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">Free 1031 exchange guidance</p>
+              <h2 className="mt-4 text-4xl font-light tracking-tight text-white sm:text-5xl">Tell us what you are selling and what you want next.</h2>
+              <p className="mt-6 text-base leading-7 text-white/70">Use the short form for a consultation, a list of current properties, or free educational information. No polished exchange plan is required—start with the facts you know.</p>
+              <a href={phoneHref} className="mt-8 inline-flex min-h-12 items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-[#0F2A3D] transition hover:bg-gray-100">Call Now: {site.phone}</a>
+            </div>
+            <ContactFormWrapper />
+          </div>
+        </section>
+      </main>
 
-      <Script id="org-schema" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify(organizationSchema)}
-      </Script>
-      <Script id="faq-schema" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify(faqSchema)}
-      </Script>
+      <Script id="organization-schema" type="application/ld+json">{JSON.stringify(organizationSchema)}</Script>
+      <Script id="faq-schema" type="application/ld+json">{JSON.stringify(faqSchema)}</Script>
     </>
   );
 }

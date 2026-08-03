@@ -19,29 +19,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const defaultTitle = "1031 Exchange of San Diego | Single Tenant NNN Advisors";
 const description =
-  "1031 Exchange of San Diego sources single tenant NNN, sale leaseback, and ground lease replacement properties nationwide for serious exchange buyers.";
+  "Free, turnkey 1031 exchange help for San Diego property owners, including planned sales, replacement property searches, net-lease options, and passive DST information.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "1031 Exchange San Diego | Replacement Property Help",
+    default: "1031 Exchange San Diego | Free Consultation & Help",
     template: "%s | 1031 Exchange of San Diego",
   },
-  description: "Start a San Diego 1031 exchange before the sale closes. Organize the QI, deadlines, property criteria, and direct or passive alternatives.",
+  description,
   keywords: [
-    "single tenant retail for sale",
-    "NNN investment property for sale",
-    "net lease property listings",
-    "1031 exchange NNN properties",
-    "sale leaseback advisors",
-    "ground lease replacement property",
-    "zero cash flow 1031 options",
+    "1031 exchange San Diego",
+    "San Diego 1031 exchange help",
+    "1031 exchange consultation",
+    "1031 replacement properties",
+    "DST properties San Diego",
+    "passive real estate investment",
+    "net lease replacement property",
   ],
   openGraph: {
-    title: "1031 Exchange San Diego | Replacement Property Help",
-    description: "Start a San Diego 1031 exchange before the sale closes. Organize the QI, deadlines, property criteria, and direct or passive alternatives.",
+    title: "1031 Exchange San Diego | Free Consultation & Help",
+    description,
     url: SITE_URL,
     siteName: site.company,
     locale: "en_US",
@@ -51,14 +50,14 @@ export const metadata: Metadata = {
         url: `${SITE_URL}/locations/san-diego-ca/hero.jpg`,
         width: 1200,
         height: 630,
-        alt: "1031 Exchange of San Diego NNN Advisors",
+        alt: "1031 Exchange of San Diego",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "1031 Exchange San Diego | Replacement Property Help",
-    description: "Start a San Diego 1031 exchange before the sale closes. Organize the QI, deadlines, property criteria, and direct or passive alternatives.",
+    title: "1031 Exchange San Diego | Free Consultation & Help",
+    description,
     images: [`${SITE_URL}/locations/san-diego-ca/hero.jpg`],
   },
   alternates: {
