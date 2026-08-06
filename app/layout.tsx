@@ -121,6 +121,7 @@ export default function RootLayout({
         >
           {JSON.stringify(webSiteSchema)}
         </Script>
+              <script src="/turnstile-contact.js" defer></script>
       </body>
     </html>
   );
